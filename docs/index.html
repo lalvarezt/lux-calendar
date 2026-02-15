@@ -1,62 +1,73 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Luxembourg Holidays Calendar</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/index.css" />
 </head>
 <body>
   <main class="layout">
     <section class="hero">
       <div class="hero-top">
-        <p class="eyebrow">Luxembourg Calendar Feed</p>
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="false">
+        <p class="eyebrow">Grand Duchy Almanac Feed</p>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to ink theme" aria-pressed="false">
           <span class="theme-toggle-track" aria-hidden="true"><span class="theme-toggle-thumb"></span></span>
-          <span class="theme-toggle-label">Dark</span>
+          <span class="theme-toggle-label">Parchment</span>
         </button>
       </div>
 
-      <h1>Luxembourg Holidays and Traditions</h1>
-      <p class="lead">
-        A curated ICS feed with legal public holidays, recurring festivities,
-        and regional fairs.
-      </p>
+      <div class="hero-grid">
+        <div>
+          <h1>Luxembourg Holidays and Traditions</h1>
+          <p class="lead">A maintained ICS feed for Luxembourg public holidays, local celebrations, and seasonal traditions.</p>
 
-      <p class="tip">
-        Official source for national holidays and traditions:
-        <a href="https://luxembourg.public.lu/dam-assets/publications/a-propos-des-fetes-et-traditions-au-luxembourg/a-propos-des-fetes-et-traditions-au-luxembourg-en.pdf" target="_blank" rel="noopener noreferrer">
-          About... Festivals and Traditions in Luxembourg (EN, PDF)
-        </a>
-      </p>
+          <div class="actions">
+            <a class="button button-primary" href="luxembourg.ics">
+              <span class="button-primary-main">Download ICS</span>
+              <span class="button-primary-meta">2026-2030</span>
+            </a>
+            <a class="button button-secondary" href="#supported-entries">Browse all entries</a>
+          </div>
 
-      <div class="actions">
-        <a class="button button-primary" href="luxembourg.ics">Download ICS</a>
-        <a class="button button-secondary" href="#supported-entries">View supported entries</a>
+          <p class="tip">
+            Official source:
+            <a href="https://luxembourg.public.lu/dam-assets/publications/a-propos-des-fetes-et-traditions-au-luxembourg/a-propos-des-fetes-et-traditions-au-luxembourg-en.pdf" target="_blank" rel="noopener noreferrer">
+              Festivals and Traditions in Luxembourg (EN, PDF)
+            </a>
+          </p>
+          <p class="tip">Subscription: <a id="webcal-link" href="luxembourg.ics">Generate webcal link</a></p>
+        </div>
+
       </div>
-
-      <ul class="stats">
-        <li><strong>2026-2030</strong><span>Coverage</span></li>
-        <li><strong>44</strong><span>Enabled entries</span></li>
-        <li><strong>44</strong><span>Total templates</span></li>
-      </ul>
-
-      <p class="tip">iPhone tip: open the ICS link in Safari and tap "Subscribe".</p>
-      <p class="tip">Direct subscription link: <a id="webcal-link" href="luxembourg.ics">Generate webcal link</a></p>
     </section>
 
     <section id="supported-entries" class="entries">
       <div class="section-header">
-        <h2>All Supported Entries</h2>
+        <h2>Supported Entries</h2>
         <p>
           Every template currently supported by the generator, including
-          categories, recurrence rule, and reference source.
+          categories, recurrence rule, and source reference.
         </p>
       </div>
-      <div class="entries-grid">
+
+      <div class="entries-toolbar">
+        <label class="search-control" for="entry-search">
+          <span>Search entries</span>
+          <input id="entry-search" type="search" placeholder="Try Easter, Schueberfouer, market..." autocomplete="off" />
+        </label>
+        <div class="category-block">
+          <p>Filter by category</p>
+          <div id="category-filters" class="category-filters" role="toolbar" aria-label="Category filters"></div>
+        </div>
+      </div>
+
+      <p class="results-count" id="results-count" aria-live="polite"></p>
+
+      <div class="entries-grid" id="entries-grid">
 <article class="entry-card">
   <div class="entry-header">
     <h3>🏛️ Neijoerschdag / New Year (Public Holiday)</h3>
