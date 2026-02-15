@@ -1,54 +1,52 @@
-# Luxembourg Holidays ICS Generator
+# Luxembourg Holidays Calendar
 
-This repository includes:
+Live links:
 
-- `luxembourg_activity_templates.json`: editable activity templates (one entry per holiday/festivity/fair)
-- `generate_lux_ics.py`: script that generates an `.ics` file from those templates
+- Site: `https://lalvarezt.github.io/lux-calendar/`
+- ICS file: `https://lalvarezt.github.io/lux-calendar/luxembourg.ics`
+- iPhone subscription: `webcal://lalvarezt.github.io/lux-calendar/luxembourg.ics`
 
-## Generate an ICS file
+Repository files:
+
+- `luxembourg_activity_templates.json`: editable holiday/festivity templates
+- `generate_lux_ics.py`: ICS generator
+- `docs/luxembourg.ics`: published calendar file (GitHub Pages)
+- `docs/index.html`: simple landing page for downloads/subscription
+
+## Generate and publish (GitHub Pages)
+
+Set your site URL once (local environment):
 
 ```bash
-python generate_lux_ics.py --start-year 2026 --end-year 2028
+cp .envrc.example .envrc
+direnv allow
 ```
 
-This creates:
-
-- `luxembourg_holidays_festivities_fairs_2026_2028.ics`
-
-You can also set the output name:
+Without `direnv`, export it manually in your shell:
 
 ```bash
-python generate_lux_ics.py --start-year 2026 --end-year 2028 --output custom.ics
+export LUX_CALENDAR_SITE_URL="https://your-username.github.io/your-repository"
 ```
 
-## Publish with GitHub Pages
-
-Generate a publishable Pages bundle (ICS + landing page):
+Run:
 
 ```bash
 python generate_lux_ics.py --start-year 2000 --end-year 2100 --publish-pages
 ```
 
-This creates:
+This updates:
 
 - `docs/luxembourg.ics`
 - `docs/index.html`
 
-If you already know your Pages URL, print ready-to-use subscribe links:
+The script reads `LUX_CALENDAR_SITE_URL` from `.envrc` for the printed HTTPS/webcal links.
+You can still override it explicitly with `--site-url`.
+
+## Generate a local custom ICS (optional)
 
 ```bash
-python generate_lux_ics.py --start-year 2000 --end-year 2100 --publish-pages --site-url https://<username>.github.io/<repository>
+python generate_lux_ics.py --start-year 2026 --end-year 2028 --output custom.ics
 ```
-
-### GitHub configuration (one-time)
-
-1. Push your repository changes to GitHub.
-2. Open **Settings** → **Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch `main` (or `master`) and folder `/docs`, then save.
-5. Wait for Pages to publish, then use:
-   - `https://<username>.github.io/<repository>/luxembourg.ics`
-   - `webcal://<username>.github.io/<repository>/luxembourg.ics` (recommended for iPhone subscription)
 
 ## Update holiday templates
 

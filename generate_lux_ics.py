@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import calendar
 import json
+import os
 from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
@@ -12,6 +13,7 @@ from typing import Any
 
 DEFAULT_TEMPLATE_PATH = Path("luxembourg_activity_templates.json")
 DEFAULT_PAGES_ICS_PATH = Path("docs/luxembourg.ics")
+SITE_URL_ENV_VAR = "LUX_CALENDAR_SITE_URL"
 
 WEEKDAY_INDEX = {
     "MONDAY": 0,
@@ -92,8 +94,8 @@ def parse_args() -> argparse.Namespace:
         "--site-url",
         type=str,
         help=(
-            "Optional HTTPS URL of the published site (for printing subscribe links), "
-            "for example: https://username.github.io/repository"
+            "HTTPS URL of the published site used for subscribe links. "
+            f"If omitted, the value is read from ${SITE_URL_ENV_VAR}."
         ),
     )
     return parser.parse_args()
@@ -159,6 +161,19 @@ def normalize_site_url(value: str) -> str:
     if not site_url.startswith(("https://", "http://")):
         raise ValueError("--site-url must start with https:// or http://")
     return site_url
+
+
+def resolve_site_url(cli_value: str | None) -> str:
+    if cli_value:
+        return normalize_site_url(cli_value)
+
+    env_value = os.getenv(SITE_URL_ENV_VAR)
+    if env_value:
+        return normalize_site_url(env_value)
+
+    raise ValueError(
+        f"Missing site URL. Provide --site-url or set ${SITE_URL_ENV_VAR} (for example in .envrc)."
+    )
 
 
 def to_webcal_url(http_url: str) -> str:
@@ -378,6 +393,10 @@ def main() -> None:
     if args.publish_pages and args.output:
         raise ValueError("Use --pages-path instead of --output when --publish-pages is set.")
 
+    site_url: str | None = None
+    if args.publish_pages:
+        site_url = resolve_site_url(args.site_url)
+
     if args.publish_pages:
         output_path = args.pages_path
     else:
@@ -412,11 +431,10 @@ def main() -> None:
         )
         print(f"Generated '{index_path}' for GitHub Pages.")
 
-        if args.site_url:
-            site_url = normalize_site_url(args.site_url)
-            ics_url = f"{site_url}/{relative_ics_path}"
-            print(f"HTTPS URL: {ics_url}")
-            print(f"webcal URL: {to_webcal_url(ics_url)}")
+        assert site_url is not None
+        ics_url = f"{site_url}/{relative_ics_path}"
+        print(f"HTTPS URL: {ics_url}")
+        print(f"webcal URL: {to_webcal_url(ics_url)}")
 
 
 if __name__ == "__main__":
