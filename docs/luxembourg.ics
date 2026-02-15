@@ -1,0 +1,1808 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LuxHolidays//Luxembourg Holidays & Festivities//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Luxembourg — Holidays & Festivities (🏛️/🎉/🎡)
+X-WR-CALDESC:Legal public holidays (🏛️) + Luxembourg traditions/festivities/fairs (🎉/🎡). Coverage: 2026–2030.
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+UID:lu-holiday-newyear-2026@local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:🏛️ Neijoerschdag / New Year (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg. On Neijoerschdag (1 January)\, families exchange wishes and children often receive a small 'neit Jäerchen' gift.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-draikinneksdag-2026@local
+DTSTAMP:20260106T000000Z
+DTSTART;VALUE=DATE:20260106
+DTEND;VALUE=DATE:20260107
+SUMMARY:👑 Dräikinneksdag / Epiphany
+DESCRIPTION:On 6 January\, families share 'galette des rois'\; finding the bean crowns the king or queen of the day.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-liichtmess-2026@local
+DTSTAMP:20260202T000000Z
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+SUMMARY:🕯️ Liichtmëssdag / Candlemas
+DESCRIPTION:On 2 February\, children go liichten with lanterns (Liichtebengelcher)\, singing from house to house for sweets or coins.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-saintblaise-2026@local
+DTSTAMP:20260203T000000Z
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260204
+SUMMARY:🕯️ Saint Blaise
+DESCRIPTION:3 February observance linked to church throat blessings and to the Liichtmëssdag period.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-fettendonneschdeg-2026@local
+DTSTAMP:20260212T000000Z
+DTSTART;VALUE=DATE:20260212
+DTEND;VALUE=DATE:20260213
+SUMMARY:🎭 Fetten Donneschdeg / Fat Thursday
+DESCRIPTION:Carnival Thursday and traditional high point of Fuesend before the Lenten period.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-fuessonndeg-2026@local
+DTSTAMP:20260215T000000Z
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
+SUMMARY:🎭 Fuessonndeg / Carnival Sunday
+DESCRIPTION:Carnival Sunday (Fuessonndeg)\, traditionally marked by Fuesbaler before Shrove Monday parades.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-carnivalmon-2026@local
+DTSTAMP:20260216T000000Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:🎉 Fuesméindeg / Shrove Monday
+DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period\; this calendar marks Fuesméindeg (Monday before Ash Wednesday).
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-aeschermettwoch-2026@local
+DTSTAMP:20260218T000000Z
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+SUMMARY:🔥 Äschermëttwoch / Ash Wednesday
+DESCRIPTION:Marks the end of Carnival and the start of Lent\; in Remich\, winter is symbolically farewelled with a straw doll burning.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-buergbrennen-2026@local
+DTSTAMP:20260222T000000Z
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
+DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-bretzelsonndeg-2026@local
+DTSTAMP:20260315T000000Z
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+SUMMARY:🥨 Bretzelsonndeg / Pretzel Sunday
+DESCRIPTION:Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-abrell-2026@local
+DTSTAMP:20260401T000000Z
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:😄 An den Abrëll schécken! / April Fools' Day
+DESCRIPTION:On 1 April\, people play jokes and pranks\, a widespread tradition in Luxembourg and across Europe.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-maundy-2026@local
+DTSTAMP:20260402T000000Z
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:🎉 Gréngen Donneschdeg / Maundy Thursday
+DESCRIPTION:Beginning of the Easter Triduum\; children go klibberen (rattling) as church bells are traditionally said to be silent until Easter.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-goodfri-2026@local
+DTSTAMP:20260403T000000Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:🎉 Karfreideg / Good Friday
+DESCRIPTION:Christian day of remembrance before Easter\, traditionally observed as a meatless day. Not a nationwide legal public holiday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-ouschtersonndeg-2026@local
+DTSTAMP:20260405T000000Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:🥚 Ouschtersonndeg / Easter Sunday
+DESCRIPTION:Easter Sunday traditions include egg colouring\, egg hunts and egg tapping games (Técken).
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-eastermon-2026@local
+DTSTAMP:20260406T000000Z
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+SUMMARY:🏛️ Ouschterméindeg / Easter Monday (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg\, observed the day after Easter Sunday.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-eimaischen-2026@local
+DTSTAMP:20260406T000000Z
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+SUMMARY:🐦 Éimaischen / Easter Monday Pottery Fair
+DESCRIPTION:Traditional Easter Monday market in Luxembourg City and Nospelt\, known for Péckvillercher clay bird whistles.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-octave-start-2026@local
+DTSTAMP:20260419T000000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)
+DESCRIPTION:Start marker of the Oktav pilgrimage period (3rd Sunday after Easter)\, with the Oktavmäertchen market in Luxembourg City.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-mayday-2026@local
+DTSTAMP:20260501T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-octave-end-2026@local
+DTSTAMP:20260503T000000Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Procession (ends)
+DESCRIPTION:End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-europeday-2026@local
+DTSTAMP:20260509T000000Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+SUMMARY:🏛️ Europadag / Europe Day (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg on 9 May.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-ascension-2026@local
+DTSTAMP:20260514T000000Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+SUMMARY:🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)
+DESCRIPTION:Legal public holiday observed 39 days after Easter Sunday\; in Luxembourg\, it is also associated with the Fatima procession in Wiltz.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-whitmon-2026@local
+DTSTAMP:20260525T000000Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
+DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-whittue-2026@local
+DTSTAMP:20260526T000000Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
+DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-national-2026@local
+DTSTAMP:20260623T000000Z
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-assumption-2026@local
+DTSTAMP:20260815T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 15 August\, traditionally linked to the blessing of herb bundles (Krautwësch).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fair-schueberfouer-open-2026@local
+DTSTAMP:20260828T000000Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:🎡 Schueberfouer / Schueber Funfair (opening)
+DESCRIPTION:Opening day of Luxembourg City's major fairground festival\, historically linked to the Saint Bartholomew market tradition.
+CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fair-kiermesmon-2026@local
+DTSTAMP:20260907T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
+DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
+CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-allsaints-2026@local
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-allsouls-2026@local
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:🕯️ Allerséilen / All Souls' Day
+DESCRIPTION:Commemoration day on 2 November for the deceased\; not a nationwide legal public holiday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-haupeschdag-2026@local
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:🦌 Haupeschdag / Saint Hubertus' Day
+DESCRIPTION:3 November observance of Saint Hubertus\, patron saint of hunters\, with church and local traditions.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-baerbelendag-2026@local
+DTSTAMP:20261204T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:⛏️ Bärbelendag / Saint Barbara's Day
+DESCRIPTION:On 4 December\, mining communities commemorate Saint Barbara\, patron saint of miners and firefighters.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-kleeschen-2026@local
+DTSTAMP:20261206T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:🎅 Neklosdag / Saint Nicholas' Day (Kleeschen)
+DESCRIPTION:On 6 December\, children traditionally receive gifts from Kleeschen\, with Housecker (Ruprecht) as his companion.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-xmaseve-2026@local
+DTSTAMP:20261224T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:🎄 Hellegowend / Christmas Eve
+DESCRIPTION:Christmas Eve on 24 December\, marked by family gatherings\, gift-giving and church traditions.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-christmas-2026@local
+DTSTAMP:20261225T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:🏛️ Chrëschtdag / Christmas Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 25 December.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-ststephen-2026@local
+DTSTAMP:20261226T000000Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:🏛️ Stiefesdag / St Stephen's Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 26 December (Boxing Day).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-silvester-2026@local
+DTSTAMP:20261231T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:🎆 Silvester / New Year's Eve
+DESCRIPTION:31 December festivities leading into the new year\, traditionally marked by gatherings and celebrations.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-newyear-2027@local
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🏛️ Neijoerschdag / New Year (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg. On Neijoerschdag (1 January)\, families exchange wishes and children often receive a small 'neit Jäerchen' gift.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-draikinneksdag-2027@local
+DTSTAMP:20270106T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:👑 Dräikinneksdag / Epiphany
+DESCRIPTION:On 6 January\, families share 'galette des rois'\; finding the bean crowns the king or queen of the day.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-liichtmess-2027@local
+DTSTAMP:20270202T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:🕯️ Liichtmëssdag / Candlemas
+DESCRIPTION:On 2 February\, children go liichten with lanterns (Liichtebengelcher)\, singing from house to house for sweets or coins.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-saintblaise-2027@local
+DTSTAMP:20270203T000000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:🕯️ Saint Blaise
+DESCRIPTION:3 February observance linked to church throat blessings and to the Liichtmëssdag period.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-fettendonneschdeg-2027@local
+DTSTAMP:20270204T000000Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:🎭 Fetten Donneschdeg / Fat Thursday
+DESCRIPTION:Carnival Thursday and traditional high point of Fuesend before the Lenten period.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-fuessonndeg-2027@local
+DTSTAMP:20270207T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:🎭 Fuessonndeg / Carnival Sunday
+DESCRIPTION:Carnival Sunday (Fuessonndeg)\, traditionally marked by Fuesbaler before Shrove Monday parades.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-carnivalmon-2027@local
+DTSTAMP:20270208T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:🎉 Fuesméindeg / Shrove Monday
+DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period\; this calendar marks Fuesméindeg (Monday before Ash Wednesday).
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-aeschermettwoch-2027@local
+DTSTAMP:20270210T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:🔥 Äschermëttwoch / Ash Wednesday
+DESCRIPTION:Marks the end of Carnival and the start of Lent\; in Remich\, winter is symbolically farewelled with a straw doll burning.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-buergbrennen-2027@local
+DTSTAMP:20270214T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
+DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-bretzelsonndeg-2027@local
+DTSTAMP:20270307T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:🥨 Bretzelsonndeg / Pretzel Sunday
+DESCRIPTION:Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-maundy-2027@local
+DTSTAMP:20270325T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:🎉 Gréngen Donneschdeg / Maundy Thursday
+DESCRIPTION:Beginning of the Easter Triduum\; children go klibberen (rattling) as church bells are traditionally said to be silent until Easter.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-goodfri-2027@local
+DTSTAMP:20270326T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:🎉 Karfreideg / Good Friday
+DESCRIPTION:Christian day of remembrance before Easter\, traditionally observed as a meatless day. Not a nationwide legal public holiday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-ouschtersonndeg-2027@local
+DTSTAMP:20270328T000000Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:🥚 Ouschtersonndeg / Easter Sunday
+DESCRIPTION:Easter Sunday traditions include egg colouring\, egg hunts and egg tapping games (Técken).
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-eastermon-2027@local
+DTSTAMP:20270329T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:🏛️ Ouschterméindeg / Easter Monday (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg\, observed the day after Easter Sunday.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-eimaischen-2027@local
+DTSTAMP:20270329T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:🐦 Éimaischen / Easter Monday Pottery Fair
+DESCRIPTION:Traditional Easter Monday market in Luxembourg City and Nospelt\, known for Péckvillercher clay bird whistles.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-abrell-2027@local
+DTSTAMP:20270401T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:😄 An den Abrëll schécken! / April Fools' Day
+DESCRIPTION:On 1 April\, people play jokes and pranks\, a widespread tradition in Luxembourg and across Europe.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-octave-start-2027@local
+DTSTAMP:20270411T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)
+DESCRIPTION:Start marker of the Oktav pilgrimage period (3rd Sunday after Easter)\, with the Oktavmäertchen market in Luxembourg City.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-octave-end-2027@local
+DTSTAMP:20270425T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Procession (ends)
+DESCRIPTION:End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-mayday-2027@local
+DTSTAMP:20270501T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-ascension-2027@local
+DTSTAMP:20270506T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)
+DESCRIPTION:Legal public holiday observed 39 days after Easter Sunday\; in Luxembourg\, it is also associated with the Fatima procession in Wiltz.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-europeday-2027@local
+DTSTAMP:20270509T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:🏛️ Europadag / Europe Day (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg on 9 May.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-whitmon-2027@local
+DTSTAMP:20270517T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
+DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-whittue-2027@local
+DTSTAMP:20270518T000000Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
+DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-national-2027@local
+DTSTAMP:20270623T000000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-assumption-2027@local
+DTSTAMP:20270815T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 15 August\, traditionally linked to the blessing of herb bundles (Krautwësch).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fair-schueberfouer-open-2027@local
+DTSTAMP:20270827T000000Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:🎡 Schueberfouer / Schueber Funfair (opening)
+DESCRIPTION:Opening day of Luxembourg City's major fairground festival\, historically linked to the Saint Bartholomew market tradition.
+CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fair-kiermesmon-2027@local
+DTSTAMP:20270906T000000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
+DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
+CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-allsaints-2027@local
+DTSTAMP:20271101T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
+SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-allsouls-2027@local
+DTSTAMP:20271102T000000Z
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
+SUMMARY:🕯️ Allerséilen / All Souls' Day
+DESCRIPTION:Commemoration day on 2 November for the deceased\; not a nationwide legal public holiday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-haupeschdag-2027@local
+DTSTAMP:20271103T000000Z
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
+SUMMARY:🦌 Haupeschdag / Saint Hubertus' Day
+DESCRIPTION:3 November observance of Saint Hubertus\, patron saint of hunters\, with church and local traditions.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-baerbelendag-2027@local
+DTSTAMP:20271204T000000Z
+DTSTART;VALUE=DATE:20271204
+DTEND;VALUE=DATE:20271205
+SUMMARY:⛏️ Bärbelendag / Saint Barbara's Day
+DESCRIPTION:On 4 December\, mining communities commemorate Saint Barbara\, patron saint of miners and firefighters.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-kleeschen-2027@local
+DTSTAMP:20271206T000000Z
+DTSTART;VALUE=DATE:20271206
+DTEND;VALUE=DATE:20271207
+SUMMARY:🎅 Neklosdag / Saint Nicholas' Day (Kleeschen)
+DESCRIPTION:On 6 December\, children traditionally receive gifts from Kleeschen\, with Housecker (Ruprecht) as his companion.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-xmaseve-2027@local
+DTSTAMP:20271224T000000Z
+DTSTART;VALUE=DATE:20271224
+DTEND;VALUE=DATE:20271225
+SUMMARY:🎄 Hellegowend / Christmas Eve
+DESCRIPTION:Christmas Eve on 24 December\, marked by family gatherings\, gift-giving and church traditions.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-christmas-2027@local
+DTSTAMP:20271225T000000Z
+DTSTART;VALUE=DATE:20271225
+DTEND;VALUE=DATE:20271226
+SUMMARY:🏛️ Chrëschtdag / Christmas Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 25 December.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-ststephen-2027@local
+DTSTAMP:20271226T000000Z
+DTSTART;VALUE=DATE:20271226
+DTEND;VALUE=DATE:20271227
+SUMMARY:🏛️ Stiefesdag / St Stephen's Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 26 December (Boxing Day).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-silvester-2027@local
+DTSTAMP:20271231T000000Z
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+SUMMARY:🎆 Silvester / New Year's Eve
+DESCRIPTION:31 December festivities leading into the new year\, traditionally marked by gatherings and celebrations.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-newyear-2028@local
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280102
+SUMMARY:🏛️ Neijoerschdag / New Year (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg. On Neijoerschdag (1 January)\, families exchange wishes and children often receive a small 'neit Jäerchen' gift.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-draikinneksdag-2028@local
+DTSTAMP:20280106T000000Z
+DTSTART;VALUE=DATE:20280106
+DTEND;VALUE=DATE:20280107
+SUMMARY:👑 Dräikinneksdag / Epiphany
+DESCRIPTION:On 6 January\, families share 'galette des rois'\; finding the bean crowns the king or queen of the day.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-liichtmess-2028@local
+DTSTAMP:20280202T000000Z
+DTSTART;VALUE=DATE:20280202
+DTEND;VALUE=DATE:20280203
+SUMMARY:🕯️ Liichtmëssdag / Candlemas
+DESCRIPTION:On 2 February\, children go liichten with lanterns (Liichtebengelcher)\, singing from house to house for sweets or coins.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-saintblaise-2028@local
+DTSTAMP:20280203T000000Z
+DTSTART;VALUE=DATE:20280203
+DTEND;VALUE=DATE:20280204
+SUMMARY:🕯️ Saint Blaise
+DESCRIPTION:3 February observance linked to church throat blessings and to the Liichtmëssdag period.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-fettendonneschdeg-2028@local
+DTSTAMP:20280224T000000Z
+DTSTART;VALUE=DATE:20280224
+DTEND;VALUE=DATE:20280225
+SUMMARY:🎭 Fetten Donneschdeg / Fat Thursday
+DESCRIPTION:Carnival Thursday and traditional high point of Fuesend before the Lenten period.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-fuessonndeg-2028@local
+DTSTAMP:20280227T000000Z
+DTSTART;VALUE=DATE:20280227
+DTEND;VALUE=DATE:20280228
+SUMMARY:🎭 Fuessonndeg / Carnival Sunday
+DESCRIPTION:Carnival Sunday (Fuessonndeg)\, traditionally marked by Fuesbaler before Shrove Monday parades.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-carnivalmon-2028@local
+DTSTAMP:20280228T000000Z
+DTSTART;VALUE=DATE:20280228
+DTEND;VALUE=DATE:20280229
+SUMMARY:🎉 Fuesméindeg / Shrove Monday
+DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period\; this calendar marks Fuesméindeg (Monday before Ash Wednesday).
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-aeschermettwoch-2028@local
+DTSTAMP:20280301T000000Z
+DTSTART;VALUE=DATE:20280301
+DTEND;VALUE=DATE:20280302
+SUMMARY:🔥 Äschermëttwoch / Ash Wednesday
+DESCRIPTION:Marks the end of Carnival and the start of Lent\; in Remich\, winter is symbolically farewelled with a straw doll burning.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-buergbrennen-2028@local
+DTSTAMP:20280305T000000Z
+DTSTART;VALUE=DATE:20280305
+DTEND;VALUE=DATE:20280306
+SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
+DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-bretzelsonndeg-2028@local
+DTSTAMP:20280326T000000Z
+DTSTART;VALUE=DATE:20280326
+DTEND;VALUE=DATE:20280327
+SUMMARY:🥨 Bretzelsonndeg / Pretzel Sunday
+DESCRIPTION:Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-abrell-2028@local
+DTSTAMP:20280401T000000Z
+DTSTART;VALUE=DATE:20280401
+DTEND;VALUE=DATE:20280402
+SUMMARY:😄 An den Abrëll schécken! / April Fools' Day
+DESCRIPTION:On 1 April\, people play jokes and pranks\, a widespread tradition in Luxembourg and across Europe.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-maundy-2028@local
+DTSTAMP:20280413T000000Z
+DTSTART;VALUE=DATE:20280413
+DTEND;VALUE=DATE:20280414
+SUMMARY:🎉 Gréngen Donneschdeg / Maundy Thursday
+DESCRIPTION:Beginning of the Easter Triduum\; children go klibberen (rattling) as church bells are traditionally said to be silent until Easter.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-goodfri-2028@local
+DTSTAMP:20280414T000000Z
+DTSTART;VALUE=DATE:20280414
+DTEND;VALUE=DATE:20280415
+SUMMARY:🎉 Karfreideg / Good Friday
+DESCRIPTION:Christian day of remembrance before Easter\, traditionally observed as a meatless day. Not a nationwide legal public holiday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-ouschtersonndeg-2028@local
+DTSTAMP:20280416T000000Z
+DTSTART;VALUE=DATE:20280416
+DTEND;VALUE=DATE:20280417
+SUMMARY:🥚 Ouschtersonndeg / Easter Sunday
+DESCRIPTION:Easter Sunday traditions include egg colouring\, egg hunts and egg tapping games (Técken).
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-eastermon-2028@local
+DTSTAMP:20280417T000000Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:🏛️ Ouschterméindeg / Easter Monday (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg\, observed the day after Easter Sunday.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-eimaischen-2028@local
+DTSTAMP:20280417T000000Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:🐦 Éimaischen / Easter Monday Pottery Fair
+DESCRIPTION:Traditional Easter Monday market in Luxembourg City and Nospelt\, known for Péckvillercher clay bird whistles.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-octave-start-2028@local
+DTSTAMP:20280430T000000Z
+DTSTART;VALUE=DATE:20280430
+DTEND;VALUE=DATE:20280501
+SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)
+DESCRIPTION:Start marker of the Oktav pilgrimage period (3rd Sunday after Easter)\, with the Oktavmäertchen market in Luxembourg City.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-mayday-2028@local
+DTSTAMP:20280501T000000Z
+DTSTART;VALUE=DATE:20280501
+DTEND;VALUE=DATE:20280502
+SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-europeday-2028@local
+DTSTAMP:20280509T000000Z
+DTSTART;VALUE=DATE:20280509
+DTEND;VALUE=DATE:20280510
+SUMMARY:🏛️ Europadag / Europe Day (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg on 9 May.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-octave-end-2028@local
+DTSTAMP:20280514T000000Z
+DTSTART;VALUE=DATE:20280514
+DTEND;VALUE=DATE:20280515
+SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Procession (ends)
+DESCRIPTION:End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-ascension-2028@local
+DTSTAMP:20280525T000000Z
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)
+DESCRIPTION:Legal public holiday observed 39 days after Easter Sunday\; in Luxembourg\, it is also associated with the Fatima procession in Wiltz.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-whitmon-2028@local
+DTSTAMP:20280605T000000Z
+DTSTART;VALUE=DATE:20280605
+DTEND;VALUE=DATE:20280606
+SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
+DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-whittue-2028@local
+DTSTAMP:20280606T000000Z
+DTSTART;VALUE=DATE:20280606
+DTEND;VALUE=DATE:20280607
+SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
+DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-national-2028@local
+DTSTAMP:20280623T000000Z
+DTSTART;VALUE=DATE:20280623
+DTEND;VALUE=DATE:20280624
+SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-assumption-2028@local
+DTSTAMP:20280815T000000Z
+DTSTART;VALUE=DATE:20280815
+DTEND;VALUE=DATE:20280816
+SUMMARY:🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 15 August\, traditionally linked to the blessing of herb bundles (Krautwësch).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fair-schueberfouer-open-2028@local
+DTSTAMP:20280825T000000Z
+DTSTART;VALUE=DATE:20280825
+DTEND;VALUE=DATE:20280826
+SUMMARY:🎡 Schueberfouer / Schueber Funfair (opening)
+DESCRIPTION:Opening day of Luxembourg City's major fairground festival\, historically linked to the Saint Bartholomew market tradition.
+CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fair-kiermesmon-2028@local
+DTSTAMP:20280904T000000Z
+DTSTART;VALUE=DATE:20280904
+DTEND;VALUE=DATE:20280905
+SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
+DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
+CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-allsaints-2028@local
+DTSTAMP:20281101T000000Z
+DTSTART;VALUE=DATE:20281101
+DTEND;VALUE=DATE:20281102
+SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-allsouls-2028@local
+DTSTAMP:20281102T000000Z
+DTSTART;VALUE=DATE:20281102
+DTEND;VALUE=DATE:20281103
+SUMMARY:🕯️ Allerséilen / All Souls' Day
+DESCRIPTION:Commemoration day on 2 November for the deceased\; not a nationwide legal public holiday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-haupeschdag-2028@local
+DTSTAMP:20281103T000000Z
+DTSTART;VALUE=DATE:20281103
+DTEND;VALUE=DATE:20281104
+SUMMARY:🦌 Haupeschdag / Saint Hubertus' Day
+DESCRIPTION:3 November observance of Saint Hubertus\, patron saint of hunters\, with church and local traditions.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-baerbelendag-2028@local
+DTSTAMP:20281204T000000Z
+DTSTART;VALUE=DATE:20281204
+DTEND;VALUE=DATE:20281205
+SUMMARY:⛏️ Bärbelendag / Saint Barbara's Day
+DESCRIPTION:On 4 December\, mining communities commemorate Saint Barbara\, patron saint of miners and firefighters.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-kleeschen-2028@local
+DTSTAMP:20281206T000000Z
+DTSTART;VALUE=DATE:20281206
+DTEND;VALUE=DATE:20281207
+SUMMARY:🎅 Neklosdag / Saint Nicholas' Day (Kleeschen)
+DESCRIPTION:On 6 December\, children traditionally receive gifts from Kleeschen\, with Housecker (Ruprecht) as his companion.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-xmaseve-2028@local
+DTSTAMP:20281224T000000Z
+DTSTART;VALUE=DATE:20281224
+DTEND;VALUE=DATE:20281225
+SUMMARY:🎄 Hellegowend / Christmas Eve
+DESCRIPTION:Christmas Eve on 24 December\, marked by family gatherings\, gift-giving and church traditions.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-christmas-2028@local
+DTSTAMP:20281225T000000Z
+DTSTART;VALUE=DATE:20281225
+DTEND;VALUE=DATE:20281226
+SUMMARY:🏛️ Chrëschtdag / Christmas Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 25 December.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-ststephen-2028@local
+DTSTAMP:20281226T000000Z
+DTSTART;VALUE=DATE:20281226
+DTEND;VALUE=DATE:20281227
+SUMMARY:🏛️ Stiefesdag / St Stephen's Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 26 December (Boxing Day).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-silvester-2028@local
+DTSTAMP:20281231T000000Z
+DTSTART;VALUE=DATE:20281231
+DTEND;VALUE=DATE:20290101
+SUMMARY:🎆 Silvester / New Year's Eve
+DESCRIPTION:31 December festivities leading into the new year\, traditionally marked by gatherings and celebrations.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-newyear-2029@local
+DTSTAMP:20290101T000000Z
+DTSTART;VALUE=DATE:20290101
+DTEND;VALUE=DATE:20290102
+SUMMARY:🏛️ Neijoerschdag / New Year (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg. On Neijoerschdag (1 January)\, families exchange wishes and children often receive a small 'neit Jäerchen' gift.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-draikinneksdag-2029@local
+DTSTAMP:20290106T000000Z
+DTSTART;VALUE=DATE:20290106
+DTEND;VALUE=DATE:20290107
+SUMMARY:👑 Dräikinneksdag / Epiphany
+DESCRIPTION:On 6 January\, families share 'galette des rois'\; finding the bean crowns the king or queen of the day.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-liichtmess-2029@local
+DTSTAMP:20290202T000000Z
+DTSTART;VALUE=DATE:20290202
+DTEND;VALUE=DATE:20290203
+SUMMARY:🕯️ Liichtmëssdag / Candlemas
+DESCRIPTION:On 2 February\, children go liichten with lanterns (Liichtebengelcher)\, singing from house to house for sweets or coins.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-saintblaise-2029@local
+DTSTAMP:20290203T000000Z
+DTSTART;VALUE=DATE:20290203
+DTEND;VALUE=DATE:20290204
+SUMMARY:🕯️ Saint Blaise
+DESCRIPTION:3 February observance linked to church throat blessings and to the Liichtmëssdag period.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-fettendonneschdeg-2029@local
+DTSTAMP:20290208T000000Z
+DTSTART;VALUE=DATE:20290208
+DTEND;VALUE=DATE:20290209
+SUMMARY:🎭 Fetten Donneschdeg / Fat Thursday
+DESCRIPTION:Carnival Thursday and traditional high point of Fuesend before the Lenten period.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-fuessonndeg-2029@local
+DTSTAMP:20290211T000000Z
+DTSTART;VALUE=DATE:20290211
+DTEND;VALUE=DATE:20290212
+SUMMARY:🎭 Fuessonndeg / Carnival Sunday
+DESCRIPTION:Carnival Sunday (Fuessonndeg)\, traditionally marked by Fuesbaler before Shrove Monday parades.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-carnivalmon-2029@local
+DTSTAMP:20290212T000000Z
+DTSTART;VALUE=DATE:20290212
+DTEND;VALUE=DATE:20290213
+SUMMARY:🎉 Fuesméindeg / Shrove Monday
+DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period\; this calendar marks Fuesméindeg (Monday before Ash Wednesday).
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-aeschermettwoch-2029@local
+DTSTAMP:20290214T000000Z
+DTSTART;VALUE=DATE:20290214
+DTEND;VALUE=DATE:20290215
+SUMMARY:🔥 Äschermëttwoch / Ash Wednesday
+DESCRIPTION:Marks the end of Carnival and the start of Lent\; in Remich\, winter is symbolically farewelled with a straw doll burning.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-buergbrennen-2029@local
+DTSTAMP:20290218T000000Z
+DTSTART;VALUE=DATE:20290218
+DTEND;VALUE=DATE:20290219
+SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
+DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-bretzelsonndeg-2029@local
+DTSTAMP:20290311T000000Z
+DTSTART;VALUE=DATE:20290311
+DTEND;VALUE=DATE:20290312
+SUMMARY:🥨 Bretzelsonndeg / Pretzel Sunday
+DESCRIPTION:Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-maundy-2029@local
+DTSTAMP:20290329T000000Z
+DTSTART;VALUE=DATE:20290329
+DTEND;VALUE=DATE:20290330
+SUMMARY:🎉 Gréngen Donneschdeg / Maundy Thursday
+DESCRIPTION:Beginning of the Easter Triduum\; children go klibberen (rattling) as church bells are traditionally said to be silent until Easter.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-goodfri-2029@local
+DTSTAMP:20290330T000000Z
+DTSTART;VALUE=DATE:20290330
+DTEND;VALUE=DATE:20290331
+SUMMARY:🎉 Karfreideg / Good Friday
+DESCRIPTION:Christian day of remembrance before Easter\, traditionally observed as a meatless day. Not a nationwide legal public holiday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-abrell-2029@local
+DTSTAMP:20290401T000000Z
+DTSTART;VALUE=DATE:20290401
+DTEND;VALUE=DATE:20290402
+SUMMARY:😄 An den Abrëll schécken! / April Fools' Day
+DESCRIPTION:On 1 April\, people play jokes and pranks\, a widespread tradition in Luxembourg and across Europe.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-ouschtersonndeg-2029@local
+DTSTAMP:20290401T000000Z
+DTSTART;VALUE=DATE:20290401
+DTEND;VALUE=DATE:20290402
+SUMMARY:🥚 Ouschtersonndeg / Easter Sunday
+DESCRIPTION:Easter Sunday traditions include egg colouring\, egg hunts and egg tapping games (Técken).
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-eastermon-2029@local
+DTSTAMP:20290402T000000Z
+DTSTART;VALUE=DATE:20290402
+DTEND;VALUE=DATE:20290403
+SUMMARY:🏛️ Ouschterméindeg / Easter Monday (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg\, observed the day after Easter Sunday.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-eimaischen-2029@local
+DTSTAMP:20290402T000000Z
+DTSTART;VALUE=DATE:20290402
+DTEND;VALUE=DATE:20290403
+SUMMARY:🐦 Éimaischen / Easter Monday Pottery Fair
+DESCRIPTION:Traditional Easter Monday market in Luxembourg City and Nospelt\, known for Péckvillercher clay bird whistles.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-octave-start-2029@local
+DTSTAMP:20290415T000000Z
+DTSTART;VALUE=DATE:20290415
+DTEND;VALUE=DATE:20290416
+SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)
+DESCRIPTION:Start marker of the Oktav pilgrimage period (3rd Sunday after Easter)\, with the Oktavmäertchen market in Luxembourg City.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-octave-end-2029@local
+DTSTAMP:20290429T000000Z
+DTSTART;VALUE=DATE:20290429
+DTEND;VALUE=DATE:20290430
+SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Procession (ends)
+DESCRIPTION:End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-mayday-2029@local
+DTSTAMP:20290501T000000Z
+DTSTART;VALUE=DATE:20290501
+DTEND;VALUE=DATE:20290502
+SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-europeday-2029@local
+DTSTAMP:20290509T000000Z
+DTSTART;VALUE=DATE:20290509
+DTEND;VALUE=DATE:20290510
+SUMMARY:🏛️ Europadag / Europe Day (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg on 9 May.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-ascension-2029@local
+DTSTAMP:20290510T000000Z
+DTSTART;VALUE=DATE:20290510
+DTEND;VALUE=DATE:20290511
+SUMMARY:🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)
+DESCRIPTION:Legal public holiday observed 39 days after Easter Sunday\; in Luxembourg\, it is also associated with the Fatima procession in Wiltz.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-whitmon-2029@local
+DTSTAMP:20290521T000000Z
+DTSTART;VALUE=DATE:20290521
+DTEND;VALUE=DATE:20290522
+SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
+DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-whittue-2029@local
+DTSTAMP:20290522T000000Z
+DTSTART;VALUE=DATE:20290522
+DTEND;VALUE=DATE:20290523
+SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
+DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-national-2029@local
+DTSTAMP:20290623T000000Z
+DTSTART;VALUE=DATE:20290623
+DTEND;VALUE=DATE:20290624
+SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-assumption-2029@local
+DTSTAMP:20290815T000000Z
+DTSTART;VALUE=DATE:20290815
+DTEND;VALUE=DATE:20290816
+SUMMARY:🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 15 August\, traditionally linked to the blessing of herb bundles (Krautwësch).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fair-schueberfouer-open-2029@local
+DTSTAMP:20290831T000000Z
+DTSTART;VALUE=DATE:20290831
+DTEND;VALUE=DATE:20290901
+SUMMARY:🎡 Schueberfouer / Schueber Funfair (opening)
+DESCRIPTION:Opening day of Luxembourg City's major fairground festival\, historically linked to the Saint Bartholomew market tradition.
+CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fair-kiermesmon-2029@local
+DTSTAMP:20290903T000000Z
+DTSTART;VALUE=DATE:20290903
+DTEND;VALUE=DATE:20290904
+SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
+DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
+CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-allsaints-2029@local
+DTSTAMP:20291101T000000Z
+DTSTART;VALUE=DATE:20291101
+DTEND;VALUE=DATE:20291102
+SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-allsouls-2029@local
+DTSTAMP:20291102T000000Z
+DTSTART;VALUE=DATE:20291102
+DTEND;VALUE=DATE:20291103
+SUMMARY:🕯️ Allerséilen / All Souls' Day
+DESCRIPTION:Commemoration day on 2 November for the deceased\; not a nationwide legal public holiday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-haupeschdag-2029@local
+DTSTAMP:20291103T000000Z
+DTSTART;VALUE=DATE:20291103
+DTEND;VALUE=DATE:20291104
+SUMMARY:🦌 Haupeschdag / Saint Hubertus' Day
+DESCRIPTION:3 November observance of Saint Hubertus\, patron saint of hunters\, with church and local traditions.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-baerbelendag-2029@local
+DTSTAMP:20291204T000000Z
+DTSTART;VALUE=DATE:20291204
+DTEND;VALUE=DATE:20291205
+SUMMARY:⛏️ Bärbelendag / Saint Barbara's Day
+DESCRIPTION:On 4 December\, mining communities commemorate Saint Barbara\, patron saint of miners and firefighters.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-kleeschen-2029@local
+DTSTAMP:20291206T000000Z
+DTSTART;VALUE=DATE:20291206
+DTEND;VALUE=DATE:20291207
+SUMMARY:🎅 Neklosdag / Saint Nicholas' Day (Kleeschen)
+DESCRIPTION:On 6 December\, children traditionally receive gifts from Kleeschen\, with Housecker (Ruprecht) as his companion.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-xmaseve-2029@local
+DTSTAMP:20291224T000000Z
+DTSTART;VALUE=DATE:20291224
+DTEND;VALUE=DATE:20291225
+SUMMARY:🎄 Hellegowend / Christmas Eve
+DESCRIPTION:Christmas Eve on 24 December\, marked by family gatherings\, gift-giving and church traditions.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-christmas-2029@local
+DTSTAMP:20291225T000000Z
+DTSTART;VALUE=DATE:20291225
+DTEND;VALUE=DATE:20291226
+SUMMARY:🏛️ Chrëschtdag / Christmas Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 25 December.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-ststephen-2029@local
+DTSTAMP:20291226T000000Z
+DTSTART;VALUE=DATE:20291226
+DTEND;VALUE=DATE:20291227
+SUMMARY:🏛️ Stiefesdag / St Stephen's Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 26 December (Boxing Day).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-silvester-2029@local
+DTSTAMP:20291231T000000Z
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+SUMMARY:🎆 Silvester / New Year's Eve
+DESCRIPTION:31 December festivities leading into the new year\, traditionally marked by gatherings and celebrations.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-newyear-2030@local
+DTSTAMP:20300101T000000Z
+DTSTART;VALUE=DATE:20300101
+DTEND;VALUE=DATE:20300102
+SUMMARY:🏛️ Neijoerschdag / New Year (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg. On Neijoerschdag (1 January)\, families exchange wishes and children often receive a small 'neit Jäerchen' gift.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-draikinneksdag-2030@local
+DTSTAMP:20300106T000000Z
+DTSTART;VALUE=DATE:20300106
+DTEND;VALUE=DATE:20300107
+SUMMARY:👑 Dräikinneksdag / Epiphany
+DESCRIPTION:On 6 January\, families share 'galette des rois'\; finding the bean crowns the king or queen of the day.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-liichtmess-2030@local
+DTSTAMP:20300202T000000Z
+DTSTART;VALUE=DATE:20300202
+DTEND;VALUE=DATE:20300203
+SUMMARY:🕯️ Liichtmëssdag / Candlemas
+DESCRIPTION:On 2 February\, children go liichten with lanterns (Liichtebengelcher)\, singing from house to house for sweets or coins.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-saintblaise-2030@local
+DTSTAMP:20300203T000000Z
+DTSTART;VALUE=DATE:20300203
+DTEND;VALUE=DATE:20300204
+SUMMARY:🕯️ Saint Blaise
+DESCRIPTION:3 February observance linked to church throat blessings and to the Liichtmëssdag period.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-fettendonneschdeg-2030@local
+DTSTAMP:20300228T000000Z
+DTSTART;VALUE=DATE:20300228
+DTEND;VALUE=DATE:20300301
+SUMMARY:🎭 Fetten Donneschdeg / Fat Thursday
+DESCRIPTION:Carnival Thursday and traditional high point of Fuesend before the Lenten period.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-fuessonndeg-2030@local
+DTSTAMP:20300303T000000Z
+DTSTART;VALUE=DATE:20300303
+DTEND;VALUE=DATE:20300304
+SUMMARY:🎭 Fuessonndeg / Carnival Sunday
+DESCRIPTION:Carnival Sunday (Fuessonndeg)\, traditionally marked by Fuesbaler before Shrove Monday parades.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-carnivalmon-2030@local
+DTSTAMP:20300304T000000Z
+DTSTART;VALUE=DATE:20300304
+DTEND;VALUE=DATE:20300305
+SUMMARY:🎉 Fuesméindeg / Shrove Monday
+DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period\; this calendar marks Fuesméindeg (Monday before Ash Wednesday).
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-aeschermettwoch-2030@local
+DTSTAMP:20300306T000000Z
+DTSTART;VALUE=DATE:20300306
+DTEND;VALUE=DATE:20300307
+SUMMARY:🔥 Äschermëttwoch / Ash Wednesday
+DESCRIPTION:Marks the end of Carnival and the start of Lent\; in Remich\, winter is symbolically farewelled with a straw doll burning.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-buergbrennen-2030@local
+DTSTAMP:20300310T000000Z
+DTSTART;VALUE=DATE:20300310
+DTEND;VALUE=DATE:20300311
+SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
+DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-bretzelsonndeg-2030@local
+DTSTAMP:20300331T000000Z
+DTSTART;VALUE=DATE:20300331
+DTEND;VALUE=DATE:20300401
+SUMMARY:🥨 Bretzelsonndeg / Pretzel Sunday
+DESCRIPTION:Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-abrell-2030@local
+DTSTAMP:20300401T000000Z
+DTSTART;VALUE=DATE:20300401
+DTEND;VALUE=DATE:20300402
+SUMMARY:😄 An den Abrëll schécken! / April Fools' Day
+DESCRIPTION:On 1 April\, people play jokes and pranks\, a widespread tradition in Luxembourg and across Europe.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-maundy-2030@local
+DTSTAMP:20300418T000000Z
+DTSTART;VALUE=DATE:20300418
+DTEND;VALUE=DATE:20300419
+SUMMARY:🎉 Gréngen Donneschdeg / Maundy Thursday
+DESCRIPTION:Beginning of the Easter Triduum\; children go klibberen (rattling) as church bells are traditionally said to be silent until Easter.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-goodfri-2030@local
+DTSTAMP:20300419T000000Z
+DTSTART;VALUE=DATE:20300419
+DTEND;VALUE=DATE:20300420
+SUMMARY:🎉 Karfreideg / Good Friday
+DESCRIPTION:Christian day of remembrance before Easter\, traditionally observed as a meatless day. Not a nationwide legal public holiday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-ouschtersonndeg-2030@local
+DTSTAMP:20300421T000000Z
+DTSTART;VALUE=DATE:20300421
+DTEND;VALUE=DATE:20300422
+SUMMARY:🥚 Ouschtersonndeg / Easter Sunday
+DESCRIPTION:Easter Sunday traditions include egg colouring\, egg hunts and egg tapping games (Técken).
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-eastermon-2030@local
+DTSTAMP:20300422T000000Z
+DTSTART;VALUE=DATE:20300422
+DTEND;VALUE=DATE:20300423
+SUMMARY:🏛️ Ouschterméindeg / Easter Monday (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg\, observed the day after Easter Sunday.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-eimaischen-2030@local
+DTSTAMP:20300422T000000Z
+DTSTART;VALUE=DATE:20300422
+DTEND;VALUE=DATE:20300423
+SUMMARY:🐦 Éimaischen / Easter Monday Pottery Fair
+DESCRIPTION:Traditional Easter Monday market in Luxembourg City and Nospelt\, known for Péckvillercher clay bird whistles.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-mayday-2030@local
+DTSTAMP:20300501T000000Z
+DTSTART;VALUE=DATE:20300501
+DTEND;VALUE=DATE:20300502
+SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-octave-start-2030@local
+DTSTAMP:20300505T000000Z
+DTSTART;VALUE=DATE:20300505
+DTEND;VALUE=DATE:20300506
+SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)
+DESCRIPTION:Start marker of the Oktav pilgrimage period (3rd Sunday after Easter)\, with the Oktavmäertchen market in Luxembourg City.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-europeday-2030@local
+DTSTAMP:20300509T000000Z
+DTSTART;VALUE=DATE:20300509
+DTEND;VALUE=DATE:20300510
+SUMMARY:🏛️ Europadag / Europe Day (Public Holiday)
+DESCRIPTION:Legal public holiday in Luxembourg on 9 May.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-octave-end-2030@local
+DTSTAMP:20300519T000000Z
+DTSTART;VALUE=DATE:20300519
+DTEND;VALUE=DATE:20300520
+SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Procession (ends)
+DESCRIPTION:End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-ascension-2030@local
+DTSTAMP:20300530T000000Z
+DTSTART;VALUE=DATE:20300530
+DTEND;VALUE=DATE:20300531
+SUMMARY:🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)
+DESCRIPTION:Legal public holiday observed 39 days after Easter Sunday\; in Luxembourg\, it is also associated with the Fatima procession in Wiltz.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-whitmon-2030@local
+DTSTAMP:20300610T000000Z
+DTSTART;VALUE=DATE:20300610
+DTEND;VALUE=DATE:20300611
+SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
+DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-whittue-2030@local
+DTSTAMP:20300611T000000Z
+DTSTART;VALUE=DATE:20300611
+DTEND;VALUE=DATE:20300612
+SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
+DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-national-2030@local
+DTSTAMP:20300623T000000Z
+DTSTART;VALUE=DATE:20300623
+DTEND;VALUE=DATE:20300624
+SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-assumption-2030@local
+DTSTAMP:20300815T000000Z
+DTSTART;VALUE=DATE:20300815
+DTEND;VALUE=DATE:20300816
+SUMMARY:🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 15 August\, traditionally linked to the blessing of herb bundles (Krautwësch).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fair-schueberfouer-open-2030@local
+DTSTAMP:20300830T000000Z
+DTSTART;VALUE=DATE:20300830
+DTEND;VALUE=DATE:20300831
+SUMMARY:🎡 Schueberfouer / Schueber Funfair (opening)
+DESCRIPTION:Opening day of Luxembourg City's major fairground festival\, historically linked to the Saint Bartholomew market tradition.
+CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fair-kiermesmon-2030@local
+DTSTAMP:20300902T000000Z
+DTSTART;VALUE=DATE:20300902
+DTEND;VALUE=DATE:20300903
+SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
+DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
+CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-allsaints-2030@local
+DTSTAMP:20301101T000000Z
+DTSTART;VALUE=DATE:20301101
+DTEND;VALUE=DATE:20301102
+SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-allsouls-2030@local
+DTSTAMP:20301102T000000Z
+DTSTART;VALUE=DATE:20301102
+DTEND;VALUE=DATE:20301103
+SUMMARY:🕯️ Allerséilen / All Souls' Day
+DESCRIPTION:Commemoration day on 2 November for the deceased\; not a nationwide legal public holiday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-haupeschdag-2030@local
+DTSTAMP:20301103T000000Z
+DTSTART;VALUE=DATE:20301103
+DTEND;VALUE=DATE:20301104
+SUMMARY:🦌 Haupeschdag / Saint Hubertus' Day
+DESCRIPTION:3 November observance of Saint Hubertus\, patron saint of hunters\, with church and local traditions.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-baerbelendag-2030@local
+DTSTAMP:20301204T000000Z
+DTSTART;VALUE=DATE:20301204
+DTEND;VALUE=DATE:20301205
+SUMMARY:⛏️ Bärbelendag / Saint Barbara's Day
+DESCRIPTION:On 4 December\, mining communities commemorate Saint Barbara\, patron saint of miners and firefighters.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-kleeschen-2030@local
+DTSTAMP:20301206T000000Z
+DTSTART;VALUE=DATE:20301206
+DTEND;VALUE=DATE:20301207
+SUMMARY:🎅 Neklosdag / Saint Nicholas' Day (Kleeschen)
+DESCRIPTION:On 6 December\, children traditionally receive gifts from Kleeschen\, with Housecker (Ruprecht) as his companion.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-xmaseve-2030@local
+DTSTAMP:20301224T000000Z
+DTSTART;VALUE=DATE:20301224
+DTEND;VALUE=DATE:20301225
+SUMMARY:🎄 Hellegowend / Christmas Eve
+DESCRIPTION:Christmas Eve on 24 December\, marked by family gatherings\, gift-giving and church traditions.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-christmas-2030@local
+DTSTAMP:20301225T000000Z
+DTSTART;VALUE=DATE:20301225
+DTEND;VALUE=DATE:20301226
+SUMMARY:🏛️ Chrëschtdag / Christmas Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 25 December.
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-holiday-ststephen-2030@local
+DTSTAMP:20301226T000000Z
+DTSTART;VALUE=DATE:20301226
+DTEND;VALUE=DATE:20301227
+SUMMARY:🏛️ Stiefesdag / St Stephen's Day (Public Holiday)
+DESCRIPTION:Legal public holiday on 26 December (Boxing Day).
+CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-silvester-2030@local
+DTSTAMP:20301231T000000Z
+DTSTART;VALUE=DATE:20301231
+DTEND;VALUE=DATE:20310101
+SUMMARY:🎆 Silvester / New Year's Eve
+DESCRIPTION:31 December festivities leading into the new year\, traditionally marked by gatherings and celebrations.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

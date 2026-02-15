@@ -11,6 +11,7 @@ from typing import Any
 
 
 DEFAULT_TEMPLATE_PATH = Path("luxembourg_activity_templates.json")
+DEFAULT_PAGES_ICS_PATH = Path("docs/luxembourg.ics")
 
 WEEKDAY_INDEX = {
     "MONDAY": 0,
@@ -70,6 +71,31 @@ def parse_args() -> argparse.Namespace:
         type=str,
         help="Override calendar PRODID from template.",
     )
+    parser.add_argument(
+        "--publish-pages",
+        action="store_true",
+        help=(
+            "Write the calendar to docs/luxembourg.ics and create docs/index.html "
+            "for GitHub Pages publishing."
+        ),
+    )
+    parser.add_argument(
+        "--pages-path",
+        type=Path,
+        default=DEFAULT_PAGES_ICS_PATH,
+        help=(
+            "ICS path used with --publish-pages "
+            f"(default: {DEFAULT_PAGES_ICS_PATH})."
+        ),
+    )
+    parser.add_argument(
+        "--site-url",
+        type=str,
+        help=(
+            "Optional HTTPS URL of the published site (for printing subscribe links), "
+            "for example: https://username.github.io/repository"
+        ),
+    )
     return parser.parse_args()
 
 
@@ -126,6 +152,50 @@ def to_int(value: Any, field_name: str, rule_type: str) -> int:
     if isinstance(value, bool) or not isinstance(value, int):
         raise ValueError(f"Rule '{rule_type}' requires integer '{field_name}'.")
     return value
+
+
+def normalize_site_url(value: str) -> str:
+    site_url = value.strip().rstrip("/")
+    if not site_url.startswith(("https://", "http://")):
+        raise ValueError("--site-url must start with https:// or http://")
+    return site_url
+
+
+def to_webcal_url(http_url: str) -> str:
+    if http_url.startswith("https://"):
+        return f"webcal://{http_url[len('https://'):]}"
+    if http_url.startswith("http://"):
+        return f"webcal://{http_url[len('http://'):]}"
+    raise ValueError("URL must start with https:// or http://")
+
+
+def pages_root_for_path(path: Path) -> Path:
+    parts = path.parts
+    if "docs" in parts:
+        docs_index = parts.index("docs")
+        return Path(*parts[: docs_index + 1])
+    return path.parent
+
+
+def build_pages_index(ics_relative_path: str, start_year: int, end_year: int) -> str:
+    return f"""<!doctype html>
+<html lang=\"en\">
+<head>
+  <meta charset=\"utf-8\" />
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
+  <title>Luxembourg Holidays Calendar</title>
+</head>
+<body>
+  <h1>Luxembourg Holidays Calendar</h1>
+  <p>Coverage: {start_year} to {end_year}</p>
+  <p><a href=\"{ics_relative_path}\">Download ICS file</a></p>
+  <p>
+    iPhone tip: open the ICS link in Safari and tap "Subscribe".
+    You can also use the same URL with the <code>webcal://</code> scheme.
+  </p>
+</body>
+</html>
+"""
 
 
 def resolve_rule(rule: dict[str, Any], year: int, easter: date) -> date:
@@ -305,9 +375,15 @@ def main() -> None:
     if end_year < start_year:
         raise ValueError("--end-year must be >= --start-year.")
 
-    output_path: Path = args.output or Path(
-        f"luxembourg_holidays_festivities_fairs_{start_year}_{end_year}.ics"
-    )
+    if args.publish_pages and args.output:
+        raise ValueError("Use --pages-path instead of --output when --publish-pages is set.")
+
+    if args.publish_pages:
+        output_path = args.pages_path
+    else:
+        output_path = args.output or Path(
+            f"luxembourg_holidays_festivities_fairs_{start_year}_{end_year}.ics"
+        )
 
     template = load_template(args.template)
     ics_content, event_count = build_ics(
@@ -319,10 +395,28 @@ def main() -> None:
         args.prodid,
     )
 
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(ics_content, encoding="utf-8")
     print(
         f"Generated '{output_path}' with {event_count} events for {start_year}-{end_year}."
     )
+
+    if args.publish_pages:
+        pages_root = pages_root_for_path(output_path)
+        pages_root.mkdir(parents=True, exist_ok=True)
+        relative_ics_path = output_path.relative_to(pages_root).as_posix()
+        index_path = pages_root / "index.html"
+        index_path.write_text(
+            build_pages_index(relative_ics_path, start_year, end_year),
+            encoding="utf-8",
+        )
+        print(f"Generated '{index_path}' for GitHub Pages.")
+
+        if args.site_url:
+            site_url = normalize_site_url(args.site_url)
+            ics_url = f"{site_url}/{relative_ics_path}"
+            print(f"HTTPS URL: {ics_url}")
+            print(f"webcal URL: {to_webcal_url(ics_url)}")
 
 
 if __name__ == "__main__":
