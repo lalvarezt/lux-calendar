@@ -21,7 +21,8 @@
   }
 
   var storedTheme = readStorage(storageKey);
-  var initialTheme = storedTheme === "dark" || storedTheme === "light" ? storedTheme : "light";
+  var initialTheme =
+    storedTheme === "dark" || storedTheme === "light" ? storedTheme : "light";
   applyTheme(initialTheme);
 
   if (themeToggle) {
@@ -73,7 +74,10 @@
       };
     });
 
-    var sortedCategories = Object.keys(categoryLabels).sort(function (left, right) {
+    var sortedCategories = Object.keys(categoryLabels).sort(function (
+      left,
+      right
+    ) {
       return categoryLabels[left].localeCompare(categoryLabels[right]);
     });
     var activeCategory = "all";
@@ -138,7 +142,9 @@
       var visibleCount = 0;
 
       states.forEach(function (state) {
-        var matchesCategory = activeCategory === "all" || state.categories.indexOf(activeCategory) !== -1;
+        var matchesCategory =
+          activeCategory === "all" ||
+          state.categories.indexOf(activeCategory) !== -1;
         var matchesQuery = !query || state.searchableText.indexOf(query) !== -1;
         var shouldShow = matchesCategory && matchesQuery;
 
@@ -148,7 +154,10 @@
         }
       });
 
-      var activeCategoryLabel = activeCategory === "all" ? "" : categoryLabels[activeCategory] || activeCategory;
+      var activeCategoryLabel =
+        activeCategory === "all"
+          ? ""
+          : categoryLabels[activeCategory] || activeCategory;
       updateResultLabel(visibleCount, states.length, rawQuery, activeCategoryLabel);
     }
   }
@@ -170,7 +179,10 @@
   }
 
   function normalizeToken(value) {
-    return value.toLowerCase().replace(/\s+/g, " ").trim();
+    return value
+      .toLowerCase()
+      .replace(/\s+/g, " ")
+      .trim();
   }
 
   function readStorage(key) {
@@ -184,8 +196,7 @@
   function writeStorage(key, value) {
     try {
       window.localStorage.setItem(key, value);
-    } catch (_error) {
-    }
+    } catch (_error) {}
   }
 
   function applyTheme(theme) {
@@ -204,6 +215,9 @@
     var isDark = safeTheme === "dark";
     themeLabel.textContent = labels[safeTheme];
     themeToggle.setAttribute("aria-pressed", isDark ? "true" : "false");
-    themeToggle.setAttribute("aria-label", isDark ? "Switch to parchment theme" : "Switch to ink theme");
+    themeToggle.setAttribute(
+      "aria-label",
+      isDark ? "Switch to parchment theme" : "Switch to ink theme"
+    );
   }
 })();
