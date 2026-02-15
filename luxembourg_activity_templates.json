@@ -90,6 +90,19 @@
       }
     },
     {
+      "uid_base": "lu-fest-cavalcade-diekirch",
+      "summary": "🎭 Cavalcade Diekirch / Carnival Parade",
+      "description": "One of Luxembourg's largest carnival parades, traditionally held in Diekirch on the Sunday before Rose Monday.",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "easter_offset",
+        "days": -49
+      }
+    },
+    {
       "uid_base": "lu-fest-carnivalmon",
       "summary": "🎉 Fuesméindeg / Shrove Monday",
       "description": "Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period; this calendar marks Fuesméindeg (Monday before Ash Wednesday).",
@@ -223,6 +236,20 @@
       }
     },
     {
+      "uid_base": "lu-market-waimoart",
+      "summary": "🍷 Maacher Wäimoart / Grevenmacher Wine Market",
+      "description": "Traditional wine market in Grevenmacher on the Friday after Easter, where producers present the new Moselle vintage.",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market"
+      ],
+      "rule": {
+        "type": "easter_offset",
+        "days": 5
+      }
+    },
+    {
       "uid_base": "lu-fest-octave-start",
       "summary": "⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)",
       "description": "Start marker of the Oktav pilgrimage period (3rd Sunday after Easter), with the Oktavmäertchen market in Luxembourg City.",
@@ -309,6 +336,34 @@
       }
     },
     {
+      "uid_base": "lu-fest-winetasteenjoy-start",
+      "summary": "🍇 Wine Taste Enjoy / Open Wine Cellars (starts)",
+      "description": "Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market"
+      ],
+      "rule": {
+        "type": "easter_offset",
+        "days": 49
+      }
+    },
+    {
+      "uid_base": "lu-fest-winetasteenjoy-end",
+      "summary": "🍇 Wine Taste Enjoy / Open Wine Cellars (ends)",
+      "description": "End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market"
+      ],
+      "rule": {
+        "type": "easter_offset",
+        "days": 50
+      }
+    },
+    {
       "uid_base": "lu-fest-whittue",
       "summary": "🎉 Sprangpressessioun / Hopping Procession (Echternach)",
       "description": "On Whit Tuesday, pilgrims join the Sprangpressessioun in Echternach, a UNESCO-listed religious tradition.",
@@ -334,6 +389,36 @@
         "type": "fixed",
         "month": 6,
         "day": 23
+      }
+    },
+    {
+      "uid_base": "lu-fest-national-eve",
+      "summary": "🎆 National Day Eve Celebrations",
+      "description": "On 22 June, towns host National Day eve festivities with concerts, torchlight processions and fireworks.",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 22
+      }
+    },
+    {
+      "uid_base": "lu-fest-aldikkrich-start",
+      "summary": "🎪 Al Dikkrich (starts)",
+      "description": "Start marker of Diekirch's multi-day summer folk festival, traditionally beginning on the second Friday of July.",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market"
+      ],
+      "rule": {
+        "type": "nth_weekday_of_month",
+        "month": 7,
+        "weekday": "FRIDAY",
+        "occurrence": 2
       }
     },
     {
@@ -378,6 +463,37 @@
         "month": 9,
         "weekday": "MONDAY",
         "occurrence": 1
+      }
+    },
+    {
+      "uid_base": "lu-fest-kropemannsfest",
+      "summary": "🧌 Kropemannsfest (Redange)",
+      "description": "Traditional folk festival in Redange-sur-Attert, held on the last Sunday of September with family activities and market stalls.",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market"
+      ],
+      "rule": {
+        "type": "last_weekday_of_month",
+        "month": 9,
+        "weekday": "SUNDAY"
+      }
+    },
+    {
+      "uid_base": "lu-market-veiner-nessmoort",
+      "summary": "🌰 Veiner Nëssmoort / Vianden Nut Market",
+      "description": "Large annual nut market in Vianden, traditionally held on the second Sunday of October.",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market"
+      ],
+      "rule": {
+        "type": "nth_weekday_of_month",
+        "month": 10,
+        "weekday": "SUNDAY",
+        "occurrence": 2
       }
     },
     {

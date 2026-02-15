@@ -66,6 +66,16 @@ CATEGORIES:Luxembourg\;Festivity
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-cavalcade-diekirch-2026@local
+DTSTAMP:20260215T000000Z
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
+SUMMARY:🎭 Cavalcade Diekirch / Carnival Parade
+DESCRIPTION:One of Luxembourg's largest carnival parades\, traditionally held in Diekirch on the Sunday before Rose Monday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-carnivalmon-2026@local
 DTSTAMP:20260216T000000Z
 DTSTART;VALUE=DATE:20260216
@@ -166,6 +176,16 @@ CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-market-waimoart-2026@local
+DTSTAMP:20260410T000000Z
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260411
+SUMMARY:🍷 Maacher Wäimoart / Grevenmacher Wine Market
+DESCRIPTION:Traditional wine market in Grevenmacher on the Friday after Easter\, where producers present the new Moselle vintage.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-octave-start-2026@local
 DTSTAMP:20260419T000000Z
 DTSTART;VALUE=DATE:20260419
@@ -216,6 +236,16 @@ CATEGORIES:Luxembourg\;Holiday\;Public
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-winetasteenjoy-start-2026@local
+DTSTAMP:20260524T000000Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (starts)
+DESCRIPTION:Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-whitmon-2026@local
 DTSTAMP:20260525T000000Z
 DTSTART;VALUE=DATE:20260525
@@ -223,6 +253,16 @@ DTEND;VALUE=DATE:20260526
 SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-winetasteenjoy-end-2026@local
+DTSTAMP:20260525T000000Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (ends)
+DESCRIPTION:End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -236,6 +276,16 @@ CATEGORIES:Luxembourg\;Festivity
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-national-eve-2026@local
+DTSTAMP:20260622T000000Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:🎆 National Day Eve Celebrations
+DESCRIPTION:On 22 June\, towns host National Day eve festivities with concerts\, torchlight processions and fireworks.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-national-2026@local
 DTSTAMP:20260623T000000Z
 DTSTART;VALUE=DATE:20260623
@@ -243,6 +293,16 @@ DTEND;VALUE=DATE:20260624
 SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
 DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
 CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-aldikkrich-start-2026@local
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:🎪 Al Dikkrich (starts)
+DESCRIPTION:Start marker of Diekirch's multi-day summer folk festival\, traditionally beginning on the second Friday of July.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -273,6 +333,26 @@ DTEND;VALUE=DATE:20260908
 SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
 DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
 CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-kropemannsfest-2026@local
+DTSTAMP:20260927T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:🧌 Kropemannsfest (Redange)
+DESCRIPTION:Traditional folk festival in Redange-sur-Attert\, held on the last Sunday of September with family activities and market stalls.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-market-veiner-nessmoort-2026@local
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:🌰 Veiner Nëssmoort / Vianden Nut Market
+DESCRIPTION:Large annual nut market in Vianden\, traditionally held on the second Sunday of October.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -426,6 +506,16 @@ CATEGORIES:Luxembourg\;Festivity
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-cavalcade-diekirch-2027@local
+DTSTAMP:20270207T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:🎭 Cavalcade Diekirch / Carnival Parade
+DESCRIPTION:One of Luxembourg's largest carnival parades\, traditionally held in Diekirch on the Sunday before Rose Monday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-carnivalmon-2027@local
 DTSTAMP:20270208T000000Z
 DTSTART;VALUE=DATE:20270208
@@ -526,6 +616,16 @@ CATEGORIES:Luxembourg\;Festivity
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-market-waimoart-2027@local
+DTSTAMP:20270402T000000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:🍷 Maacher Wäimoart / Grevenmacher Wine Market
+DESCRIPTION:Traditional wine market in Grevenmacher on the Friday after Easter\, where producers present the new Moselle vintage.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-octave-start-2027@local
 DTSTAMP:20270411T000000Z
 DTSTART;VALUE=DATE:20270411
@@ -576,6 +676,16 @@ CATEGORIES:Luxembourg\;Holiday\;Public
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-winetasteenjoy-start-2027@local
+DTSTAMP:20270516T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (starts)
+DESCRIPTION:Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-whitmon-2027@local
 DTSTAMP:20270517T000000Z
 DTSTART;VALUE=DATE:20270517
@@ -583,6 +693,16 @@ DTEND;VALUE=DATE:20270518
 SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-winetasteenjoy-end-2027@local
+DTSTAMP:20270517T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (ends)
+DESCRIPTION:End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -596,6 +716,16 @@ CATEGORIES:Luxembourg\;Festivity
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-national-eve-2027@local
+DTSTAMP:20270622T000000Z
+DTSTART;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270623
+SUMMARY:🎆 National Day Eve Celebrations
+DESCRIPTION:On 22 June\, towns host National Day eve festivities with concerts\, torchlight processions and fireworks.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-national-2027@local
 DTSTAMP:20270623T000000Z
 DTSTART;VALUE=DATE:20270623
@@ -603,6 +733,16 @@ DTEND;VALUE=DATE:20270624
 SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
 DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
 CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-aldikkrich-start-2027@local
+DTSTAMP:20270709T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:🎪 Al Dikkrich (starts)
+DESCRIPTION:Start marker of Diekirch's multi-day summer folk festival\, traditionally beginning on the second Friday of July.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -633,6 +773,26 @@ DTEND;VALUE=DATE:20270907
 SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
 DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
 CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-kropemannsfest-2027@local
+DTSTAMP:20270926T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:🧌 Kropemannsfest (Redange)
+DESCRIPTION:Traditional folk festival in Redange-sur-Attert\, held on the last Sunday of September with family activities and market stalls.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-market-veiner-nessmoort-2027@local
+DTSTAMP:20271010T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:🌰 Veiner Nëssmoort / Vianden Nut Market
+DESCRIPTION:Large annual nut market in Vianden\, traditionally held on the second Sunday of October.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -786,6 +946,16 @@ CATEGORIES:Luxembourg\;Festivity
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-cavalcade-diekirch-2028@local
+DTSTAMP:20280227T000000Z
+DTSTART;VALUE=DATE:20280227
+DTEND;VALUE=DATE:20280228
+SUMMARY:🎭 Cavalcade Diekirch / Carnival Parade
+DESCRIPTION:One of Luxembourg's largest carnival parades\, traditionally held in Diekirch on the Sunday before Rose Monday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-carnivalmon-2028@local
 DTSTAMP:20280228T000000Z
 DTSTART;VALUE=DATE:20280228
@@ -886,6 +1056,16 @@ CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-market-waimoart-2028@local
+DTSTAMP:20280421T000000Z
+DTSTART;VALUE=DATE:20280421
+DTEND;VALUE=DATE:20280422
+SUMMARY:🍷 Maacher Wäimoart / Grevenmacher Wine Market
+DESCRIPTION:Traditional wine market in Grevenmacher on the Friday after Easter\, where producers present the new Moselle vintage.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-octave-start-2028@local
 DTSTAMP:20280430T000000Z
 DTSTART;VALUE=DATE:20280430
@@ -936,6 +1116,16 @@ CATEGORIES:Luxembourg\;Holiday\;Public
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-winetasteenjoy-start-2028@local
+DTSTAMP:20280604T000000Z
+DTSTART;VALUE=DATE:20280604
+DTEND;VALUE=DATE:20280605
+SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (starts)
+DESCRIPTION:Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-whitmon-2028@local
 DTSTAMP:20280605T000000Z
 DTSTART;VALUE=DATE:20280605
@@ -943,6 +1133,16 @@ DTEND;VALUE=DATE:20280606
 SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-winetasteenjoy-end-2028@local
+DTSTAMP:20280605T000000Z
+DTSTART;VALUE=DATE:20280605
+DTEND;VALUE=DATE:20280606
+SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (ends)
+DESCRIPTION:End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -956,6 +1156,16 @@ CATEGORIES:Luxembourg\;Festivity
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-national-eve-2028@local
+DTSTAMP:20280622T000000Z
+DTSTART;VALUE=DATE:20280622
+DTEND;VALUE=DATE:20280623
+SUMMARY:🎆 National Day Eve Celebrations
+DESCRIPTION:On 22 June\, towns host National Day eve festivities with concerts\, torchlight processions and fireworks.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-national-2028@local
 DTSTAMP:20280623T000000Z
 DTSTART;VALUE=DATE:20280623
@@ -963,6 +1173,16 @@ DTEND;VALUE=DATE:20280624
 SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
 DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
 CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-aldikkrich-start-2028@local
+DTSTAMP:20280714T000000Z
+DTSTART;VALUE=DATE:20280714
+DTEND;VALUE=DATE:20280715
+SUMMARY:🎪 Al Dikkrich (starts)
+DESCRIPTION:Start marker of Diekirch's multi-day summer folk festival\, traditionally beginning on the second Friday of July.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -993,6 +1213,26 @@ DTEND;VALUE=DATE:20280905
 SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
 DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
 CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-kropemannsfest-2028@local
+DTSTAMP:20280924T000000Z
+DTSTART;VALUE=DATE:20280924
+DTEND;VALUE=DATE:20280925
+SUMMARY:🧌 Kropemannsfest (Redange)
+DESCRIPTION:Traditional folk festival in Redange-sur-Attert\, held on the last Sunday of September with family activities and market stalls.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-market-veiner-nessmoort-2028@local
+DTSTAMP:20281008T000000Z
+DTSTART;VALUE=DATE:20281008
+DTEND;VALUE=DATE:20281009
+SUMMARY:🌰 Veiner Nëssmoort / Vianden Nut Market
+DESCRIPTION:Large annual nut market in Vianden\, traditionally held on the second Sunday of October.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1146,6 +1386,16 @@ CATEGORIES:Luxembourg\;Festivity
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-cavalcade-diekirch-2029@local
+DTSTAMP:20290211T000000Z
+DTSTART;VALUE=DATE:20290211
+DTEND;VALUE=DATE:20290212
+SUMMARY:🎭 Cavalcade Diekirch / Carnival Parade
+DESCRIPTION:One of Luxembourg's largest carnival parades\, traditionally held in Diekirch on the Sunday before Rose Monday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-carnivalmon-2029@local
 DTSTAMP:20290212T000000Z
 DTSTART;VALUE=DATE:20290212
@@ -1246,6 +1496,16 @@ CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-market-waimoart-2029@local
+DTSTAMP:20290406T000000Z
+DTSTART;VALUE=DATE:20290406
+DTEND;VALUE=DATE:20290407
+SUMMARY:🍷 Maacher Wäimoart / Grevenmacher Wine Market
+DESCRIPTION:Traditional wine market in Grevenmacher on the Friday after Easter\, where producers present the new Moselle vintage.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-octave-start-2029@local
 DTSTAMP:20290415T000000Z
 DTSTART;VALUE=DATE:20290415
@@ -1296,6 +1556,16 @@ CATEGORIES:Luxembourg\;Holiday\;Public
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-winetasteenjoy-start-2029@local
+DTSTAMP:20290520T000000Z
+DTSTART;VALUE=DATE:20290520
+DTEND;VALUE=DATE:20290521
+SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (starts)
+DESCRIPTION:Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-whitmon-2029@local
 DTSTAMP:20290521T000000Z
 DTSTART;VALUE=DATE:20290521
@@ -1303,6 +1573,16 @@ DTEND;VALUE=DATE:20290522
 SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-winetasteenjoy-end-2029@local
+DTSTAMP:20290521T000000Z
+DTSTART;VALUE=DATE:20290521
+DTEND;VALUE=DATE:20290522
+SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (ends)
+DESCRIPTION:End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1316,6 +1596,16 @@ CATEGORIES:Luxembourg\;Festivity
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-national-eve-2029@local
+DTSTAMP:20290622T000000Z
+DTSTART;VALUE=DATE:20290622
+DTEND;VALUE=DATE:20290623
+SUMMARY:🎆 National Day Eve Celebrations
+DESCRIPTION:On 22 June\, towns host National Day eve festivities with concerts\, torchlight processions and fireworks.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-national-2029@local
 DTSTAMP:20290623T000000Z
 DTSTART;VALUE=DATE:20290623
@@ -1323,6 +1613,16 @@ DTEND;VALUE=DATE:20290624
 SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
 DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
 CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-aldikkrich-start-2029@local
+DTSTAMP:20290713T000000Z
+DTSTART;VALUE=DATE:20290713
+DTEND;VALUE=DATE:20290714
+SUMMARY:🎪 Al Dikkrich (starts)
+DESCRIPTION:Start marker of Diekirch's multi-day summer folk festival\, traditionally beginning on the second Friday of July.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1353,6 +1653,26 @@ DTEND;VALUE=DATE:20290904
 SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
 DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
 CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-kropemannsfest-2029@local
+DTSTAMP:20290930T000000Z
+DTSTART;VALUE=DATE:20290930
+DTEND;VALUE=DATE:20291001
+SUMMARY:🧌 Kropemannsfest (Redange)
+DESCRIPTION:Traditional folk festival in Redange-sur-Attert\, held on the last Sunday of September with family activities and market stalls.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-market-veiner-nessmoort-2029@local
+DTSTAMP:20291014T000000Z
+DTSTART;VALUE=DATE:20291014
+DTEND;VALUE=DATE:20291015
+SUMMARY:🌰 Veiner Nëssmoort / Vianden Nut Market
+DESCRIPTION:Large annual nut market in Vianden\, traditionally held on the second Sunday of October.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1506,6 +1826,16 @@ CATEGORIES:Luxembourg\;Festivity
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-cavalcade-diekirch-2030@local
+DTSTAMP:20300303T000000Z
+DTSTART;VALUE=DATE:20300303
+DTEND;VALUE=DATE:20300304
+SUMMARY:🎭 Cavalcade Diekirch / Carnival Parade
+DESCRIPTION:One of Luxembourg's largest carnival parades\, traditionally held in Diekirch on the Sunday before Rose Monday.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-carnivalmon-2030@local
 DTSTAMP:20300304T000000Z
 DTSTART;VALUE=DATE:20300304
@@ -1606,6 +1936,16 @@ CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-market-waimoart-2030@local
+DTSTAMP:20300426T000000Z
+DTSTART;VALUE=DATE:20300426
+DTEND;VALUE=DATE:20300427
+SUMMARY:🍷 Maacher Wäimoart / Grevenmacher Wine Market
+DESCRIPTION:Traditional wine market in Grevenmacher on the Friday after Easter\, where producers present the new Moselle vintage.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-mayday-2030@local
 DTSTAMP:20300501T000000Z
 DTSTART;VALUE=DATE:20300501
@@ -1656,6 +1996,16 @@ CATEGORIES:Luxembourg\;Holiday\;Public
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-winetasteenjoy-start-2030@local
+DTSTAMP:20300609T000000Z
+DTSTART;VALUE=DATE:20300609
+DTEND;VALUE=DATE:20300610
+SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (starts)
+DESCRIPTION:Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-whitmon-2030@local
 DTSTAMP:20300610T000000Z
 DTSTART;VALUE=DATE:20300610
@@ -1663,6 +2013,16 @@ DTEND;VALUE=DATE:20300611
 SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-winetasteenjoy-end-2030@local
+DTSTAMP:20300610T000000Z
+DTSTART;VALUE=DATE:20300610
+DTEND;VALUE=DATE:20300611
+SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (ends)
+DESCRIPTION:End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1676,6 +2036,16 @@ CATEGORIES:Luxembourg\;Festivity
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-national-eve-2030@local
+DTSTAMP:20300622T000000Z
+DTSTART;VALUE=DATE:20300622
+DTEND;VALUE=DATE:20300623
+SUMMARY:🎆 National Day Eve Celebrations
+DESCRIPTION:On 22 June\, towns host National Day eve festivities with concerts\, torchlight processions and fireworks.
+CATEGORIES:Luxembourg\;Festivity
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-national-2030@local
 DTSTAMP:20300623T000000Z
 DTSTART;VALUE=DATE:20300623
@@ -1683,6 +2053,16 @@ DTEND;VALUE=DATE:20300624
 SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
 DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
 CATEGORIES:Luxembourg\;Holiday\;Public
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-aldikkrich-start-2030@local
+DTSTAMP:20300712T000000Z
+DTSTART;VALUE=DATE:20300712
+DTEND;VALUE=DATE:20300713
+SUMMARY:🎪 Al Dikkrich (starts)
+DESCRIPTION:Start marker of Diekirch's multi-day summer folk festival\, traditionally beginning on the second Friday of July.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1713,6 +2093,26 @@ DTEND;VALUE=DATE:20300903
 SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
 DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
 CATEGORIES:Luxembourg\;Fair
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-kropemannsfest-2030@local
+DTSTAMP:20300929T000000Z
+DTSTART;VALUE=DATE:20300929
+DTEND;VALUE=DATE:20300930
+SUMMARY:🧌 Kropemannsfest (Redange)
+DESCRIPTION:Traditional folk festival in Redange-sur-Attert\, held on the last Sunday of September with family activities and market stalls.
+CATEGORIES:Luxembourg\;Festivity\;Market
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-market-veiner-nessmoort-2030@local
+DTSTAMP:20301013T000000Z
+DTSTART;VALUE=DATE:20301013
+DTEND;VALUE=DATE:20301014
+SUMMARY:🌰 Veiner Nëssmoort / Vianden Nut Market
+DESCRIPTION:Large annual nut market in Vianden\, traditionally held on the second Sunday of October.
+CATEGORIES:Luxembourg\;Festivity\;Market
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
