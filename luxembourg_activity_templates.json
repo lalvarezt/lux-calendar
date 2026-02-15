@@ -22,6 +22,20 @@
       }
     },
     {
+      "uid_base": "lu-fest-draikinneksdag",
+      "summary": "👑 Dräikinneksdag / Epiphany",
+      "description": "On 6 January, families share 'galette des rois'; finding the bean crowns the king or queen of the day.",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
       "uid_base": "lu-fest-liichtmess",
       "summary": "🕯️ Liichtmëssdag / Candlemas",
       "description": "On 2 February, children go liichten with lanterns (Liichtebengelcher), singing from house to house for sweets or coins.",
@@ -36,6 +50,46 @@
       }
     },
     {
+      "uid_base": "lu-fest-saintblaise",
+      "summary": "🕯️ Saint Blaise",
+      "description": "3 February observance linked to church throat blessings and to the Liichtmëssdag period.",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 3
+      }
+    },
+    {
+      "uid_base": "lu-fest-fettendonneschdeg",
+      "summary": "🎭 Fetten Donneschdeg / Fat Thursday",
+      "description": "Carnival Thursday and traditional high point of Fuesend before the Lenten period.",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "easter_offset",
+        "days": -52
+      }
+    },
+    {
+      "uid_base": "lu-fest-fuessonndeg",
+      "summary": "🎭 Fuessonndeg / Carnival Sunday",
+      "description": "Carnival Sunday (Fuessonndeg), traditionally marked by Fuesbaler before Shrove Monday parades.",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "easter_offset",
+        "days": -49
+      }
+    },
+    {
       "uid_base": "lu-fest-carnivalmon",
       "summary": "🎉 Fuesméindeg / Shrove Monday",
       "description": "Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period; this calendar marks Fuesméindeg (Monday before Ash Wednesday).",
@@ -46,6 +100,19 @@
       "rule": {
         "type": "easter_offset",
         "days": -48
+      }
+    },
+    {
+      "uid_base": "lu-fest-aeschermettwoch",
+      "summary": "🔥 Äschermëttwoch / Ash Wednesday",
+      "description": "Marks the end of Carnival and the start of Lent; in Remich, winter is symbolically farewelled with a straw doll burning.",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "easter_offset",
+        "days": -46
       }
     },
     {
@@ -75,6 +142,20 @@
       }
     },
     {
+      "uid_base": "lu-fest-abrell",
+      "summary": "😄 An den Abrëll schécken! / April Fools' Day",
+      "description": "On 1 April, people play jokes and pranks, a widespread tradition in Luxembourg and across Europe.",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 1
+      }
+    },
+    {
       "uid_base": "lu-fest-maundy",
       "summary": "🎉 Gréngen Donneschdeg / Maundy Thursday",
       "description": "Beginning of the Easter Triduum; children go klibberen (rattling) as church bells are traditionally said to be silent until Easter.",
@@ -98,6 +179,19 @@
       "rule": {
         "type": "easter_offset",
         "days": -2
+      }
+    },
+    {
+      "uid_base": "lu-fest-ouschtersonndeg",
+      "summary": "🥚 Ouschtersonndeg / Easter Sunday",
+      "description": "Easter Sunday traditions include egg colouring, egg hunts and egg tapping games (Técken).",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "easter_offset",
+        "days": 0
       }
     },
     {
@@ -316,6 +410,34 @@
       }
     },
     {
+      "uid_base": "lu-fest-haupeschdag",
+      "summary": "🦌 Haupeschdag / Saint Hubertus' Day",
+      "description": "3 November observance of Saint Hubertus, patron saint of hunters, with church and local traditions.",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 3
+      }
+    },
+    {
+      "uid_base": "lu-fest-baerbelendag",
+      "summary": "⛏️ Bärbelendag / Saint Barbara's Day",
+      "description": "On 4 December, mining communities commemorate Saint Barbara, patron saint of miners and firefighters.",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 4
+      }
+    },
+    {
       "uid_base": "lu-fest-kleeschen",
       "summary": "🎅 Neklosdag / Saint Nicholas' Day (Kleeschen)",
       "description": "On 6 December, children traditionally receive gifts from Kleeschen, with Housecker (Ruprecht) as his companion.",
@@ -371,6 +493,20 @@
         "type": "fixed",
         "month": 12,
         "day": 26
+      }
+    },
+    {
+      "uid_base": "lu-fest-silvester",
+      "summary": "🎆 Silvester / New Year's Eve",
+      "description": "31 December festivities leading into the new year, traditionally marked by gatherings and celebrations.",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
       }
     }
   ]
