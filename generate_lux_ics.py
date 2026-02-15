@@ -6,6 +6,7 @@ import argparse
 import calendar
 import json
 import os
+import re
 from html import escape as html_escape
 from datetime import date, timedelta
 from pathlib import Path
@@ -14,6 +15,11 @@ from typing import Any
 
 DEFAULT_TEMPLATE_PATH = Path("luxembourg_activity_templates.json")
 DEFAULT_PAGES_ICS_PATH = Path("docs/luxembourg.ics")
+PAGES_INDEX_TEMPLATE_PATH = Path("templates/index.template.html")
+PAGES_STYLESHEET_SOURCE_PATH = Path("templates/index.css")
+PAGES_SCRIPT_SOURCE_PATH = Path("templates/index.js")
+PAGES_STYLESHEET_RELATIVE_PATH = Path("assets/index.css")
+PAGES_SCRIPT_RELATIVE_PATH = Path("assets/index.js")
 SITE_URL_ENV_VAR = "LUX_CALENDAR_SITE_URL"
 
 WEEKDAY_INDEX = {
@@ -321,375 +327,67 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
     return "\n".join(cards), enabled_count, total_count
 
 
+def read_pages_index_template(path: Path = PAGES_INDEX_TEMPLATE_PATH) -> str:
+    if not path.exists():
+        raise FileNotFoundError(f"HTML template file not found: {path}")
+    return path.read_text(encoding="utf-8")
+
+
+def publish_pages_assets(pages_root: Path) -> list[Path]:
+    assets = [
+        (PAGES_STYLESHEET_SOURCE_PATH, pages_root / PAGES_STYLESHEET_RELATIVE_PATH),
+        (PAGES_SCRIPT_SOURCE_PATH, pages_root / PAGES_SCRIPT_RELATIVE_PATH),
+    ]
+
+    written_paths: list[Path] = []
+    for source_path, output_path in assets:
+        if not source_path.exists():
+            raise FileNotFoundError(f"Pages asset file not found: {source_path}")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(source_path.read_text(encoding="utf-8"), encoding="utf-8")
+        written_paths.append(output_path)
+
+    return written_paths
+
+
+def render_pages_index_template(template: str, values: dict[str, str]) -> str:
+    placeholders = set(re.findall(r"__([A-Z0-9_]+)__", template))
+    missing = sorted(placeholders.difference(values))
+    if missing:
+        missing_labels = ", ".join(f"__{label}__" for label in missing)
+        raise ValueError(f"Missing HTML template values: {missing_labels}")
+
+    rendered = template
+    for key in placeholders:
+        rendered = rendered.replace(f"__{key}__", values[key])
+
+    return rendered
+
+
 def build_pages_index(
     ics_relative_path: str,
     start_year: int,
     end_year: int,
     events: list[dict[str, Any]],
 ) -> str:
-    escaped_ics_path = html_escape(ics_relative_path)
     entries_markup, enabled_count, total_count = build_supported_entries_html(events)
-    embedded_ics_path = json.dumps(ics_relative_path)
     official_source_url = (
         "https://luxembourg.public.lu/dam-assets/publications/"
         "a-propos-des-fetes-et-traditions-au-luxembourg/"
         "a-propos-des-fetes-et-traditions-au-luxembourg-en.pdf"
     )
-    escaped_official_source_url = html_escape(official_source_url)
 
-    return f"""<!doctype html>
-<html lang=\"en\">
-<head>
-  <meta charset=\"utf-8\" />
-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
-  <title>Luxembourg Holidays Calendar</title>
-  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />
-  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />
-  <link href=\"https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap\" rel=\"stylesheet\" />
-  <style>
-    :root {{
-      --ink: #1d2733;
-      --muted: #4f5f72;
-      --surface: rgba(255, 255, 255, 0.9);
-      --line: #dce4eb;
-      --teal: #0f766e;
-      --orange: #c2410c;
-      --bg-a: #edf8f6;
-      --bg-b: #fff7ec;
-    }}
-
-    * {{
-      box-sizing: border-box;
-    }}
-
-    body {{
-      margin: 0;
-      min-height: 100vh;
-      color: var(--ink);
-      font-family: \"Work Sans\", sans-serif;
-      background:
-        radial-gradient(circle at 10% 8%, rgba(15, 118, 110, 0.18), transparent 45%),
-        radial-gradient(circle at 88% 4%, rgba(194, 65, 12, 0.16), transparent 42%),
-        linear-gradient(165deg, var(--bg-a), var(--bg-b));
-    }}
-
-    a {{
-      color: var(--teal);
-    }}
-
-    .layout {{
-      width: min(1120px, 92vw);
-      margin: 0 auto;
-      padding: 2.5rem 0 3rem;
-    }}
-
-    .hero {{
-      background: var(--surface);
-      border: 1px solid rgba(29, 39, 51, 0.08);
-      border-radius: 24px;
-      padding: clamp(1.4rem, 2vw + 1rem, 2.2rem);
-      box-shadow: 0 18px 36px rgba(29, 39, 51, 0.1);
-      backdrop-filter: blur(4px);
-    }}
-
-    .eyebrow {{
-      margin: 0;
-      color: var(--orange);
-      font-size: 0.83rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      font-weight: 600;
-    }}
-
-    h1,
-    h2,
-    h3 {{
-      margin: 0;
-      font-family: \"Fraunces\", serif;
-      line-height: 1.12;
-      color: #111827;
-    }}
-
-    h1 {{
-      font-size: clamp(1.9rem, 4vw, 2.9rem);
-      margin-top: 0.5rem;
-    }}
-
-    .lead {{
-      margin-top: 0.85rem;
-      max-width: 68ch;
-      color: var(--muted);
-      font-size: 1.04rem;
-    }}
-
-    .actions {{
-      margin-top: 1.3rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.7rem;
-    }}
-
-    .button {{
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      font-weight: 600;
-      border-radius: 999px;
-      padding: 0.7rem 1rem;
-      border: 1px solid transparent;
-      transition: transform 150ms ease, box-shadow 150ms ease;
-    }}
-
-    .button:hover {{
-      transform: translateY(-1px);
-      box-shadow: 0 8px 18px rgba(17, 24, 39, 0.15);
-    }}
-
-    .button-primary {{
-      background: var(--teal);
-      color: #ffffff;
-    }}
-
-    .button-secondary {{
-      background: #ffffff;
-      color: var(--teal);
-      border-color: #9fd2cb;
-    }}
-
-    .stats {{
-      margin: 1.3rem 0 0;
-      padding: 0;
-      list-style: none;
-      display: grid;
-      gap: 0.7rem;
-      grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
-    }}
-
-    .stats li {{
-      background: rgba(255, 255, 255, 0.84);
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 0.72rem 0.8rem;
-    }}
-
-    .stats strong {{
-      display: block;
-      font-size: 1.15rem;
-      color: #0f172a;
-    }}
-
-    .stats span {{
-      color: var(--muted);
-      font-size: 0.88rem;
-    }}
-
-    .tip {{
-      margin: 0.8rem 0 0;
-      color: var(--muted);
-    }}
-
-    .entries {{
-      margin-top: 1.8rem;
-    }}
-
-    .section-header h2 {{
-      font-size: clamp(1.45rem, 2.6vw, 2rem);
-    }}
-
-    .section-header p {{
-      margin: 0.7rem 0 0;
-      color: var(--muted);
-      max-width: 75ch;
-    }}
-
-    .entries-grid {{
-      margin-top: 1rem;
-      display: grid;
-      gap: 0.95rem;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    }}
-
-    .entry-card {{
-      background: rgba(255, 255, 255, 0.92);
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.72rem;
-      box-shadow: 0 10px 22px rgba(15, 23, 42, 0.06);
-    }}
-
-    .entry-header {{
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 0.7rem;
-    }}
-
-    .entry-header h3 {{
-      font-size: 1.1rem;
-      line-height: 1.22;
-    }}
-
-    .entry-status {{
-      flex-shrink: 0;
-      border: 1px solid #f4b4a3;
-      color: #9a3412;
-      background: #fff1ea;
-      border-radius: 999px;
-      padding: 0.18rem 0.55rem;
-      font-size: 0.72rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-    }}
-
-    .entry-description {{
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.95rem;
-      line-height: 1.45;
-    }}
-
-    .entry-meta {{
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 0.18rem;
-      font-size: 0.9rem;
-    }}
-
-    .entry-meta span {{
-      font-size: 0.76rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      font-weight: 600;
-    }}
-
-    .entry-meta code {{
-      font-family: \"IBM Plex Mono\", \"SFMono-Regular\", monospace;
-      color: #0f172a;
-      word-break: break-word;
-      font-size: 0.85rem;
-    }}
-
-    .entry-tags {{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.45rem;
-    }}
-
-    .entry-tag {{
-      background: #e5f3ef;
-      color: #134e4a;
-      border-radius: 999px;
-      border: 1px solid #9fd2cb;
-      font-size: 0.78rem;
-      padding: 0.25rem 0.55rem;
-    }}
-
-    .entry-source {{
-      margin-top: auto;
-      padding-top: 0.2rem;
-    }}
-
-    .entry-reference {{
-      text-underline-offset: 3px;
-      font-weight: 600;
-    }}
-
-    .entry-reference.unavailable {{
-      color: var(--muted);
-      font-weight: 500;
-    }}
-
-    .empty-state {{
-      margin-top: 1rem;
-      color: var(--muted);
-      background: rgba(255, 255, 255, 0.92);
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 0.9rem 1rem;
-    }}
-
-    @media (max-width: 700px) {{
-      .layout {{
-        width: min(1120px, 94vw);
-        padding-top: 1.2rem;
-      }}
-
-      .hero {{
-        border-radius: 18px;
-      }}
-    }}
-  </style>
-</head>
-<body>
-  <main class=\"layout\">
-    <section class=\"hero\">
-      <p class=\"eyebrow\">Luxembourg Calendar Feed</p>
-      <h1>Luxembourg Holidays and Traditions</h1>
-      <p class=\"lead\">
-        A curated ICS feed with legal public holidays, recurring festivities,
-        and regional fairs.
-      </p>
-
-      <p class=\"tip\">
-        Official source for national holidays and traditions:
-        <a href=\"{escaped_official_source_url}\" target=\"_blank\" rel=\"noopener noreferrer\">
-          About... Festivals and Traditions in Luxembourg (EN, PDF)
-        </a>
-      </p>
-
-      <div class=\"actions\">
-        <a class=\"button button-primary\" href=\"{escaped_ics_path}\">Download ICS</a>
-        <a class=\"button button-secondary\" href=\"#supported-entries\">View supported entries</a>
-      </div>
-
-      <ul class=\"stats\">
-        <li><strong>{start_year}-{end_year}</strong><span>Coverage</span></li>
-        <li><strong>{enabled_count}</strong><span>Enabled entries</span></li>
-        <li><strong>{total_count}</strong><span>Total templates</span></li>
-      </ul>
-
-      <p class=\"tip\">iPhone tip: open the ICS link in Safari and tap \"Subscribe\".</p>
-      <p class=\"tip\">Direct subscription link: <a id=\"webcal-link\" href=\"{escaped_ics_path}\">Generate webcal link</a></p>
-    </section>
-
-    <section id=\"supported-entries\" class=\"entries\">
-      <div class=\"section-header\">
-        <h2>All Supported Entries</h2>
-        <p>
-          Every template currently supported by the generator, including
-          categories, recurrence rule, and reference source.
-        </p>
-      </div>
-      <div class=\"entries-grid\">
-{entries_markup}
-      </div>
-    </section>
-  </main>
-
-  <script>
-    (function () {{
-      var icsPath = {embedded_ics_path};
-      var webcalLink = document.getElementById("webcal-link");
-      if (!webcalLink) {{
-        return;
-      }}
-
-      var absoluteUrl = new URL(icsPath, window.location.href).toString();
-      var webcalUrl = absoluteUrl.replace(/^https?:\\/\\//, "webcal://");
-      webcalLink.setAttribute("href", webcalUrl);
-      webcalLink.textContent = webcalUrl;
-    }})();
-  </script>
-</body>
-</html>
-"""
+    return render_pages_index_template(
+        read_pages_index_template(),
+        {
+            "OFFICIAL_SOURCE_URL": html_escape(official_source_url),
+            "ICS_RELATIVE_PATH": html_escape(ics_relative_path),
+            "YEAR_RANGE": f"{start_year}-{end_year}",
+            "ENABLED_COUNT": str(enabled_count),
+            "TOTAL_COUNT": str(total_count),
+            "ENTRIES_MARKUP": entries_markup,
+        },
+    )
 
 
 def resolve_rule(rule: dict[str, Any], year: int, easter: date) -> date:
@@ -928,7 +626,10 @@ def main() -> None:
             ),
             encoding="utf-8",
         )
+        generated_assets = publish_pages_assets(pages_root)
         print(f"Generated '{index_path}' for GitHub Pages.")
+        for asset_path in generated_assets:
+            print(f"Generated '{asset_path}' for GitHub Pages.")
 
         assert site_url is not None
         ics_url = f"{site_url}/{relative_ics_path}"

@@ -10,8 +10,11 @@ Repository files:
 
 - `luxembourg_activity_templates.json`: editable holiday/festivity templates
 - `generate_lux_ics.py`: ICS generator
+- `templates/index.template.html`: landing page template rendered by the generator
+- `templates/index.css`: landing page stylesheet copied during publish
+- `templates/index.js`: landing page script copied during publish
 - `docs/luxembourg.ics`: published calendar file (GitHub Pages)
-- `docs/index.html`: simple landing page for downloads/subscription
+- `docs/index.html`: generated landing page for downloads/subscription
 
 ## Generate and publish (GitHub Pages)
 
@@ -38,6 +41,8 @@ This updates:
 
 - `docs/luxembourg.ics`
 - `docs/index.html`
+- `docs/assets/index.css`
+- `docs/assets/index.js`
 
 The script reads `LUX_CALENDAR_SITE_URL` from `.envrc` for the printed HTTPS/webcal links.
 You can still override it explicitly with `--site-url`.
