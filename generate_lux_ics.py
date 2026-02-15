@@ -330,6 +330,12 @@ def build_pages_index(
     escaped_ics_path = html_escape(ics_relative_path)
     entries_markup, enabled_count, total_count = build_supported_entries_html(events)
     embedded_ics_path = json.dumps(ics_relative_path)
+    official_source_url = (
+        "https://luxembourg.public.lu/dam-assets/publications/"
+        "a-propos-des-fetes-et-traditions-au-luxembourg/"
+        "a-propos-des-fetes-et-traditions-au-luxembourg-en.pdf"
+    )
+    escaped_official_source_url = html_escape(official_source_url)
 
     return f"""<!doctype html>
 <html lang=\"en\">
@@ -629,6 +635,13 @@ def build_pages_index(
       <p class=\"lead\">
         A curated ICS feed with legal public holidays, recurring festivities,
         and regional fairs.
+      </p>
+
+      <p class=\"tip\">
+        Official source for national holidays and traditions:
+        <a href=\"{escaped_official_source_url}\" target=\"_blank\" rel=\"noopener noreferrer\">
+          About... Festivals and Traditions in Luxembourg (EN, PDF)
+        </a>
       </p>
 
       <div class=\"actions\">

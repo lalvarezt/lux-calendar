@@ -10,7 +10,7 @@
       "uid_base": "lu-holiday-newyear",
       "summary": "🏛️ Neijoerschdag / New Year (Public Holiday)",
       "description": "Legal public holiday in Luxembourg. On Neijoerschdag (1 January), families exchange wishes and children often receive a small 'neit Jäerchen' gift.",
-      "reference_url": "https://guichet.public.lu/de/citoyens/travail/conges-jours-feries/jours-feries.html",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/nouvel-an-luxembourg.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -169,7 +169,7 @@
       "uid_base": "lu-fest-abrell",
       "summary": "😄 An den Abrëll schécken! / April Fools' Day",
       "description": "On 1 April, people play jokes and pranks, a widespread tradition in Luxembourg and across Europe.",
-      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions.html",
+      "reference_url": "https://en.wikipedia.org/wiki/April_Fools%27_Day",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -226,7 +226,7 @@
       "uid_base": "lu-holiday-eastermon",
       "summary": "🏛️ Ouschterméindeg / Easter Monday (Public Holiday)",
       "description": "Legal public holiday in Luxembourg, observed the day after Easter Sunday.",
-      "reference_url": "https://guichet.public.lu/de/citoyens/travail/conges-jours-feries/jours-feries.html",
+      "reference_url": "https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -317,7 +317,7 @@
       "uid_base": "lu-holiday-ascension",
       "summary": "🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)",
       "description": "Legal public holiday observed 39 days after Easter Sunday; in Luxembourg, it is also associated with the Fatima procession in Wiltz.",
-      "reference_url": "https://guichet.public.lu/de/citoyens/travail/conges-jours-feries/jours-feries.html",
+      "reference_url": "https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -332,7 +332,7 @@
       "uid_base": "lu-holiday-europeday",
       "summary": "🏛️ Europadag / Europe Day (Public Holiday)",
       "description": "Legal public holiday in Luxembourg on 9 May.",
-      "reference_url": "https://guichet.public.lu/de/citoyens/travail/conges-jours-feries/jours-feries.html",
+      "reference_url": "https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -348,7 +348,7 @@
       "uid_base": "lu-holiday-whitmon",
       "summary": "🏛️ Péngschtméindeg / Whit Monday (Public Holiday)",
       "description": "Legal public holiday 50 days after Easter Sunday; in Wiltz, the Geenzefest parade traditionally culminates on Whit Monday.",
-      "reference_url": "https://guichet.public.lu/de/citoyens/travail/conges-jours-feries/jours-feries.html",
+      "reference_url": "https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -486,7 +486,7 @@
       "uid_base": "lu-fair-kiermesmon",
       "summary": "🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)",
       "description": "Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.",
-      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/schueberfouer.html",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kermesse-haemmelsmarsch.html",
       "categories": [
         "Luxembourg",
         "Fair"
@@ -566,7 +566,7 @@
       "uid_base": "lu-fest-haupeschdag",
       "summary": "🦌 Haupeschdag / Saint Hubertus' Day",
       "description": "3 November observance of Saint Hubertus, patron saint of hunters, with church and local traditions.",
-      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions.html",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/patrimoine-culturel-mondial-haupeschbleiser-unesco.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -581,7 +581,7 @@
       "uid_base": "lu-fest-baerbelendag",
       "summary": "⛏️ Bärbelendag / Saint Barbara's Day",
       "description": "On 4 December, mining communities commemorate Saint Barbara, patron saint of miners and firefighters.",
-      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions.html",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/patrimoine-culturel-immateriel-luxembourg.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -642,7 +642,7 @@
       "uid_base": "lu-holiday-ststephen",
       "summary": "🏛️ Stiefesdag / St Stephen's Day (Public Holiday)",
       "description": "Legal public holiday on 26 December (Boxing Day).",
-      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html",
+      "reference_url": "https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -658,7 +658,7 @@
       "uid_base": "lu-fest-silvester",
       "summary": "🎆 Silvester / New Year's Eve",
       "description": "31 December festivities leading into the new year, traditionally marked by gatherings and celebrations.",
-      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/nouvel-an-luxembourg.html",
       "categories": [
         "Luxembourg",
         "Festivity"
