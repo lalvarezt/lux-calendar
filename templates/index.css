@@ -237,7 +237,7 @@ h2 {
 .actions {
   margin-top: 0.76rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   gap: 0.72rem;
 }
@@ -586,8 +586,14 @@ h2 {
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1180px) {
   .entries-toolbar {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .entries-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -599,7 +605,18 @@ h2 {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
+  .actions {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.52rem;
+  }
+
+  .actions .button {
+    width: 100%;
+  }
+
   .layout {
     width: min(1180px, 94vw);
     padding-top: 1.2rem;
@@ -617,10 +634,6 @@ h2 {
 
   .hero-top {
     align-items: center;
-  }
-
-  .button {
-    width: 100%;
   }
 }
 
