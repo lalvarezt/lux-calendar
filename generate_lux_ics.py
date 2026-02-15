@@ -331,6 +331,17 @@ def build_ics(
             uid_base = required_str(event, "uid_base", f"events[{index}]")
             summary = required_str(event, "summary", f"events[{index}]")
             description = required_str(event, "description", f"events[{index}]")
+            reference_url_raw = event.get("reference_url")
+            reference_url: str | None = None
+            if reference_url_raw is not None:
+                if (
+                    not isinstance(reference_url_raw, str)
+                    or not reference_url_raw.strip()
+                ):
+                    raise ValueError(
+                        f"Invalid 'reference_url' in events[{index}]."
+                    )
+                reference_url = reference_url_raw.strip()
             rule = event.get("rule")
             if not isinstance(rule, dict):
                 raise ValueError(f"Missing or invalid 'rule' in events[{index}].")
@@ -347,6 +358,7 @@ def build_ics(
                         "uid_base": uid_base,
                         "summary": summary,
                         "description": description,
+                        "reference_url": reference_url,
                         "categories": event.get("categories"),
                     },
                 )
@@ -359,20 +371,23 @@ def build_ics(
             dtend = (event_date + timedelta(days=1)).strftime("%Y%m%d")
             uid = f"{event_data['uid_base']}-{year}@local"
 
-            lines.extend(
-                [
-                    "BEGIN:VEVENT",
-                    f"UID:{uid}",
-                    f"DTSTAMP:{dtstart}T000000Z",
-                    f"DTSTART;VALUE=DATE:{dtstart}",
-                    f"DTEND;VALUE=DATE:{dtend}",
-                    f"SUMMARY:{escape_ics_text(event_data['summary'])}",
-                    f"DESCRIPTION:{escape_ics_text(event_data['description'])}",
-                    f"CATEGORIES:{categories_to_ics(event_data['categories'])}",
-                    "TRANSP:TRANSPARENT",
-                    "END:VEVENT",
-                ]
-            )
+            event_lines = [
+                "BEGIN:VEVENT",
+                f"UID:{uid}",
+                f"DTSTAMP:{dtstart}T000000Z",
+                f"DTSTART;VALUE=DATE:{dtstart}",
+                f"DTEND;VALUE=DATE:{dtend}",
+                f"SUMMARY:{escape_ics_text(event_data['summary'])}",
+                f"DESCRIPTION:{escape_ics_text(event_data['description'])}",
+                f"CATEGORIES:{categories_to_ics(event_data['categories'])}",
+            ]
+
+            if event_data.get("reference_url"):
+                event_lines.append(f"URL:{event_data['reference_url']}")
+
+            event_lines.extend(["TRANSP:TRANSPARENT", "END:VEVENT"])
+
+            lines.extend(event_lines)
             total_events += 1
 
     lines.append("END:VCALENDAR")

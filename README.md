@@ -54,10 +54,13 @@ Edit `luxembourg_activity_templates.json` and update any entry fields, for examp
 
 - `summary`
 - `description`
+- `reference_url`
 - `categories`
 - `rule`
 
 Each event is an individual JSON object in `events`, so titles/descriptions can be changed independently.
+
+`reference_url` is exported to ICS as the `URL` field on each `VEVENT`.
 
 Optional: set `"enabled": false` on an entry to exclude it from output.
 

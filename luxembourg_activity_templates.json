@@ -10,6 +10,7 @@
       "uid_base": "lu-holiday-newyear",
       "summary": "🏛️ Neijoerschdag / New Year (Public Holiday)",
       "description": "Legal public holiday in Luxembourg. On Neijoerschdag (1 January), families exchange wishes and children often receive a small 'neit Jäerchen' gift.",
+      "reference_url": "https://guichet.public.lu/de/citoyens/travail/conges-jours-feries/jours-feries.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -25,6 +26,7 @@
       "uid_base": "lu-fest-draikinneksdag",
       "summary": "👑 Dräikinneksdag / Epiphany",
       "description": "On 6 January, families share 'galette des rois'; finding the bean crowns the king or queen of the day.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/draikinneksdag.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -39,6 +41,7 @@
       "uid_base": "lu-fest-liichtmess",
       "summary": "🕯️ Liichtmëssdag / Candlemas",
       "description": "On 2 February, children go liichten with lanterns (Liichtebengelcher), singing from house to house for sweets or coins.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/liichtmessdag-chandeleur-tradition-luxembourg.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -53,6 +56,7 @@
       "uid_base": "lu-fest-saintblaise",
       "summary": "🕯️ Saint Blaise",
       "description": "3 February observance linked to church throat blessings and to the Liichtmëssdag period.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/liichtmessdag-chandeleur-tradition-luxembourg.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -67,6 +71,7 @@
       "uid_base": "lu-fest-fettendonneschdeg",
       "summary": "🎭 Fetten Donneschdeg / Fat Thursday",
       "description": "Carnival Thursday and traditional high point of Fuesend before the Lenten period.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -80,6 +85,7 @@
       "uid_base": "lu-fest-fuessonndeg",
       "summary": "🎭 Fuessonndeg / Carnival Sunday",
       "description": "Carnival Sunday (Fuessonndeg), traditionally marked by Fuesbaler before Shrove Monday parades.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -93,6 +99,7 @@
       "uid_base": "lu-fest-cavalcade-diekirch",
       "summary": "🎭 Cavalcade Diekirch / Carnival Parade",
       "description": "One of Luxembourg's largest carnival parades, traditionally held in Diekirch on the Sunday before Rose Monday.",
+      "reference_url": "https://www.visitluxembourg.com/event/carnival-parade-diekirch",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -106,6 +113,7 @@
       "uid_base": "lu-fest-carnivalmon",
       "summary": "🎉 Fuesméindeg / Shrove Monday",
       "description": "Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period; this calendar marks Fuesméindeg (Monday before Ash Wednesday).",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -119,6 +127,7 @@
       "uid_base": "lu-fest-aeschermettwoch",
       "summary": "🔥 Äschermëttwoch / Ash Wednesday",
       "description": "Marks the end of Carnival and the start of Lent; in Remich, winter is symbolically farewelled with a straw doll burning.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -132,6 +141,7 @@
       "uid_base": "lu-fest-buergbrennen",
       "summary": "🔥 Buergsonndeg / Buergbrennen (Burn the Cross)",
       "description": "First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buergbrennen-brandons-carnaval.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -145,6 +155,7 @@
       "uid_base": "lu-fest-bretzelsonndeg",
       "summary": "🥨 Bretzelsonndeg / Pretzel Sunday",
       "description": "Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/bretzelsonndeg.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -158,6 +169,7 @@
       "uid_base": "lu-fest-abrell",
       "summary": "😄 An den Abrëll schécken! / April Fools' Day",
       "description": "On 1 April, people play jokes and pranks, a widespread tradition in Luxembourg and across Europe.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -172,6 +184,7 @@
       "uid_base": "lu-fest-maundy",
       "summary": "🎉 Gréngen Donneschdeg / Maundy Thursday",
       "description": "Beginning of the Easter Triduum; children go klibberen (rattling) as church bells are traditionally said to be silent until Easter.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -185,6 +198,7 @@
       "uid_base": "lu-fest-goodfri",
       "summary": "🎉 Karfreideg / Good Friday",
       "description": "Christian day of remembrance before Easter, traditionally observed as a meatless day. Not a nationwide legal public holiday.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -198,6 +212,7 @@
       "uid_base": "lu-fest-ouschtersonndeg",
       "summary": "🥚 Ouschtersonndeg / Easter Sunday",
       "description": "Easter Sunday traditions include egg colouring, egg hunts and egg tapping games (Técken).",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -211,6 +226,7 @@
       "uid_base": "lu-holiday-eastermon",
       "summary": "🏛️ Ouschterméindeg / Easter Monday (Public Holiday)",
       "description": "Legal public holiday in Luxembourg, observed the day after Easter Sunday.",
+      "reference_url": "https://guichet.public.lu/de/citoyens/travail/conges-jours-feries/jours-feries.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -225,6 +241,7 @@
       "uid_base": "lu-fest-eimaischen",
       "summary": "🐦 Éimaischen / Easter Monday Pottery Fair",
       "description": "Traditional Easter Monday market in Luxembourg City and Nospelt, known for Péckvillercher clay bird whistles.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -239,6 +256,7 @@
       "uid_base": "lu-market-waimoart",
       "summary": "🍷 Maacher Wäimoart / Grevenmacher Wine Market",
       "description": "Traditional wine market in Grevenmacher on the Friday after Easter, where producers present the new Moselle vintage.",
+      "reference_url": "https://www.visitluxembourg.com/event/waimoart",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -253,6 +271,7 @@
       "uid_base": "lu-fest-octave-start",
       "summary": "⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)",
       "description": "Start marker of the Oktav pilgrimage period (3rd Sunday after Easter), with the Oktavmäertchen market in Luxembourg City.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -267,6 +286,7 @@
       "uid_base": "lu-fest-octave-end",
       "summary": "⛪ Oktav & Oktavmäertchen / Octave Procession (ends)",
       "description": "End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -281,6 +301,7 @@
       "uid_base": "lu-holiday-mayday",
       "summary": "🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)",
       "description": "Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/meekranz-fete-travail.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -296,6 +317,7 @@
       "uid_base": "lu-holiday-ascension",
       "summary": "🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)",
       "description": "Legal public holiday observed 39 days after Easter Sunday; in Luxembourg, it is also associated with the Fatima procession in Wiltz.",
+      "reference_url": "https://guichet.public.lu/de/citoyens/travail/conges-jours-feries/jours-feries.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -310,6 +332,7 @@
       "uid_base": "lu-holiday-europeday",
       "summary": "🏛️ Europadag / Europe Day (Public Holiday)",
       "description": "Legal public holiday in Luxembourg on 9 May.",
+      "reference_url": "https://guichet.public.lu/de/citoyens/travail/conges-jours-feries/jours-feries.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -325,6 +348,7 @@
       "uid_base": "lu-holiday-whitmon",
       "summary": "🏛️ Péngschtméindeg / Whit Monday (Public Holiday)",
       "description": "Legal public holiday 50 days after Easter Sunday; in Wiltz, the Geenzefest parade traditionally culminates on Whit Monday.",
+      "reference_url": "https://guichet.public.lu/de/citoyens/travail/conges-jours-feries/jours-feries.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -339,6 +363,7 @@
       "uid_base": "lu-fest-winetasteenjoy-start",
       "summary": "🍇 Wine Taste Enjoy / Open Wine Cellars (starts)",
       "description": "Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.",
+      "reference_url": "https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -353,6 +378,7 @@
       "uid_base": "lu-fest-winetasteenjoy-end",
       "summary": "🍇 Wine Taste Enjoy / Open Wine Cellars (ends)",
       "description": "End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.",
+      "reference_url": "https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -367,6 +393,7 @@
       "uid_base": "lu-fest-whittue",
       "summary": "🎉 Sprangpressessioun / Hopping Procession (Echternach)",
       "description": "On Whit Tuesday, pilgrims join the Sprangpressessioun in Echternach, a UNESCO-listed religious tradition.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -380,6 +407,7 @@
       "uid_base": "lu-holiday-national",
       "summary": "🏛️ Nationalfeierdag / National Day (Public Holiday)",
       "description": "Legal public holiday on 23 June, celebrated nationwide in honour of Luxembourg's monarch and people.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fete-nationale.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -395,6 +423,7 @@
       "uid_base": "lu-fest-national-eve",
       "summary": "🎆 National Day Eve Celebrations",
       "description": "On 22 June, towns host National Day eve festivities with concerts, torchlight processions and fireworks.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fete-nationale.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -409,6 +438,7 @@
       "uid_base": "lu-fest-aldikkrich-start",
       "summary": "🎪 Al Dikkrich (starts)",
       "description": "Start marker of Diekirch's multi-day summer folk festival, traditionally beginning on the second Friday of July.",
+      "reference_url": "https://www.visitluxembourg.com/event/al-dikkrich",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -425,6 +455,7 @@
       "uid_base": "lu-holiday-assumption",
       "summary": "🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)",
       "description": "Legal public holiday on 15 August, traditionally linked to the blessing of herb bundles (Krautwësch).",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/leiffraweschdag.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -440,6 +471,7 @@
       "uid_base": "lu-fair-schueberfouer-open",
       "summary": "🎡 Schueberfouer / Schueber Funfair (opening)",
       "description": "Opening day of Luxembourg City's major fairground festival, historically linked to the Saint Bartholomew market tradition.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/schueberfouer.html",
       "categories": [
         "Luxembourg",
         "Fair"
@@ -454,6 +486,7 @@
       "uid_base": "lu-fair-kiermesmon",
       "summary": "🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)",
       "description": "Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/schueberfouer.html",
       "categories": [
         "Luxembourg",
         "Fair"
@@ -469,6 +502,7 @@
       "uid_base": "lu-fest-kropemannsfest",
       "summary": "🧌 Kropemannsfest (Redange)",
       "description": "Traditional folk festival in Redange-sur-Attert, held on the last Sunday of September with family activities and market stalls.",
+      "reference_url": "https://www.visitluxembourg.com/event/kropemannsfest",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -484,6 +518,7 @@
       "uid_base": "lu-market-veiner-nessmoort",
       "summary": "🌰 Veiner Nëssmoort / Vianden Nut Market",
       "description": "Large annual nut market in Vianden, traditionally held on the second Sunday of October.",
+      "reference_url": "https://www.visitluxembourg.com/event/veiner-nessmoort",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -500,6 +535,7 @@
       "uid_base": "lu-holiday-allsaints",
       "summary": "🏛️ Allerhellgen / All Saints' Day (Public Holiday)",
       "description": "Legal public holiday on 1 November; graves are traditionally decorated and blessed, and d'Trauliicht customs are associated with this period.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -515,6 +551,7 @@
       "uid_base": "lu-fest-allsouls",
       "summary": "🕯️ Allerséilen / All Souls' Day",
       "description": "Commemoration day on 2 November for the deceased; not a nationwide legal public holiday.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -529,6 +566,7 @@
       "uid_base": "lu-fest-haupeschdag",
       "summary": "🦌 Haupeschdag / Saint Hubertus' Day",
       "description": "3 November observance of Saint Hubertus, patron saint of hunters, with church and local traditions.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -543,6 +581,7 @@
       "uid_base": "lu-fest-baerbelendag",
       "summary": "⛏️ Bärbelendag / Saint Barbara's Day",
       "description": "On 4 December, mining communities commemorate Saint Barbara, patron saint of miners and firefighters.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -557,6 +596,7 @@
       "uid_base": "lu-fest-kleeschen",
       "summary": "🎅 Neklosdag / Saint Nicholas' Day (Kleeschen)",
       "description": "On 6 December, children traditionally receive gifts from Kleeschen, with Housecker (Ruprecht) as his companion.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kleeschen.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -571,6 +611,7 @@
       "uid_base": "lu-fest-xmaseve",
       "summary": "🎄 Hellegowend / Christmas Eve",
       "description": "Christmas Eve on 24 December, marked by family gatherings, gift-giving and church traditions.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -585,6 +626,7 @@
       "uid_base": "lu-holiday-christmas",
       "summary": "🏛️ Chrëschtdag / Christmas Day (Public Holiday)",
       "description": "Legal public holiday on 25 December.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -600,6 +642,7 @@
       "uid_base": "lu-holiday-ststephen",
       "summary": "🏛️ Stiefesdag / St Stephen's Day (Public Holiday)",
       "description": "Legal public holiday on 26 December (Boxing Day).",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -615,6 +658,7 @@
       "uid_base": "lu-fest-silvester",
       "summary": "🎆 Silvester / New Year's Eve",
       "description": "31 December festivities leading into the new year, traditionally marked by gatherings and celebrations.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html",
       "categories": [
         "Luxembourg",
         "Festivity"
