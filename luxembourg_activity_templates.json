@@ -8,8 +8,8 @@
   "events": [
     {
       "uid_base": "lu-holiday-newyear",
-      "summary": "🏛️ Nouvel An / Neijoerschdag (Public Holiday)",
-      "description": "Legal public holiday in Luxembourg: New Year's Day (1 January).",
+      "summary": "🏛️ Neijoerschdag / New Year (Public Holiday)",
+      "description": "Legal public holiday in Luxembourg. On Neijoerschdag (1 January), families exchange wishes and children often receive a small 'neit Jäerchen' gift.",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -23,8 +23,8 @@
     },
     {
       "uid_base": "lu-fest-liichtmess",
-      "summary": "🕯️ Liichtmëssdag",
-      "description": "Candlemas tradition (2 February): children go door-to-door with lanterns singing for treats.",
+      "summary": "🕯️ Liichtmëssdag / Candlemas",
+      "description": "On 2 February, children go liichten with lanterns (Liichtebengelcher), singing from house to house for sweets or coins.",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -37,8 +37,8 @@
     },
     {
       "uid_base": "lu-fest-carnivalmon",
-      "summary": "🎉 Fuesméindeg / Carnival Monday",
-      "description": "Customary/cultural day (not a legal public holiday nationwide). Monday before Ash Wednesday.",
+      "summary": "🎉 Fuesméindeg / Shrove Monday",
+      "description": "Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period; this calendar marks Fuesméindeg (Monday before Ash Wednesday).",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -50,8 +50,8 @@
     },
     {
       "uid_base": "lu-fest-buergbrennen",
-      "summary": "🔥 Buergbrennen",
-      "description": "Luxembourg tradition: bonfires on the first Sunday of Lent (end of winter). Date depends on Easter.",
+      "summary": "🔥 Buergsonndeg / Buergbrennen (Burn the Cross)",
+      "description": "First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -63,8 +63,8 @@
     },
     {
       "uid_base": "lu-fest-bretzelsonndeg",
-      "summary": "🥨 Bretzelsonndeg",
-      "description": "Luxembourg tradition: Pretzel Sunday, the 4th Sunday of Lent (3 weeks before Easter).",
+      "summary": "🥨 Bretzelsonndeg / Pretzel Sunday",
+      "description": "Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -77,7 +77,7 @@
     {
       "uid_base": "lu-fest-maundy",
       "summary": "🎉 Gréngen Donneschdeg / Maundy Thursday",
-      "description": "Traditional observance (not a legal public holiday). Thursday before Easter.",
+      "description": "Beginning of the Easter Triduum; children go klibberen (rattling) as church bells are traditionally said to be silent until Easter.",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -90,7 +90,7 @@
     {
       "uid_base": "lu-fest-goodfri",
       "summary": "🎉 Karfreideg / Good Friday",
-      "description": "In Luxembourg, Good Friday is generally not a nationwide public holiday (often relevant for banks/other sectors).",
+      "description": "Christian day of remembrance before Easter, traditionally observed as a meatless day. Not a nationwide legal public holiday.",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -102,8 +102,8 @@
     },
     {
       "uid_base": "lu-holiday-eastermon",
-      "summary": "🏛️ Lundi de Pâques / Ouschterméindeg (Public Holiday)",
-      "description": "Legal public holiday in Luxembourg: Easter Monday (date depends on Easter).",
+      "summary": "🏛️ Ouschterméindeg / Easter Monday (Public Holiday)",
+      "description": "Legal public holiday in Luxembourg, observed the day after Easter Sunday.",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -116,8 +116,8 @@
     },
     {
       "uid_base": "lu-fest-eimaischen",
-      "summary": "🐦 Éimaischen (Luxembourg City & Nospelt)",
-      "description": "Traditional Easter Monday market/festival known for ceramic 'Péckvillercher' whistles.",
+      "summary": "🐦 Éimaischen / Easter Monday Pottery Fair",
+      "description": "Traditional Easter Monday market in Luxembourg City and Nospelt, known for Péckvillercher clay bird whistles.",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -130,8 +130,8 @@
     },
     {
       "uid_base": "lu-fest-octave-start",
-      "summary": "⛪ Octave & Mäertchen (starts)",
-      "description": "Octave pilgrimage + 'Mäertchen' market: from the 3rd to the 5th Sunday after Easter (~2 weeks). Start marker (3rd Sunday after Easter).",
+      "summary": "⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)",
+      "description": "Start marker of the Oktav pilgrimage period (3rd Sunday after Easter), with the Oktavmäertchen market in Luxembourg City.",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -144,8 +144,8 @@
     },
     {
       "uid_base": "lu-fest-octave-end",
-      "summary": "⛪ Octave & Mäertchen (ends / procession)",
-      "description": "End/procession marker (5th Sunday after Easter).",
+      "summary": "⛪ Oktav & Oktavmäertchen / Octave Procession (ends)",
+      "description": "End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.",
       "categories": [
         "Luxembourg",
         "Festivity",
@@ -158,8 +158,8 @@
     },
     {
       "uid_base": "lu-holiday-mayday",
-      "summary": "🏛️ 1er Mai / Dag vun der Aarbecht (Public Holiday)",
-      "description": "Legal public holiday in Luxembourg: Labour Day / May Day (1 May).",
+      "summary": "🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)",
+      "description": "Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -173,8 +173,8 @@
     },
     {
       "uid_base": "lu-holiday-ascension",
-      "summary": "🏛️ Ascension (Public Holiday)",
-      "description": "Legal public holiday in Luxembourg: Ascension Day (39 days after Easter Sunday).",
+      "summary": "🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)",
+      "description": "Legal public holiday observed 39 days after Easter Sunday; in Luxembourg, it is also associated with the Fatima procession in Wiltz.",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -187,8 +187,8 @@
     },
     {
       "uid_base": "lu-holiday-europeday",
-      "summary": "🏛️ Journée de l'Europe / Europadag (Public Holiday)",
-      "description": "Legal public holiday in Luxembourg: Europe Day (9 May).",
+      "summary": "🏛️ Europadag / Europe Day (Public Holiday)",
+      "description": "Legal public holiday in Luxembourg on 9 May.",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -202,8 +202,8 @@
     },
     {
       "uid_base": "lu-holiday-whitmon",
-      "summary": "🏛️ Lundi de Pentecôte / Péngschtméindeg (Public Holiday)",
-      "description": "Legal public holiday in Luxembourg: Whit Monday (50 days after Easter Sunday).",
+      "summary": "🏛️ Péngschtméindeg / Whit Monday (Public Holiday)",
+      "description": "Legal public holiday 50 days after Easter Sunday; in Wiltz, the Geenzefest parade traditionally culminates on Whit Monday.",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -216,8 +216,8 @@
     },
     {
       "uid_base": "lu-fest-whittue",
-      "summary": "🎉 Whit Tuesday (often half-day for civil service)",
-      "description": "Often granted as an additional half-day for civil servants. Not a nationwide legal public holiday.",
+      "summary": "🎉 Sprangpressessioun / Hopping Procession (Echternach)",
+      "description": "On Whit Tuesday, pilgrims join the Sprangpressessioun in Echternach, a UNESCO-listed religious tradition.",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -229,8 +229,8 @@
     },
     {
       "uid_base": "lu-holiday-national",
-      "summary": "🏛️ Fête nationale / Nationalfeierdag (Public Holiday)",
-      "description": "Legal public holiday in Luxembourg: National Day (23 June).",
+      "summary": "🏛️ Nationalfeierdag / National Day (Public Holiday)",
+      "description": "Legal public holiday on 23 June, celebrated nationwide in honour of Luxembourg's monarch and people.",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -244,8 +244,8 @@
     },
     {
       "uid_base": "lu-holiday-assumption",
-      "summary": "🏛️ Assomption / Mariä Himmelfaart (Public Holiday)",
-      "description": "Legal public holiday in Luxembourg: Assumption Day (15 August).",
+      "summary": "🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)",
+      "description": "Legal public holiday on 15 August, traditionally linked to the blessing of herb bundles (Krautwësch).",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -259,8 +259,8 @@
     },
     {
       "uid_base": "lu-fair-schueberfouer-open",
-      "summary": "🎡 Schueberfouer (opening)",
-      "description": "Luxembourg City's biggest funfair. This marks the opening day (computed as last Friday of August).",
+      "summary": "🎡 Schueberfouer / Schueber Funfair (opening)",
+      "description": "Opening day of Luxembourg City's major fairground festival, historically linked to the Saint Bartholomew market tradition.",
       "categories": [
         "Luxembourg",
         "Fair"
@@ -273,7 +273,7 @@
     },
     {
       "uid_base": "lu-fair-kiermesmon",
-      "summary": "🎠 Luxembourg City Kiermesméindeg (Kermesse Monday)",
+      "summary": "🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)",
       "description": "Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.",
       "categories": [
         "Luxembourg",
@@ -288,8 +288,8 @@
     },
     {
       "uid_base": "lu-holiday-allsaints",
-      "summary": "🏛️ Toussaint / Allerhellgen (Public Holiday)",
-      "description": "Legal public holiday in Luxembourg: All Saints' Day (1 November).",
+      "summary": "🏛️ Allerhellgen / All Saints' Day (Public Holiday)",
+      "description": "Legal public holiday on 1 November; graves are traditionally decorated and blessed, and d'Trauliicht customs are associated with this period.",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -303,8 +303,8 @@
     },
     {
       "uid_base": "lu-fest-allsouls",
-      "summary": "🕯️ All Souls' Day (Commemoration)",
-      "description": "Common day of remembrance (2 November). Not a legal public holiday nationwide.",
+      "summary": "🕯️ Allerséilen / All Souls' Day",
+      "description": "Commemoration day on 2 November for the deceased; not a nationwide legal public holiday.",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -317,8 +317,8 @@
     },
     {
       "uid_base": "lu-fest-kleeschen",
-      "summary": "🎅 Kleeschen (St Nicholas Day)",
-      "description": "St Nicholas Day tradition (6 December). Not a legal public holiday nationwide.",
+      "summary": "🎅 Neklosdag / Saint Nicholas' Day (Kleeschen)",
+      "description": "On 6 December, children traditionally receive gifts from Kleeschen, with Housecker (Ruprecht) as his companion.",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -331,8 +331,8 @@
     },
     {
       "uid_base": "lu-fest-xmaseve",
-      "summary": "🎄 Christmas Eve (afternoon / customary)",
-      "description": "Customary/sector-specific early closure or half-day (often noted for civil service). Not a nationwide legal public holiday.",
+      "summary": "🎄 Hellegowend / Christmas Eve",
+      "description": "Christmas Eve on 24 December, marked by family gatherings, gift-giving and church traditions.",
       "categories": [
         "Luxembourg",
         "Festivity"
@@ -345,8 +345,8 @@
     },
     {
       "uid_base": "lu-holiday-christmas",
-      "summary": "🏛️ Noël / Chrëschtdag (Public Holiday)",
-      "description": "Legal public holiday in Luxembourg: Christmas Day (25 December).",
+      "summary": "🏛️ Chrëschtdag / Christmas Day (Public Holiday)",
+      "description": "Legal public holiday on 25 December.",
       "categories": [
         "Luxembourg",
         "Holiday",
@@ -360,8 +360,8 @@
     },
     {
       "uid_base": "lu-holiday-ststephen",
-      "summary": "🏛️ Saint-Étienne / Stiefesdag (Public Holiday)",
-      "description": "Legal public holiday in Luxembourg: St Stephen's Day / Boxing Day (26 December).",
+      "summary": "🏛️ Stiefesdag / St Stephen's Day (Public Holiday)",
+      "description": "Legal public holiday on 26 December (Boxing Day).",
       "categories": [
         "Luxembourg",
         "Holiday",
