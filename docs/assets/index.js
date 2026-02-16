@@ -22,7 +22,7 @@
 
   var storedTheme = readStorage(storageKey);
   var initialTheme =
-    storedTheme === "dark" || storedTheme === "light" ? storedTheme : "light";
+    storedTheme === "dark" || storedTheme === "light" ? storedTheme : "dark";
   applyTheme(initialTheme);
 
   if (themeToggle) {
