@@ -32,6 +32,12 @@ WEEKDAY_INDEX = {
     "SUNDAY": 6,
 }
 
+# Matches one or more emoji characters (supplementary plane + common BMP symbols)
+# optionally followed by a variation selector or combining enclosing keycap.
+_LEADING_EMOJI_RE = re.compile(
+    r"^((?:[\u2300-\u23FF\u2600-\u27BF\U0001F000-\U0001FFFF][\uFE0F\u20E3]?)+)\s+"
+)
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -256,6 +262,19 @@ def describe_rule(rule: Any) -> str:
     return "Unknown rule"
 
 
+def _entry_type(categories: list[Any]) -> str:
+    cats = {str(c) for c in categories}
+    if "Public" in cats and "Holiday" in cats:
+        return "holiday"
+    if "Fair" in cats:
+        return "fair"
+    if "Market" in cats:
+        return "market"
+    if "Festivity" in cats:
+        return "festivity"
+    return "other"
+
+
 def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int, int]:
     cards: list[str] = []
     enabled_count = 0
@@ -270,7 +289,15 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
         if enabled:
             enabled_count += 1
 
-        summary = html_escape(str(event.get("summary", "Untitled entry")))
+        raw_summary = str(event.get("summary", "Untitled entry"))
+        emoji_match = _LEADING_EMOJI_RE.match(raw_summary)
+        if emoji_match:
+            icon_html = f'<span class="entry-icon" aria-hidden="true">{html_escape(emoji_match.group(1).strip())}</span>'
+            title_html = html_escape(raw_summary[emoji_match.end():])
+        else:
+            icon_html = ""
+            title_html = html_escape(raw_summary)
+
         description = html_escape(
             str(event.get("description", "No description provided."))
         )
@@ -303,12 +330,14 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
         if not enabled:
             status_markup = '<span class="entry-status">Disabled</span>'
 
+        entry_type = _entry_type(categories)
+
         cards.append(
             "\n".join(
                 [
-                    '<article class="entry-card">',
+                    f'<article class="entry-card" data-type="{entry_type}">',
                     '  <div class="entry-header">',
-                    f"    <h3>{summary}</h3>",
+                    f"    <h3>{icon_html}{title_html}</h3>",
                     f"    {status_markup}",
                     "  </div>",
                     f'  <p class="entry-description">{description}</p>',

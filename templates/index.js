@@ -17,7 +17,7 @@
     var absoluteUrl = new URL(icsPath, window.location.href).toString();
     var webcalUrl = absoluteUrl.replace(/^https?:\/\//, "webcal://");
     webcalLink.setAttribute("href", webcalUrl);
-    webcalLink.textContent = webcalUrl;
+    webcalLink.textContent = "Subscribe via webcal";
   }
 
   var storedTheme = readStorage(storageKey);
@@ -81,6 +81,14 @@
       return categoryLabels[left].localeCompare(categoryLabels[right]);
     });
     var activeCategory = "all";
+
+    var emptyState = document.createElement("p");
+    emptyState.className = "empty-state";
+    emptyState.textContent = "No entries match your search or filters.";
+    emptyState.hidden = true;
+    if (entriesGrid) {
+      entriesGrid.appendChild(emptyState);
+    }
 
     renderFilterButtons(sortedCategories);
 
@@ -159,6 +167,7 @@
           ? ""
           : categoryLabels[activeCategory] || activeCategory;
       updateResultLabel(visibleCount, states.length, rawQuery, activeCategoryLabel);
+      emptyState.hidden = visibleCount > 0;
     }
   }
 
