@@ -21,8 +21,9 @@
   }
 
   var storedTheme = readStorage(storageKey);
+  var systemPrefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
   var initialTheme =
-    storedTheme === "dark" || storedTheme === "light" ? storedTheme : "dark";
+    storedTheme === "dark" || storedTheme === "light" ? storedTheme : (systemPrefersDark ? "dark" : "light");
   applyTheme(initialTheme);
 
   if (themeToggle) {
@@ -190,6 +191,8 @@
   function normalizeToken(value) {
     return value
       .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
       .replace(/\s+/g, " ")
       .trim();
   }
@@ -223,7 +226,7 @@
 
     var isDark = safeTheme === "dark";
     themeLabel.textContent = labels[safeTheme];
-    themeToggle.setAttribute("aria-pressed", isDark ? "true" : "false");
+    themeToggle.setAttribute("aria-checked", isDark ? "true" : "false");
     themeToggle.setAttribute(
       "aria-label",
       isDark ? "Switch to parchment theme" : "Switch to ink theme"

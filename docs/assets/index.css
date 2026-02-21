@@ -10,8 +10,6 @@
   --line-soft: rgba(83, 58, 33, 0.18);
   --surface: rgba(255, 249, 238, 0.84);
   --surface-strong: rgba(255, 252, 247, 0.95);
-  --panel-bg: rgba(37, 29, 23, 0.92);
-  --panel-ink: #f4e7d0;
   --accent: #b9472c;
   --accent-strong: #8a2f1b;
   --emerald: #2f6556;
@@ -43,8 +41,6 @@ html[data-theme="dark"] {
   --line-soft: rgba(220, 190, 152, 0.2);
   --surface: rgba(32, 29, 25, 0.82);
   --surface-strong: rgba(24, 22, 19, 0.94);
-  --panel-bg: rgba(9, 8, 7, 0.9);
-  --panel-ink: #fbe9c4;
   --accent: #eb6f42;
   --accent-strong: #c24923;
   --emerald: #75c2ac;
@@ -125,19 +121,6 @@ a {
   isolation: isolate;
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  transform: translate(8px, 8px);
-  pointer-events: none;
-  z-index: -1;
-}
-
-.hero::after {
-  display: none;
-}
 
 .hero-top {
   display: flex;
@@ -319,7 +302,6 @@ h2 {
   line-height: 1;
   letter-spacing: 0.08em;
   opacity: 0.8;
-  transform: translateY(0);
 }
 
 .button-secondary {
@@ -505,7 +487,9 @@ h2 {
 
 .entry-card:hover {
   transform: translateY(-3px);
-  border-color: var(--line);
+  border-top-color: var(--line);
+  border-right-color: var(--line);
+  border-bottom-color: var(--line);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
 }
 
@@ -707,11 +691,6 @@ footer a {
   .hero {
     border-radius: 18px;
     padding: 0.86rem;
-  }
-
-  .hero::before,
-  .hero::after {
-    display: none;
   }
 
   .hero-top {
