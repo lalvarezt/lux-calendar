@@ -15,8 +15,6 @@
   --emerald: #2f6556;
   --chip-bg: rgba(47, 101, 86, 0.1);
   --chip-border: rgba(47, 101, 86, 0.34);
-  --chip-active: #21493e;
-  --chip-active-ink: #f8eee1;
   --status-bg: rgba(185, 71, 44, 0.14);
   --status-border: rgba(185, 71, 44, 0.42);
   --status-ink: #842b17;
@@ -46,8 +44,6 @@ html[data-theme="dark"] {
   --emerald: #75c2ac;
   --chip-bg: rgba(117, 194, 172, 0.14);
   --chip-border: rgba(117, 194, 172, 0.38);
-  --chip-active: #8fceba;
-  --chip-active-ink: #112018;
   --status-bg: rgba(235, 111, 66, 0.16);
   --status-border: rgba(235, 111, 66, 0.52);
   --status-ink: #ffc9b2;
@@ -75,9 +71,10 @@ body {
   color: var(--ink);
   font-family: "Literata", serif;
   background:
-    radial-gradient(circle at 88% 8%, rgba(185, 71, 44, 0.18), transparent 42%),
-    radial-gradient(circle at 14% 16%, rgba(47, 101, 86, 0.15), transparent 44%),
+    radial-gradient(circle at 88% 8%, rgba(185, 71, 44, 0.10), transparent 42%),
+    radial-gradient(circle at 14% 16%, rgba(47, 101, 86, 0.08), transparent 44%),
     linear-gradient(158deg, var(--bg-main), var(--bg-side) 46%, var(--bg-accent));
+  background-attachment: fixed;
   transition: color 220ms ease, background 240ms ease;
 }
 
@@ -417,7 +414,7 @@ h2 {
   display: inline-flex;
   align-items: center;
   background: var(--chip-bg);
-  color: var(--emerald);
+  color: var(--chip-accent, var(--muted));
   font: 500 0.75rem/1 "DM Mono", monospace;
   cursor: pointer;
   transition: transform 130ms ease, border-color 140ms ease, background 140ms ease;
@@ -425,13 +422,14 @@ h2 {
 
 .filter-chip:hover {
   transform: translateY(-1px);
-  border-color: var(--emerald);
+  border-color: var(--chip-accent, var(--muted));
 }
 
 .filter-chip.active {
-  background: var(--chip-active);
-  border-color: var(--chip-active);
-  color: var(--chip-active-ink);
+  background: color-mix(in srgb, var(--chip-accent, var(--muted)) 14%, var(--bg-main));
+  border-color: var(--chip-accent, var(--muted));
+  color: var(--chip-accent, var(--muted));
+  font-weight: 600;
 }
 
 .filter-chip:focus-visible {
@@ -476,7 +474,7 @@ h2 {
   opacity: 0;
   transform: translateY(12px);
   animation: card-rise 540ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
-  animation-delay: calc(var(--entry-index, 0) * 34ms);
+  animation-delay: calc(var(--entry-index, 0) * 20ms);
   transition: transform 150ms ease, border-color 150ms ease, box-shadow 160ms ease;
   height: 100%;
 }

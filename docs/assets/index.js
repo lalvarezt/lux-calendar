@@ -36,13 +36,12 @@
   }
 
   if (cards.length > 0) {
-    prepareCards(cards);
     setupFilters(cards);
   }
 
   function prepareCards(cardList) {
     cardList.forEach(function (card, index) {
-      card.style.setProperty("--entry-index", String(Math.min(index, 18)));
+      card.style.setProperty("--entry-index", String(Math.min(index, 15)));
     });
   }
 
@@ -82,6 +81,14 @@
       return categoryLabels[left].localeCompare(categoryLabels[right]);
     });
     var activeCategory = "all";
+    var pendingAnimationReset = true;
+
+    var CATEGORY_COLORS = {
+      "holiday": "var(--accent)",
+      "festivity": "var(--border-festivity)",
+      "market": "var(--border-market)",
+      "fair": "var(--border-fair)",
+    };
 
     var emptyState = document.createElement("p");
     emptyState.className = "empty-state";
@@ -124,8 +131,12 @@
       button.setAttribute("data-category", key);
       button.setAttribute("aria-pressed", "false");
       button.textContent = label + " (" + count + ")";
+      if (CATEGORY_COLORS[key]) {
+        button.style.setProperty("--chip-accent", CATEGORY_COLORS[key]);
+      }
       button.addEventListener("click", function () {
         activeCategory = key;
+        pendingAnimationReset = true;
         syncFilterButtons();
         applyFilters();
       });
@@ -148,19 +159,30 @@
     function applyFilters() {
       var rawQuery = searchInput ? searchInput.value.trim() : "";
       var query = normalizeToken(rawQuery);
-      var visibleCount = 0;
+      var doReset = pendingAnimationReset;
+      pendingAnimationReset = false;
 
-      states.forEach(function (state) {
+      var shouldShowList = states.map(function (state) {
         var matchesCategory =
           activeCategory === "all" ||
           state.categories.indexOf(activeCategory) !== -1;
         var matchesQuery = !query || state.searchableText.indexOf(query) !== -1;
-        var shouldShow = matchesCategory && matchesQuery;
+        return matchesCategory && matchesQuery;
+      });
 
-        state.card.hidden = !shouldShow;
+      if (doReset) {
+        states.forEach(function (state) { state.card.hidden = true; });
+        if (entriesGrid) { void entriesGrid.offsetWidth; }
+      }
+
+      var visibleCount = 0;
+      states.forEach(function (state, i) {
+        var shouldShow = shouldShowList[i];
         if (shouldShow) {
+          state.card.style.setProperty("--entry-index", String(Math.min(visibleCount, 15)));
           visibleCount += 1;
         }
+        state.card.hidden = !shouldShow;
       });
 
       var activeCategoryLabel =

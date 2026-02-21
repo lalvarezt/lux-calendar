@@ -262,9 +262,12 @@ def describe_rule(rule: Any) -> str:
     return "Unknown rule"
 
 
+_HTML_SUPPRESSED_TAGS = {"Luxembourg", "Public"}
+
+
 def _entry_type(categories: list[Any]) -> str:
     cats = {str(c) for c in categories}
-    if "Public" in cats and "Holiday" in cats:
+    if "Holiday" in cats:
         return "holiday"
     if "Fair" in cats:
         return "fair"
@@ -313,6 +316,7 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
         category_markup = "".join(
             f'<span class="entry-tag">{html_escape(str(category))}</span>'
             for category in categories
+            if str(category) not in _HTML_SUPPRESSED_TAGS
         )
 
         reference_raw = event.get("reference_url")
