@@ -209,6 +209,20 @@
       }
     },
     {
+      "uid_base": "lu-fest-jaudes",
+      "summary": "🌹 Jaudes / Dog Rose Custom (Vianden)",
+      "description": "On Good Friday in Vianden, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns, paper flowers and ribbons.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "easter_offset",
+        "days": -2
+      }
+    },
+    {
       "uid_base": "lu-fest-ouschtersonndeg",
       "summary": "🥚 Ouschtersonndeg / Easter Sunday",
       "description": "Easter Sunday traditions include egg colouring, egg hunts and egg tapping games (Técken).",
@@ -260,7 +274,8 @@
       "categories": [
         "Luxembourg",
         "Festivity",
-        "Market"
+        "Market",
+        "Wine"
       ],
       "rule": {
         "type": "easter_offset",
@@ -275,7 +290,8 @@
       "categories": [
         "Luxembourg",
         "Festivity",
-        "Market"
+        "Market",
+        "Pilgrimage"
       ],
       "rule": {
         "type": "easter_offset",
@@ -290,7 +306,8 @@
       "categories": [
         "Luxembourg",
         "Festivity",
-        "Market"
+        "Market",
+        "Pilgrimage"
       ],
       "rule": {
         "type": "easter_offset",
@@ -329,6 +346,21 @@
       }
     },
     {
+      "uid_base": "lu-fest-fatima-wiltz",
+      "summary": "⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)",
+      "description": "On Ascension Thursday, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Pilgrimage"
+      ],
+      "rule": {
+        "type": "easter_offset",
+        "days": 39
+      }
+    },
+    {
       "uid_base": "lu-holiday-europeday",
       "summary": "🏛️ Europadag / Europe Day (Public Holiday)",
       "description": "Legal public holiday in Luxembourg on 9 May.",
@@ -360,6 +392,20 @@
       }
     },
     {
+      "uid_base": "lu-fest-geenzefest",
+      "summary": "🌼 Geenzefest / Broom Festival (Wiltz)",
+      "description": "On Whit Monday, Wiltz hosts the Geenzefest parade with flower-decorated floats, bands and the traditional Gorse Queen procession.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ],
+      "rule": {
+        "type": "easter_offset",
+        "days": 50
+      }
+    },
+    {
       "uid_base": "lu-fest-winetasteenjoy-start",
       "summary": "🍇 Wine Taste Enjoy / Open Wine Cellars (starts)",
       "description": "Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.",
@@ -367,7 +413,8 @@
       "categories": [
         "Luxembourg",
         "Festivity",
-        "Market"
+        "Market",
+        "Wine"
       ],
       "rule": {
         "type": "easter_offset",
@@ -382,7 +429,8 @@
       "categories": [
         "Luxembourg",
         "Festivity",
-        "Market"
+        "Market",
+        "Wine"
       ],
       "rule": {
         "type": "easter_offset",
@@ -396,7 +444,8 @@
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html",
       "categories": [
         "Luxembourg",
-        "Festivity"
+        "Festivity",
+        "Pilgrimage"
       ],
       "rule": {
         "type": "easter_offset",
@@ -452,6 +501,42 @@
       }
     },
     {
+      "uid_base": "lu-fest-einerwenzerdag-start",
+      "summary": "🍇 Éiner Wënzerdag (starts)",
+      "description": "Start marker for Ehnen's winegrowers' festival, traditionally held on the third weekend of July.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market",
+        "Wine"
+      ],
+      "rule": {
+        "type": "nth_weekday_of_month",
+        "month": 7,
+        "weekday": "FRIDAY",
+        "occurrence": 3
+      }
+    },
+    {
+      "uid_base": "lu-fest-picadilly-start",
+      "summary": "🍷 Picadilly Wine Festival (starts)",
+      "description": "Start marker for Stadtbredimus' Picadilly festival, a major Moselle wine event held on the second weekend of August.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market",
+        "Wine"
+      ],
+      "rule": {
+        "type": "nth_weekday_of_month",
+        "month": 8,
+        "weekday": "FRIDAY",
+        "occurrence": 2
+      }
+    },
+    {
       "uid_base": "lu-holiday-assumption",
       "summary": "🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)",
       "description": "Legal public holiday on 15 August, traditionally linked to the blessing of herb bundles (Krautwësch).",
@@ -499,6 +584,42 @@
       }
     },
     {
+      "uid_base": "lu-fest-drauwenwaifest-start",
+      "summary": "🍇 Drauwen- a Wäifest Gréiwemaacher (starts)",
+      "description": "Start marker for Grevenmacher's grape and wine festival, traditionally held on the second weekend of September with the crowning of the Wine Queen.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market",
+        "Wine"
+      ],
+      "rule": {
+        "type": "nth_weekday_of_month",
+        "month": 9,
+        "weekday": "FRIDAY",
+        "occurrence": 2
+      }
+    },
+    {
+      "uid_base": "lu-fest-rieslingopen-start",
+      "summary": "🍾 Riesling Open (starts)",
+      "description": "Start marker for the Riesling Open festival in Wormeldange, traditionally held on the third weekend of September.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market",
+        "Wine"
+      ],
+      "rule": {
+        "type": "nth_weekday_of_month",
+        "month": 9,
+        "weekday": "FRIDAY",
+        "occurrence": 3
+      }
+    },
+    {
       "uid_base": "lu-fest-kropemannsfest",
       "summary": "🧌 Kropemannsfest (Redange)",
       "description": "Traditional folk festival in Redange-sur-Attert, held on the last Sunday of September with family activities and market stalls.",
@@ -532,6 +653,24 @@
       }
     },
     {
+      "uid_base": "lu-fest-hunnefeier",
+      "summary": "🐓 Hunnefeier (Schengen)",
+      "description": "Harvest-end wine festival in Schengen, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html",
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market",
+        "Wine"
+      ],
+      "rule": {
+        "type": "nth_weekday_of_month",
+        "month": 10,
+        "weekday": "SUNDAY",
+        "occurrence": 3
+      }
+    },
+    {
       "uid_base": "lu-holiday-allsaints",
       "summary": "🏛️ Allerhellgen / All Saints' Day (Public Holiday)",
       "description": "Legal public holiday on 1 November; graves are traditionally decorated and blessed, and d'Trauliicht customs are associated with this period.",
@@ -540,6 +679,21 @@
         "Luxembourg",
         "Holiday",
         "Public"
+      ],
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "uid_base": "lu-fest-trauliichtbrennen",
+      "summary": "🎃 d'Trauliicht brennen / Trauliicht Burning",
+      "description": "Traditional All Saints period custom, especially in northern Luxembourg, where carved beet lanterns (Trauliichter) are lit to ward off evil spirits.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html",
+      "categories": [
+        "Luxembourg",
+        "Festivity"
       ],
       "rule": {
         "type": "fixed",

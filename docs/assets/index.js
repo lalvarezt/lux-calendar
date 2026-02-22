@@ -88,6 +88,8 @@
       "festivity": "var(--border-festivity)",
       "market": "var(--border-market)",
       "fair": "var(--border-fair)",
+      "wine": "var(--border-wine)",
+      "pilgrimage": "var(--border-pilgrimage)",
     };
 
     var emptyState = document.createElement("p");

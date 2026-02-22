@@ -210,7 +210,7 @@ DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 SUMMARY:🍷 Maacher Wäimoart / Grevenmacher Wine Market
 DESCRIPTION:Traditional wine market in Grevenmacher on the Friday after Easter\, where producers present the new Moselle vintage.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/waimoart
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -221,7 +221,7 @@ DTSTART;VALUE=DATE:20260419
 DTEND;VALUE=DATE:20260420
 SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)
 DESCRIPTION:Start marker of the Oktav pilgrimage period (3rd Sunday after Easter)\, with the Oktavmäertchen market in Luxembourg City.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -243,7 +243,7 @@ DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Procession (ends)
 DESCRIPTION:End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -276,7 +276,7 @@ DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
 SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
 DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
-CATEGORIES:Luxembourg\;Festivity
+CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -287,7 +287,7 @@ DTSTART;VALUE=DATE:20260524
 DTEND;VALUE=DATE:20260525
 SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (starts)
 DESCRIPTION:Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -320,7 +320,7 @@ DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
 SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (ends)
 DESCRIPTION:End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -331,7 +331,7 @@ DTSTART;VALUE=DATE:20260526
 DTEND;VALUE=DATE:20260527
 SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
 DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
-CATEGORIES:Luxembourg\;Festivity
+CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -375,7 +375,7 @@ DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:🍇 Éiner Wënzerdag (starts)
 DESCRIPTION:Start marker for Ehnen's winegrowers' festival\, traditionally held on the third weekend of July.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -386,7 +386,7 @@ DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:🍷 Picadilly Wine Festival (starts)
 DESCRIPTION:Start marker for Stadtbredimus' Picadilly festival\, a major Moselle wine event held on the second weekend of August.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -430,7 +430,7 @@ DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:🍇 Drauwen- a Wäifest Gréiwemaacher (starts)
 DESCRIPTION:Start marker for Grevenmacher's grape and wine festival\, traditionally held on the second weekend of September with the crowning of the Wine Queen.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -441,7 +441,7 @@ DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:🍾 Riesling Open (starts)
 DESCRIPTION:Start marker for the Riesling Open festival in Wormeldange\, traditionally held on the third weekend of September.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -474,7 +474,7 @@ DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:🐓 Hunnefeier (Schengen)
 DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -793,7 +793,7 @@ DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
 SUMMARY:🍷 Maacher Wäimoart / Grevenmacher Wine Market
 DESCRIPTION:Traditional wine market in Grevenmacher on the Friday after Easter\, where producers present the new Moselle vintage.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/waimoart
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -804,7 +804,7 @@ DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)
 DESCRIPTION:Start marker of the Oktav pilgrimage period (3rd Sunday after Easter)\, with the Oktavmäertchen market in Luxembourg City.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -815,7 +815,7 @@ DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Procession (ends)
 DESCRIPTION:End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -848,7 +848,7 @@ DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
 SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
 DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
-CATEGORIES:Luxembourg\;Festivity
+CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -870,7 +870,7 @@ DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (starts)
 DESCRIPTION:Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -903,7 +903,7 @@ DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (ends)
 DESCRIPTION:End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -914,7 +914,7 @@ DTSTART;VALUE=DATE:20270518
 DTEND;VALUE=DATE:20270519
 SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
 DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
-CATEGORIES:Luxembourg\;Festivity
+CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -958,7 +958,7 @@ DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270717
 SUMMARY:🍇 Éiner Wënzerdag (starts)
 DESCRIPTION:Start marker for Ehnen's winegrowers' festival\, traditionally held on the third weekend of July.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -969,7 +969,7 @@ DTSTART;VALUE=DATE:20270813
 DTEND;VALUE=DATE:20270814
 SUMMARY:🍷 Picadilly Wine Festival (starts)
 DESCRIPTION:Start marker for Stadtbredimus' Picadilly festival\, a major Moselle wine event held on the second weekend of August.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1013,7 +1013,7 @@ DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20270911
 SUMMARY:🍇 Drauwen- a Wäifest Gréiwemaacher (starts)
 DESCRIPTION:Start marker for Grevenmacher's grape and wine festival\, traditionally held on the second weekend of September with the crowning of the Wine Queen.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1024,7 +1024,7 @@ DTSTART;VALUE=DATE:20270917
 DTEND;VALUE=DATE:20270918
 SUMMARY:🍾 Riesling Open (starts)
 DESCRIPTION:Start marker for the Riesling Open festival in Wormeldange\, traditionally held on the third weekend of September.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1057,7 +1057,7 @@ DTSTART;VALUE=DATE:20271017
 DTEND;VALUE=DATE:20271018
 SUMMARY:🐓 Hunnefeier (Schengen)
 DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1376,7 +1376,7 @@ DTSTART;VALUE=DATE:20280421
 DTEND;VALUE=DATE:20280422
 SUMMARY:🍷 Maacher Wäimoart / Grevenmacher Wine Market
 DESCRIPTION:Traditional wine market in Grevenmacher on the Friday after Easter\, where producers present the new Moselle vintage.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/waimoart
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1387,7 +1387,7 @@ DTSTART;VALUE=DATE:20280430
 DTEND;VALUE=DATE:20280501
 SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)
 DESCRIPTION:Start marker of the Oktav pilgrimage period (3rd Sunday after Easter)\, with the Oktavmäertchen market in Luxembourg City.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1420,7 +1420,7 @@ DTSTART;VALUE=DATE:20280514
 DTEND;VALUE=DATE:20280515
 SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Procession (ends)
 DESCRIPTION:End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1442,7 +1442,7 @@ DTSTART;VALUE=DATE:20280525
 DTEND;VALUE=DATE:20280526
 SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
 DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
-CATEGORIES:Luxembourg\;Festivity
+CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1453,7 +1453,7 @@ DTSTART;VALUE=DATE:20280604
 DTEND;VALUE=DATE:20280605
 SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (starts)
 DESCRIPTION:Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1486,7 +1486,7 @@ DTSTART;VALUE=DATE:20280605
 DTEND;VALUE=DATE:20280606
 SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (ends)
 DESCRIPTION:End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1497,7 +1497,7 @@ DTSTART;VALUE=DATE:20280606
 DTEND;VALUE=DATE:20280607
 SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
 DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
-CATEGORIES:Luxembourg\;Festivity
+CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1541,7 +1541,7 @@ DTSTART;VALUE=DATE:20280721
 DTEND;VALUE=DATE:20280722
 SUMMARY:🍇 Éiner Wënzerdag (starts)
 DESCRIPTION:Start marker for Ehnen's winegrowers' festival\, traditionally held on the third weekend of July.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1552,7 +1552,7 @@ DTSTART;VALUE=DATE:20280811
 DTEND;VALUE=DATE:20280812
 SUMMARY:🍷 Picadilly Wine Festival (starts)
 DESCRIPTION:Start marker for Stadtbredimus' Picadilly festival\, a major Moselle wine event held on the second weekend of August.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1596,7 +1596,7 @@ DTSTART;VALUE=DATE:20280908
 DTEND;VALUE=DATE:20280909
 SUMMARY:🍇 Drauwen- a Wäifest Gréiwemaacher (starts)
 DESCRIPTION:Start marker for Grevenmacher's grape and wine festival\, traditionally held on the second weekend of September with the crowning of the Wine Queen.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1607,7 +1607,7 @@ DTSTART;VALUE=DATE:20280915
 DTEND;VALUE=DATE:20280916
 SUMMARY:🍾 Riesling Open (starts)
 DESCRIPTION:Start marker for the Riesling Open festival in Wormeldange\, traditionally held on the third weekend of September.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1640,7 +1640,7 @@ DTSTART;VALUE=DATE:20281015
 DTEND;VALUE=DATE:20281016
 SUMMARY:🐓 Hunnefeier (Schengen)
 DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1959,7 +1959,7 @@ DTSTART;VALUE=DATE:20290406
 DTEND;VALUE=DATE:20290407
 SUMMARY:🍷 Maacher Wäimoart / Grevenmacher Wine Market
 DESCRIPTION:Traditional wine market in Grevenmacher on the Friday after Easter\, where producers present the new Moselle vintage.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/waimoart
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1970,7 +1970,7 @@ DTSTART;VALUE=DATE:20290415
 DTEND;VALUE=DATE:20290416
 SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)
 DESCRIPTION:Start marker of the Oktav pilgrimage period (3rd Sunday after Easter)\, with the Oktavmäertchen market in Luxembourg City.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1981,7 +1981,7 @@ DTSTART;VALUE=DATE:20290429
 DTEND;VALUE=DATE:20290430
 SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Procession (ends)
 DESCRIPTION:End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2025,7 +2025,7 @@ DTSTART;VALUE=DATE:20290510
 DTEND;VALUE=DATE:20290511
 SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
 DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
-CATEGORIES:Luxembourg\;Festivity
+CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2036,7 +2036,7 @@ DTSTART;VALUE=DATE:20290520
 DTEND;VALUE=DATE:20290521
 SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (starts)
 DESCRIPTION:Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2069,7 +2069,7 @@ DTSTART;VALUE=DATE:20290521
 DTEND;VALUE=DATE:20290522
 SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (ends)
 DESCRIPTION:End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2080,7 +2080,7 @@ DTSTART;VALUE=DATE:20290522
 DTEND;VALUE=DATE:20290523
 SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
 DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
-CATEGORIES:Luxembourg\;Festivity
+CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2124,7 +2124,7 @@ DTSTART;VALUE=DATE:20290720
 DTEND;VALUE=DATE:20290721
 SUMMARY:🍇 Éiner Wënzerdag (starts)
 DESCRIPTION:Start marker for Ehnen's winegrowers' festival\, traditionally held on the third weekend of July.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2135,7 +2135,7 @@ DTSTART;VALUE=DATE:20290810
 DTEND;VALUE=DATE:20290811
 SUMMARY:🍷 Picadilly Wine Festival (starts)
 DESCRIPTION:Start marker for Stadtbredimus' Picadilly festival\, a major Moselle wine event held on the second weekend of August.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2179,7 +2179,7 @@ DTSTART;VALUE=DATE:20290914
 DTEND;VALUE=DATE:20290915
 SUMMARY:🍇 Drauwen- a Wäifest Gréiwemaacher (starts)
 DESCRIPTION:Start marker for Grevenmacher's grape and wine festival\, traditionally held on the second weekend of September with the crowning of the Wine Queen.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2190,7 +2190,7 @@ DTSTART;VALUE=DATE:20290921
 DTEND;VALUE=DATE:20290922
 SUMMARY:🍾 Riesling Open (starts)
 DESCRIPTION:Start marker for the Riesling Open festival in Wormeldange\, traditionally held on the third weekend of September.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2223,7 +2223,7 @@ DTSTART;VALUE=DATE:20291021
 DTEND;VALUE=DATE:20291022
 SUMMARY:🐓 Hunnefeier (Schengen)
 DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2542,7 +2542,7 @@ DTSTART;VALUE=DATE:20300426
 DTEND;VALUE=DATE:20300427
 SUMMARY:🍷 Maacher Wäimoart / Grevenmacher Wine Market
 DESCRIPTION:Traditional wine market in Grevenmacher on the Friday after Easter\, where producers present the new Moselle vintage.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/waimoart
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2564,7 +2564,7 @@ DTSTART;VALUE=DATE:20300505
 DTEND;VALUE=DATE:20300506
 SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)
 DESCRIPTION:Start marker of the Oktav pilgrimage period (3rd Sunday after Easter)\, with the Oktavmäertchen market in Luxembourg City.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2586,7 +2586,7 @@ DTSTART;VALUE=DATE:20300519
 DTEND;VALUE=DATE:20300520
 SUMMARY:⛪ Oktav & Oktavmäertchen / Octave Procession (ends)
 DESCRIPTION:End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2608,7 +2608,7 @@ DTSTART;VALUE=DATE:20300530
 DTEND;VALUE=DATE:20300531
 SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
 DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
-CATEGORIES:Luxembourg\;Festivity
+CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2619,7 +2619,7 @@ DTSTART;VALUE=DATE:20300609
 DTEND;VALUE=DATE:20300610
 SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (starts)
 DESCRIPTION:Start marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2652,7 +2652,7 @@ DTSTART;VALUE=DATE:20300610
 DTEND;VALUE=DATE:20300611
 SUMMARY:🍇 Wine Taste Enjoy / Open Wine Cellars (ends)
 DESCRIPTION:End marker for the Pentecost weekend of open wine cellars along Luxembourg's Moselle region.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://www.visitluxembourg.com/event/wine-taste-enjoy-the-pentecost-open-wine-cellars
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2663,7 +2663,7 @@ DTSTART;VALUE=DATE:20300611
 DTEND;VALUE=DATE:20300612
 SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
 DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
-CATEGORIES:Luxembourg\;Festivity
+CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2707,7 +2707,7 @@ DTSTART;VALUE=DATE:20300719
 DTEND;VALUE=DATE:20300720
 SUMMARY:🍇 Éiner Wënzerdag (starts)
 DESCRIPTION:Start marker for Ehnen's winegrowers' festival\, traditionally held on the third weekend of July.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2718,7 +2718,7 @@ DTSTART;VALUE=DATE:20300809
 DTEND;VALUE=DATE:20300810
 SUMMARY:🍷 Picadilly Wine Festival (starts)
 DESCRIPTION:Start marker for Stadtbredimus' Picadilly festival\, a major Moselle wine event held on the second weekend of August.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2762,7 +2762,7 @@ DTSTART;VALUE=DATE:20300913
 DTEND;VALUE=DATE:20300914
 SUMMARY:🍇 Drauwen- a Wäifest Gréiwemaacher (starts)
 DESCRIPTION:Start marker for Grevenmacher's grape and wine festival\, traditionally held on the second weekend of September with the crowning of the Wine Queen.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2773,7 +2773,7 @@ DTSTART;VALUE=DATE:20300920
 DTEND;VALUE=DATE:20300921
 SUMMARY:🍾 Riesling Open (starts)
 DESCRIPTION:Start marker for the Riesling Open festival in Wormeldange\, traditionally held on the third weekend of September.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2806,7 +2806,7 @@ DTSTART;VALUE=DATE:20301020
 DTEND;VALUE=DATE:20301021
 SUMMARY:🐓 Hunnefeier (Schengen)
 DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
-CATEGORIES:Luxembourg\;Festivity\;Market
+CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
 TRANSP:TRANSPARENT
 END:VEVENT
