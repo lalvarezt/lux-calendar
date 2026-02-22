@@ -99,8 +99,7 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_PAGES_ICS_PATH,
         help=(
-            "ICS path used with --publish-pages "
-            f"(default: {DEFAULT_PAGES_ICS_PATH})."
+            f"ICS path used with --publish-pages (default: {DEFAULT_PAGES_ICS_PATH})."
         ),
     )
     parser.add_argument(
@@ -191,9 +190,9 @@ def resolve_site_url(cli_value: str | None) -> str:
 
 def to_webcal_url(http_url: str) -> str:
     if http_url.startswith("https://"):
-        return f"webcal://{http_url[len('https://'):]}"
+        return f"webcal://{http_url[len('https://') :]}"
     if http_url.startswith("http://"):
-        return f"webcal://{http_url[len('http://'):]}"
+        return f"webcal://{http_url[len('http://') :]}"
     raise ValueError("URL must start with https:// or http://")
 
 
@@ -296,7 +295,7 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
         emoji_match = _LEADING_EMOJI_RE.match(raw_summary)
         if emoji_match:
             icon_html = f'<span class="entry-icon" aria-hidden="true">{html_escape(emoji_match.group(1).strip())}</span>'
-            title_html = html_escape(raw_summary[emoji_match.end():])
+            title_html = html_escape(raw_summary[emoji_match.end() :])
         else:
             icon_html = ""
             title_html = html_escape(raw_summary)
@@ -332,15 +331,11 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
         ]
 
         reference_raw = event.get("reference_url")
-        reference_markup = (
-            '<span class="entry-reference unavailable">No reference URL</span>'
-        )
         if isinstance(reference_raw, str) and reference_raw.strip():
             reference_url = html_escape(reference_raw.strip())
-            reference_markup = (
-                f'<a class="entry-reference" href="{reference_url}" '
-                'target="_blank" rel="noopener noreferrer">Reference</a>'
-            )
+            reference_value = f'<a href="{reference_url}" target="_blank" rel="noopener noreferrer">Reference</a>'
+        else:
+            reference_value = '<span class="entry-meta-na">-</span>'
 
         status_markup = ""
         if not enabled:
@@ -348,25 +343,26 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
 
         entry_type = _entry_type(categories)
 
+        location_value = (
+            location_markup
+            if location_markup
+            else '<span class="entry-meta-na">—</span>'
+        )
+        tags_text = (
+            html_escape(", ".join(visible_categories))
+            if visible_categories
+            else '<span class="entry-meta-na">—</span>'
+        )
+
         footer_lines = [
             '  <div class="entry-footer">',
-            f'    <p class="entry-meta"><span>Rule</span>{rule_description}</p>',
-        ]
-        if location_markup:
-            location_value = location_markup
-        else:
-            location_value = '<span class="entry-meta-na">—</span>'
-        footer_lines.append(
-            f'    <p class="entry-meta"><span>Location</span>{location_value}</p>'
-        )
-        if visible_categories:
-            tags_text = html_escape(", ".join(visible_categories))
-            footer_lines.append(
-                f'    <p class="entry-meta"><span>Tags</span>{tags_text}</p>'
-            )
-        footer_lines += [
-            f'    <div class="entry-source">{reference_markup}</div>',
-            '  </div>',
+            '    <dl class="entry-meta">',
+            f"      <dt>Rule</dt><dd>{rule_description}</dd>",
+            f"      <dt>Location</dt><dd>{location_value}</dd>",
+            f"      <dt>Tags</dt><dd>{tags_text}</dd>",
+            f"      <dt>Source</dt><dd>{reference_value}</dd>",
+            "    </dl>",
+            "  </div>",
         ]
 
         cards.append(
@@ -407,7 +403,9 @@ def publish_pages_assets(pages_root: Path) -> list[Path]:
         if not source_path.exists():
             raise FileNotFoundError(f"Pages asset file not found: {source_path}")
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        output_path.write_text(source_path.read_text(encoding="utf-8"), encoding="utf-8")
+        output_path.write_text(
+            source_path.read_text(encoding="utf-8"), encoding="utf-8"
+        )
         written_paths.append(output_path)
 
     return written_paths
@@ -578,9 +576,7 @@ def build_ics(
                     not isinstance(reference_url_raw, str)
                     or not reference_url_raw.strip()
                 ):
-                    raise ValueError(
-                        f"Invalid 'reference_url' in events[{index}]."
-                    )
+                    raise ValueError(f"Invalid 'reference_url' in events[{index}].")
                 reference_url = reference_url_raw.strip()
             rule = event.get("rule")
             if not isinstance(rule, dict):
@@ -646,7 +642,9 @@ def main() -> None:
         raise ValueError("--end-year must be >= --start-year.")
 
     if args.publish_pages and args.output:
-        raise ValueError("Use --pages-path instead of --output when --publish-pages is set.")
+        raise ValueError(
+            "Use --pages-path instead of --output when --publish-pages is set."
+        )
 
     site_url: str | None = None
     if args.publish_pages:

@@ -525,39 +525,38 @@ h2 {
   margin-top: auto;
   padding-top: 0.52rem;
   border-top: 1px solid var(--line-soft);
-  display: flex;
-  flex-direction: column;
-  gap: 0.26rem;
 }
 
 .entry-meta {
   margin: 0;
-  display: flex;
-  align-items: baseline;
-  gap: 0.44rem;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.18rem 0.52rem;
   font-size: 0.83rem;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
-.entry-meta span {
-  flex-shrink: 0;
-  min-width: 2rem;
+.entry-meta dt {
   font-family: "DM Mono", monospace;
   font-size: 0.68rem;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  align-self: center;
 }
 
-.entry-meta code {
-  font-family: "DM Mono", monospace;
-  font-size: 0.83rem;
-  color: var(--ink-strong);
-  word-break: break-word;
+.entry-meta dd {
+  margin: 0;
+  align-self: center;
 }
 
 .entry-meta a {
   color: var(--accent);
+  text-decoration: none;
+}
+
+.entry-meta a:hover {
+  text-decoration: underline;
   text-underline-offset: 3px;
 }
 
@@ -565,21 +564,6 @@ h2 {
   color: var(--muted);
 }
 
-.entry-reference {
-  font-weight: 600;
-  font-size: 0.78rem;
-  color: var(--accent);
-  text-underline-offset: 3px;
-}
-
-.entry-reference.unavailable {
-  color: var(--muted);
-  font-weight: 500;
-}
-
-.entry-source {
-  line-height: 1.2;
-}
 
 .empty-state {
   margin: 0;
