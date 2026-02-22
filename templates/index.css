@@ -127,7 +127,7 @@ html[data-theme="dark"] ::selection {
   position: relative;
   overflow: clip;
   background: linear-gradient(136deg, var(--surface), var(--surface-strong));
-  border: 1px solid var(--line-soft);
+  border: 1px solid var(--line);
   border-radius: 24px;
   box-shadow: var(--shadow-xl);
   padding: clamp(0.85rem, 1.4vw, 1.3rem);
@@ -140,7 +140,7 @@ html[data-theme="dark"] ::selection {
   justify-content: space-between;
   align-items: center;
   gap: 0.75rem;
-  margin-bottom: 0.34rem;
+  margin-bottom: 0.72rem;
 }
 
 .eyebrow {
@@ -323,22 +323,29 @@ h2 {
   color: var(--emerald);
 }
 
-.tip {
-  margin: 0.42rem 0 0;
+.tip-row {
+  margin: 0.72rem 0 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.16rem 0.48rem;
+  font-size: 0.86rem;
+  line-height: 1.3;
   color: var(--muted);
-  line-height: 1.28;
-  font-size: 0.88rem;
 }
 
-.actions + .tip {
-  margin-top: 0.68rem;
+.tip-row dt {
+  text-align: right;
 }
 
-.tip + .tip {
-  margin-top: 0.22rem;
+.tip-row dt::after {
+  content: ":";
 }
 
-.tip a {
+.tip-row dd {
+  margin: 0;
+}
+
+.tip-row a {
   font-size: 0.76rem;
 }
 
@@ -542,21 +549,29 @@ h2 {
   line-height: 1.45;
 }
 
-.entry-description + .entry-meta {
+.entry-footer {
   margin-top: auto;
+  padding-top: 0.52rem;
+  border-top: 1px solid var(--line-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 0.26rem;
 }
 
 .entry-meta {
   margin: 0;
   display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-  font-size: 0.88rem;
+  align-items: baseline;
+  gap: 0.44rem;
+  font-size: 0.83rem;
+  line-height: 1.2;
 }
 
 .entry-meta span {
+  flex-shrink: 0;
+  min-width: 2rem;
   font-family: "DM Mono", monospace;
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -567,26 +582,6 @@ h2 {
   font-size: 0.83rem;
   color: var(--ink-strong);
   word-break: break-word;
-}
-
-.entry-tags {
-  margin-top: 0.08rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.42rem;
-}
-
-.entry-tag {
-  border-radius: 10px;
-  border: 1px solid var(--chip-border);
-  background: var(--chip-bg);
-  color: var(--emerald);
-  padding: 0.2rem 0.52rem;
-  font: 500 0.73rem/1 "DM Mono", monospace;
-}
-
-.entry-source {
-  margin-top: 0.08rem;
 }
 
 .entry-reference {

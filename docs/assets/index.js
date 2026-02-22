@@ -50,11 +50,11 @@
     var categoryCounts = {};
 
     var states = cardList.map(function (card) {
-      var tags = Array.prototype.slice.call(card.querySelectorAll(".entry-tag"));
+      var raw = card.getAttribute("data-categories") || "";
       var categories = [];
 
-      tags.forEach(function (tag) {
-        var label = (tag.textContent || "").trim();
+      raw.split(",").forEach(function (part) {
+        var label = part.trim();
         var key = normalizeToken(label);
         if (!key || categories.indexOf(key) !== -1) {
           return;

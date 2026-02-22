@@ -160,6 +160,17 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paque
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-jaudes-2026@local
+DTSTAMP:20260403T000000Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:🌹 Jaudes / Dog Rose Custom (Vianden)
+DESCRIPTION:On Good Friday in Vianden\, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns\, paper flowers and ribbons.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-ouschtersonndeg-2026@local
 DTSTAMP:20260405T000000Z
 DTSTART;VALUE=DATE:20260405
@@ -259,6 +270,17 @@ URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-fatima-wiltz-2026@local
+DTSTAMP:20260514T000000Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
+DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-winetasteenjoy-start-2026@local
 DTSTAMP:20260524T000000Z
 DTSTART;VALUE=DATE:20260524
@@ -278,6 +300,17 @@ SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-geenzefest-2026@local
+DTSTAMP:20260525T000000Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:🌼 Geenzefest / Broom Festival (Wiltz)
+DESCRIPTION:On Whit Monday\, Wiltz hosts the Geenzefest parade with flower-decorated floats\, bands and the traditional Gorse Queen procession.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -336,6 +369,28 @@ URL:https://www.visitluxembourg.com/event/al-dikkrich
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-einerwenzerdag-start-2026@local
+DTSTAMP:20260717T000000Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:🍇 Éiner Wënzerdag (starts)
+DESCRIPTION:Start marker for Ehnen's winegrowers' festival\, traditionally held on the third weekend of July.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-picadilly-start-2026@local
+DTSTAMP:20260814T000000Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SUMMARY:🍷 Picadilly Wine Festival (starts)
+DESCRIPTION:Start marker for Stadtbredimus' Picadilly festival\, a major Moselle wine event held on the second weekend of August.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-assumption-2026@local
 DTSTAMP:20260815T000000Z
 DTSTART;VALUE=DATE:20260815
@@ -369,6 +424,28 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kerme
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-drauwenwaifest-start-2026@local
+DTSTAMP:20260911T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:🍇 Drauwen- a Wäifest Gréiwemaacher (starts)
+DESCRIPTION:Start marker for Grevenmacher's grape and wine festival\, traditionally held on the second weekend of September with the crowning of the Wine Queen.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-rieslingopen-start-2026@local
+DTSTAMP:20260918T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:🍾 Riesling Open (starts)
+DESCRIPTION:Start marker for the Riesling Open festival in Wormeldange\, traditionally held on the third weekend of September.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-kropemannsfest-2026@local
 DTSTAMP:20260927T000000Z
 DTSTART;VALUE=DATE:20260927
@@ -391,6 +468,17 @@ URL:https://www.visitluxembourg.com/event/veiner-nessmoort
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-hunnefeier-2026@local
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:🐓 Hunnefeier (Schengen)
+DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-allsaints-2026@local
 DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -398,6 +486,17 @@ DTEND;VALUE=DATE:20261102
 SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
 DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
 CATEGORIES:Luxembourg\;Holiday\;Public
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-trauliichtbrennen-2026@local
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🎃 d'Trauliicht brennen / Trauliicht Burning
+DESCRIPTION:Traditional All Saints period custom\, especially in northern Luxembourg\, where carved beet lanterns (Trauliichter) are lit to ward off evil spirits.
+CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -633,6 +732,17 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paque
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-jaudes-2027@local
+DTSTAMP:20270326T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:🌹 Jaudes / Dog Rose Custom (Vianden)
+DESCRIPTION:On Good Friday in Vianden\, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns\, paper flowers and ribbons.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-ouschtersonndeg-2027@local
 DTSTAMP:20270328T000000Z
 DTSTART;VALUE=DATE:20270328
@@ -732,6 +842,17 @@ URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-fatima-wiltz-2027@local
+DTSTAMP:20270506T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
+DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-europeday-2027@local
 DTSTAMP:20270509T000000Z
 DTSTART;VALUE=DATE:20270509
@@ -762,6 +883,17 @@ SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-geenzefest-2027@local
+DTSTAMP:20270517T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:🌼 Geenzefest / Broom Festival (Wiltz)
+DESCRIPTION:On Whit Monday\, Wiltz hosts the Geenzefest parade with flower-decorated floats\, bands and the traditional Gorse Queen procession.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -820,6 +952,28 @@ URL:https://www.visitluxembourg.com/event/al-dikkrich
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-einerwenzerdag-start-2027@local
+DTSTAMP:20270716T000000Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:🍇 Éiner Wënzerdag (starts)
+DESCRIPTION:Start marker for Ehnen's winegrowers' festival\, traditionally held on the third weekend of July.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-picadilly-start-2027@local
+DTSTAMP:20270813T000000Z
+DTSTART;VALUE=DATE:20270813
+DTEND;VALUE=DATE:20270814
+SUMMARY:🍷 Picadilly Wine Festival (starts)
+DESCRIPTION:Start marker for Stadtbredimus' Picadilly festival\, a major Moselle wine event held on the second weekend of August.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-assumption-2027@local
 DTSTAMP:20270815T000000Z
 DTSTART;VALUE=DATE:20270815
@@ -853,6 +1007,28 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kerme
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-drauwenwaifest-start-2027@local
+DTSTAMP:20270910T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:🍇 Drauwen- a Wäifest Gréiwemaacher (starts)
+DESCRIPTION:Start marker for Grevenmacher's grape and wine festival\, traditionally held on the second weekend of September with the crowning of the Wine Queen.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-rieslingopen-start-2027@local
+DTSTAMP:20270917T000000Z
+DTSTART;VALUE=DATE:20270917
+DTEND;VALUE=DATE:20270918
+SUMMARY:🍾 Riesling Open (starts)
+DESCRIPTION:Start marker for the Riesling Open festival in Wormeldange\, traditionally held on the third weekend of September.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-kropemannsfest-2027@local
 DTSTAMP:20270926T000000Z
 DTSTART;VALUE=DATE:20270926
@@ -875,6 +1051,17 @@ URL:https://www.visitluxembourg.com/event/veiner-nessmoort
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-hunnefeier-2027@local
+DTSTAMP:20271017T000000Z
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
+SUMMARY:🐓 Hunnefeier (Schengen)
+DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-allsaints-2027@local
 DTSTAMP:20271101T000000Z
 DTSTART;VALUE=DATE:20271101
@@ -882,6 +1069,17 @@ DTEND;VALUE=DATE:20271102
 SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
 DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
 CATEGORIES:Luxembourg\;Holiday\;Public
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-trauliichtbrennen-2027@local
+DTSTAMP:20271101T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
+SUMMARY:🎃 d'Trauliicht brennen / Trauliicht Burning
+DESCRIPTION:Traditional All Saints period custom\, especially in northern Luxembourg\, where carved beet lanterns (Trauliichter) are lit to ward off evil spirits.
+CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1128,6 +1326,17 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paque
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-jaudes-2028@local
+DTSTAMP:20280414T000000Z
+DTSTART;VALUE=DATE:20280414
+DTEND;VALUE=DATE:20280415
+SUMMARY:🌹 Jaudes / Dog Rose Custom (Vianden)
+DESCRIPTION:On Good Friday in Vianden\, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns\, paper flowers and ribbons.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-ouschtersonndeg-2028@local
 DTSTAMP:20280416T000000Z
 DTSTART;VALUE=DATE:20280416
@@ -1227,6 +1436,17 @@ URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-fatima-wiltz-2028@local
+DTSTAMP:20280525T000000Z
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
+DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-winetasteenjoy-start-2028@local
 DTSTAMP:20280604T000000Z
 DTSTART;VALUE=DATE:20280604
@@ -1246,6 +1466,17 @@ SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-geenzefest-2028@local
+DTSTAMP:20280605T000000Z
+DTSTART;VALUE=DATE:20280605
+DTEND;VALUE=DATE:20280606
+SUMMARY:🌼 Geenzefest / Broom Festival (Wiltz)
+DESCRIPTION:On Whit Monday\, Wiltz hosts the Geenzefest parade with flower-decorated floats\, bands and the traditional Gorse Queen procession.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1304,6 +1535,28 @@ URL:https://www.visitluxembourg.com/event/al-dikkrich
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-einerwenzerdag-start-2028@local
+DTSTAMP:20280721T000000Z
+DTSTART;VALUE=DATE:20280721
+DTEND;VALUE=DATE:20280722
+SUMMARY:🍇 Éiner Wënzerdag (starts)
+DESCRIPTION:Start marker for Ehnen's winegrowers' festival\, traditionally held on the third weekend of July.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-picadilly-start-2028@local
+DTSTAMP:20280811T000000Z
+DTSTART;VALUE=DATE:20280811
+DTEND;VALUE=DATE:20280812
+SUMMARY:🍷 Picadilly Wine Festival (starts)
+DESCRIPTION:Start marker for Stadtbredimus' Picadilly festival\, a major Moselle wine event held on the second weekend of August.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-assumption-2028@local
 DTSTAMP:20280815T000000Z
 DTSTART;VALUE=DATE:20280815
@@ -1337,6 +1590,28 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kerme
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-drauwenwaifest-start-2028@local
+DTSTAMP:20280908T000000Z
+DTSTART;VALUE=DATE:20280908
+DTEND;VALUE=DATE:20280909
+SUMMARY:🍇 Drauwen- a Wäifest Gréiwemaacher (starts)
+DESCRIPTION:Start marker for Grevenmacher's grape and wine festival\, traditionally held on the second weekend of September with the crowning of the Wine Queen.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-rieslingopen-start-2028@local
+DTSTAMP:20280915T000000Z
+DTSTART;VALUE=DATE:20280915
+DTEND;VALUE=DATE:20280916
+SUMMARY:🍾 Riesling Open (starts)
+DESCRIPTION:Start marker for the Riesling Open festival in Wormeldange\, traditionally held on the third weekend of September.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-kropemannsfest-2028@local
 DTSTAMP:20280924T000000Z
 DTSTART;VALUE=DATE:20280924
@@ -1359,6 +1634,17 @@ URL:https://www.visitluxembourg.com/event/veiner-nessmoort
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-hunnefeier-2028@local
+DTSTAMP:20281015T000000Z
+DTSTART;VALUE=DATE:20281015
+DTEND;VALUE=DATE:20281016
+SUMMARY:🐓 Hunnefeier (Schengen)
+DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-allsaints-2028@local
 DTSTAMP:20281101T000000Z
 DTSTART;VALUE=DATE:20281101
@@ -1366,6 +1652,17 @@ DTEND;VALUE=DATE:20281102
 SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
 DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
 CATEGORIES:Luxembourg\;Holiday\;Public
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-trauliichtbrennen-2028@local
+DTSTAMP:20281101T000000Z
+DTSTART;VALUE=DATE:20281101
+DTEND;VALUE=DATE:20281102
+SUMMARY:🎃 d'Trauliicht brennen / Trauliicht Burning
+DESCRIPTION:Traditional All Saints period custom\, especially in northern Luxembourg\, where carved beet lanterns (Trauliichter) are lit to ward off evil spirits.
+CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1601,6 +1898,17 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paque
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-jaudes-2029@local
+DTSTAMP:20290330T000000Z
+DTSTART;VALUE=DATE:20290330
+DTEND;VALUE=DATE:20290331
+SUMMARY:🌹 Jaudes / Dog Rose Custom (Vianden)
+DESCRIPTION:On Good Friday in Vianden\, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns\, paper flowers and ribbons.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-abrell-2029@local
 DTSTAMP:20290401T000000Z
 DTSTART;VALUE=DATE:20290401
@@ -1711,6 +2019,17 @@ URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-fatima-wiltz-2029@local
+DTSTAMP:20290510T000000Z
+DTSTART;VALUE=DATE:20290510
+DTEND;VALUE=DATE:20290511
+SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
+DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-winetasteenjoy-start-2029@local
 DTSTAMP:20290520T000000Z
 DTSTART;VALUE=DATE:20290520
@@ -1730,6 +2049,17 @@ SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-geenzefest-2029@local
+DTSTAMP:20290521T000000Z
+DTSTART;VALUE=DATE:20290521
+DTEND;VALUE=DATE:20290522
+SUMMARY:🌼 Geenzefest / Broom Festival (Wiltz)
+DESCRIPTION:On Whit Monday\, Wiltz hosts the Geenzefest parade with flower-decorated floats\, bands and the traditional Gorse Queen procession.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1788,6 +2118,28 @@ URL:https://www.visitluxembourg.com/event/al-dikkrich
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-einerwenzerdag-start-2029@local
+DTSTAMP:20290720T000000Z
+DTSTART;VALUE=DATE:20290720
+DTEND;VALUE=DATE:20290721
+SUMMARY:🍇 Éiner Wënzerdag (starts)
+DESCRIPTION:Start marker for Ehnen's winegrowers' festival\, traditionally held on the third weekend of July.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-picadilly-start-2029@local
+DTSTAMP:20290810T000000Z
+DTSTART;VALUE=DATE:20290810
+DTEND;VALUE=DATE:20290811
+SUMMARY:🍷 Picadilly Wine Festival (starts)
+DESCRIPTION:Start marker for Stadtbredimus' Picadilly festival\, a major Moselle wine event held on the second weekend of August.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-assumption-2029@local
 DTSTAMP:20290815T000000Z
 DTSTART;VALUE=DATE:20290815
@@ -1821,6 +2173,28 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kerme
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-drauwenwaifest-start-2029@local
+DTSTAMP:20290914T000000Z
+DTSTART;VALUE=DATE:20290914
+DTEND;VALUE=DATE:20290915
+SUMMARY:🍇 Drauwen- a Wäifest Gréiwemaacher (starts)
+DESCRIPTION:Start marker for Grevenmacher's grape and wine festival\, traditionally held on the second weekend of September with the crowning of the Wine Queen.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-rieslingopen-start-2029@local
+DTSTAMP:20290921T000000Z
+DTSTART;VALUE=DATE:20290921
+DTEND;VALUE=DATE:20290922
+SUMMARY:🍾 Riesling Open (starts)
+DESCRIPTION:Start marker for the Riesling Open festival in Wormeldange\, traditionally held on the third weekend of September.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-kropemannsfest-2029@local
 DTSTAMP:20290930T000000Z
 DTSTART;VALUE=DATE:20290930
@@ -1843,6 +2217,17 @@ URL:https://www.visitluxembourg.com/event/veiner-nessmoort
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-hunnefeier-2029@local
+DTSTAMP:20291021T000000Z
+DTSTART;VALUE=DATE:20291021
+DTEND;VALUE=DATE:20291022
+SUMMARY:🐓 Hunnefeier (Schengen)
+DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-allsaints-2029@local
 DTSTAMP:20291101T000000Z
 DTSTART;VALUE=DATE:20291101
@@ -1850,6 +2235,17 @@ DTEND;VALUE=DATE:20291102
 SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
 DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
 CATEGORIES:Luxembourg\;Holiday\;Public
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-trauliichtbrennen-2029@local
+DTSTAMP:20291101T000000Z
+DTSTART;VALUE=DATE:20291101
+DTEND;VALUE=DATE:20291102
+SUMMARY:🎃 d'Trauliicht brennen / Trauliicht Burning
+DESCRIPTION:Traditional All Saints period custom\, especially in northern Luxembourg\, where carved beet lanterns (Trauliichter) are lit to ward off evil spirits.
+CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2096,6 +2492,17 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paque
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-jaudes-2030@local
+DTSTAMP:20300419T000000Z
+DTSTART;VALUE=DATE:20300419
+DTEND;VALUE=DATE:20300420
+SUMMARY:🌹 Jaudes / Dog Rose Custom (Vianden)
+DESCRIPTION:On Good Friday in Vianden\, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns\, paper flowers and ribbons.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-ouschtersonndeg-2030@local
 DTSTAMP:20300421T000000Z
 DTSTART;VALUE=DATE:20300421
@@ -2195,6 +2602,17 @@ URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.htm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-fatima-wiltz-2030@local
+DTSTAMP:20300530T000000Z
+DTSTART;VALUE=DATE:20300530
+DTEND;VALUE=DATE:20300531
+SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
+DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-winetasteenjoy-start-2030@local
 DTSTAMP:20300609T000000Z
 DTSTART;VALUE=DATE:20300609
@@ -2214,6 +2632,17 @@ SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-geenzefest-2030@local
+DTSTAMP:20300610T000000Z
+DTSTART;VALUE=DATE:20300610
+DTEND;VALUE=DATE:20300611
+SUMMARY:🌼 Geenzefest / Broom Festival (Wiltz)
+DESCRIPTION:On Whit Monday\, Wiltz hosts the Geenzefest parade with flower-decorated floats\, bands and the traditional Gorse Queen procession.
+CATEGORIES:Luxembourg\;Festivity
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2272,6 +2701,28 @@ URL:https://www.visitluxembourg.com/event/al-dikkrich
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-einerwenzerdag-start-2030@local
+DTSTAMP:20300719T000000Z
+DTSTART;VALUE=DATE:20300719
+DTEND;VALUE=DATE:20300720
+SUMMARY:🍇 Éiner Wënzerdag (starts)
+DESCRIPTION:Start marker for Ehnen's winegrowers' festival\, traditionally held on the third weekend of July.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-picadilly-start-2030@local
+DTSTAMP:20300809T000000Z
+DTSTART;VALUE=DATE:20300809
+DTEND;VALUE=DATE:20300810
+SUMMARY:🍷 Picadilly Wine Festival (starts)
+DESCRIPTION:Start marker for Stadtbredimus' Picadilly festival\, a major Moselle wine event held on the second weekend of August.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-assumption-2030@local
 DTSTAMP:20300815T000000Z
 DTSTART;VALUE=DATE:20300815
@@ -2305,6 +2756,28 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kerme
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-drauwenwaifest-start-2030@local
+DTSTAMP:20300913T000000Z
+DTSTART;VALUE=DATE:20300913
+DTEND;VALUE=DATE:20300914
+SUMMARY:🍇 Drauwen- a Wäifest Gréiwemaacher (starts)
+DESCRIPTION:Start marker for Grevenmacher's grape and wine festival\, traditionally held on the second weekend of September with the crowning of the Wine Queen.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-rieslingopen-start-2030@local
+DTSTAMP:20300920T000000Z
+DTSTART;VALUE=DATE:20300920
+DTEND;VALUE=DATE:20300921
+SUMMARY:🍾 Riesling Open (starts)
+DESCRIPTION:Start marker for the Riesling Open festival in Wormeldange\, traditionally held on the third weekend of September.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-kropemannsfest-2030@local
 DTSTAMP:20300929T000000Z
 DTSTART;VALUE=DATE:20300929
@@ -2327,6 +2800,17 @@ URL:https://www.visitluxembourg.com/event/veiner-nessmoort
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-hunnefeier-2030@local
+DTSTAMP:20301020T000000Z
+DTSTART;VALUE=DATE:20301020
+DTEND;VALUE=DATE:20301021
+SUMMARY:🐓 Hunnefeier (Schengen)
+DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
+CATEGORIES:Luxembourg\;Festivity\;Market
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-holiday-allsaints-2030@local
 DTSTAMP:20301101T000000Z
 DTSTART;VALUE=DATE:20301101
@@ -2334,6 +2818,17 @@ DTEND;VALUE=DATE:20301102
 SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
 DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
 CATEGORIES:Luxembourg\;Holiday\;Public
+URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-trauliichtbrennen-2030@local
+DTSTAMP:20301101T000000Z
+DTSTART;VALUE=DATE:20301101
+DTEND;VALUE=DATE:20301102
+SUMMARY:🎃 d'Trauliicht brennen / Trauliicht Burning
+DESCRIPTION:Traditional All Saints period custom\, especially in northern Luxembourg\, where carved beet lanterns (Trauliichter) are lit to ward off evil spirits.
+CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -313,11 +313,9 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
             if isinstance(categories_raw, list) and categories_raw
             else ["Uncategorized"]
         )
-        category_markup = "".join(
-            f'<span class="entry-tag">{html_escape(str(category))}</span>'
-            for category in categories
-            if str(category) not in _HTML_SUPPRESSED_TAGS
-        )
+        visible_categories = [
+            str(cat) for cat in categories if str(cat) not in _HTML_SUPPRESSED_TAGS
+        ]
 
         reference_raw = event.get("reference_url")
         reference_markup = (
@@ -336,19 +334,31 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
 
         entry_type = _entry_type(categories)
 
+        footer_lines = [
+            '  <div class="entry-footer">',
+            f'    <p class="entry-meta"><span>Rule</span>{rule_description}</p>',
+            f'    <p class="entry-meta"><span>UID</span><code>{uid_base}</code></p>',
+        ]
+        if visible_categories:
+            tags_text = html_escape(", ".join(visible_categories))
+            footer_lines.append(
+                f'    <p class="entry-meta"><span>Tags</span>{tags_text}</p>'
+            )
+        footer_lines += [
+            f'    <div class="entry-source">{reference_markup}</div>',
+            '  </div>',
+        ]
+
         cards.append(
             "\n".join(
                 [
-                    f'<article class="entry-card" data-type="{entry_type}">',
+                    f'<article class="entry-card" data-type="{entry_type}" data-categories="{html_escape(", ".join(visible_categories))}">',
                     '  <div class="entry-header">',
                     f"    <h3>{icon_html}{title_html}</h3>",
                     f"    {status_markup}",
                     "  </div>",
                     f'  <p class="entry-description">{description}</p>',
-                    f'  <p class="entry-meta"><span>Rule</span>{rule_description}</p>',
-                    f'  <p class="entry-meta"><span>UID</span><code>{uid_base}</code></p>',
-                    f'  <div class="entry-tags">{category_markup}</div>',
-                    f'  <div class="entry-source">{reference_markup}</div>',
+                    *footer_lines,
                     "</article>",
                 ]
             )
