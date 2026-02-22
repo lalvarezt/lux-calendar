@@ -556,6 +556,15 @@ h2 {
   word-break: break-word;
 }
 
+.entry-meta a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+}
+
+.entry-meta-na {
+  color: var(--muted);
+}
+
 .entry-reference {
   font-weight: 600;
   font-size: 0.78rem;

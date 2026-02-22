@@ -306,6 +306,21 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
         )
         rule_description = html_escape(describe_rule(event.get("rule")))
 
+        location_markup = ""
+        location_data = event.get("location")
+        if isinstance(location_data, dict):
+            loc_name = html_escape(str(location_data.get("name", "")).strip())
+            loc_geo = str(location_data.get("geo", "")).strip()
+            if loc_name:
+                if loc_geo:
+                    maps_url = f"https://maps.google.com/?q={html_escape(loc_geo)}"
+                    location_markup = (
+                        f'<a href="{maps_url}" target="_blank" rel="noopener noreferrer">'
+                        f"{loc_name}</a>"
+                    )
+                else:
+                    location_markup = loc_name
+
         categories_raw = event.get("categories")
         categories = (
             categories_raw
@@ -337,6 +352,13 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
             '  <div class="entry-footer">',
             f'    <p class="entry-meta"><span>Rule</span>{rule_description}</p>',
         ]
+        if location_markup:
+            location_value = location_markup
+        else:
+            location_value = '<span class="entry-meta-na">—</span>'
+        footer_lines.append(
+            f'    <p class="entry-meta"><span>Location</span>{location_value}</p>'
+        )
         if visible_categories:
             tags_text = html_escape(", ".join(visible_categories))
             footer_lines.append(

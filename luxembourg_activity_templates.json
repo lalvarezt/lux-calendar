@@ -8,7 +8,7 @@
   "events": [
     {
       "uid_base": "lu-holiday-newyear",
-      "summary": "🏛️ Neijoerschdag / New Year (Public Holiday)",
+      "summary": "🏛️ Neijoerschdag / New Year",
       "description": "Legal public holiday in Luxembourg. On Neijoerschdag (1 January), families exchange wishes and children often receive a small 'neit Jäerchen' gift.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/nouvel-an-luxembourg.html",
       "categories": [
@@ -100,14 +100,18 @@
       "summary": "🎭 Cavalcade Diekirch / Carnival Parade",
       "description": "One of Luxembourg's largest carnival parades, traditionally held in Diekirch on the Sunday before Rose Monday.",
       "reference_url": "https://www.visitluxembourg.com/event/carnival-parade-diekirch",
-      "categories": [
-        "Luxembourg",
-        "Festivity"
-      ],
       "rule": {
         "type": "easter_offset",
         "days": -49
-      }
+      },
+      "location": {
+        "name": "Diekirch",
+        "geo": "49.8674,6.1597"
+      },
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ]
     },
     {
       "uid_base": "lu-fest-carnivalmon",
@@ -210,17 +214,21 @@
     },
     {
       "uid_base": "lu-fest-jaudes",
-      "summary": "🌹 Jaudes / Dog Rose Custom (Vianden)",
+      "summary": "🌹 Jaudes / Dog Rose Custom",
       "description": "On Good Friday in Vianden, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns, paper flowers and ribbons.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html",
-      "categories": [
-        "Luxembourg",
-        "Festivity"
-      ],
       "rule": {
         "type": "easter_offset",
         "days": -2
-      }
+      },
+      "location": {
+        "name": "Vianden",
+        "geo": "49.9319,6.2086"
+      },
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ]
     },
     {
       "uid_base": "lu-fest-ouschtersonndeg",
@@ -238,7 +246,7 @@
     },
     {
       "uid_base": "lu-holiday-eastermon",
-      "summary": "🏛️ Ouschterméindeg / Easter Monday (Public Holiday)",
+      "summary": "🏛️ Ouschterméindeg / Easter Monday",
       "description": "Legal public holiday in Luxembourg, observed the day after Easter Sunday.",
       "reference_url": "https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html",
       "categories": [
@@ -256,67 +264,83 @@
       "summary": "🐦 Éimaischen / Easter Monday Pottery Fair",
       "description": "Traditional Easter Monday market in Luxembourg City and Nospelt, known for Péckvillercher clay bird whistles.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html",
+      "rule": {
+        "type": "easter_offset",
+        "days": 1
+      },
+      "location": {
+        "name": "Luxembourg City / Nospelt",
+        "geo": "49.6117,6.1319"
+      },
       "categories": [
         "Luxembourg",
         "Festivity",
         "Market"
-      ],
-      "rule": {
-        "type": "easter_offset",
-        "days": 1
-      }
+      ]
     },
     {
       "uid_base": "lu-market-waimoart",
       "summary": "🍷 Maacher Wäimoart / Grevenmacher Wine Market",
       "description": "Traditional wine market in Grevenmacher on the Friday after Easter, where producers present the new Moselle vintage.",
       "reference_url": "https://www.visitluxembourg.com/event/waimoart",
+      "rule": {
+        "type": "easter_offset",
+        "days": 5
+      },
+      "location": {
+        "name": "Grevenmacher",
+        "geo": "49.6811,6.4403"
+      },
       "categories": [
         "Luxembourg",
         "Festivity",
         "Market",
         "Wine"
-      ],
-      "rule": {
-        "type": "easter_offset",
-        "days": 5
-      }
+      ]
     },
     {
       "uid_base": "lu-fest-octave-start",
       "summary": "⛪ Oktav & Oktavmäertchen / Octave Pilgrimage (starts)",
       "description": "Start marker of the Oktav pilgrimage period (3rd Sunday after Easter), with the Oktavmäertchen market in Luxembourg City.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html",
+      "rule": {
+        "type": "easter_offset",
+        "days": 14
+      },
+      "location": {
+        "name": "Luxembourg City",
+        "geo": "49.6117,6.1319"
+      },
       "categories": [
         "Luxembourg",
         "Festivity",
         "Market",
         "Pilgrimage"
-      ],
-      "rule": {
-        "type": "easter_offset",
-        "days": 14
-      }
+      ]
     },
     {
       "uid_base": "lu-fest-octave-end",
       "summary": "⛪ Oktav & Oktavmäertchen / Octave Procession (ends)",
       "description": "End marker of the Oktav pilgrimage period (5th Sunday after Easter) and final procession.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/oktav.html",
+      "rule": {
+        "type": "easter_offset",
+        "days": 28
+      },
+      "location": {
+        "name": "Luxembourg City",
+        "geo": "49.6117,6.1319"
+      },
       "categories": [
         "Luxembourg",
         "Festivity",
         "Market",
         "Pilgrimage"
-      ],
-      "rule": {
-        "type": "easter_offset",
-        "days": 28
-      }
+      ]
     },
     {
       "uid_base": "lu-holiday-mayday",
-      "summary": "🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)",
+      "summary": "🏛️ Dag vun der Aarbecht / Labour Day",
       "description": "Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/meekranz-fete-travail.html",
       "categories": [
@@ -332,7 +356,7 @@
     },
     {
       "uid_base": "lu-holiday-ascension",
-      "summary": "🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)",
+      "summary": "🏛️ Christi Himmelfaart / Ascension Day",
       "description": "Legal public holiday observed 39 days after Easter Sunday; in Luxembourg, it is also associated with the Fatima procession in Wiltz.",
       "reference_url": "https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html",
       "categories": [
@@ -347,22 +371,26 @@
     },
     {
       "uid_base": "lu-fest-fatima-wiltz",
-      "summary": "⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)",
+      "summary": "⛪ Notre-Dame de Fatima / Fatima Pilgrimage",
       "description": "On Ascension Thursday, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html",
+      "rule": {
+        "type": "easter_offset",
+        "days": 39
+      },
+      "location": {
+        "name": "Wiltz",
+        "geo": "49.9667,5.9333"
+      },
       "categories": [
         "Luxembourg",
         "Festivity",
         "Pilgrimage"
-      ],
-      "rule": {
-        "type": "easter_offset",
-        "days": 39
-      }
+      ]
     },
     {
       "uid_base": "lu-holiday-europeday",
-      "summary": "🏛️ Europadag / Europe Day (Public Holiday)",
+      "summary": "🏛️ Europadag / Europe Day",
       "description": "Legal public holiday in Luxembourg on 9 May.",
       "reference_url": "https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html",
       "categories": [
@@ -378,7 +406,7 @@
     },
     {
       "uid_base": "lu-holiday-whitmon",
-      "summary": "🏛️ Péngschtméindeg / Whit Monday (Public Holiday)",
+      "summary": "🏛️ Péngschtméindeg / Whit Monday",
       "description": "Legal public holiday 50 days after Easter Sunday; in Wiltz, the Geenzefest parade traditionally culminates on Whit Monday.",
       "reference_url": "https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html",
       "categories": [
@@ -393,17 +421,21 @@
     },
     {
       "uid_base": "lu-fest-geenzefest",
-      "summary": "🌼 Geenzefest / Broom Festival (Wiltz)",
+      "summary": "🌼 Geenzefest / Broom Festival",
       "description": "On Whit Monday, Wiltz hosts the Geenzefest parade with flower-decorated floats, bands and the traditional Gorse Queen procession.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html",
-      "categories": [
-        "Luxembourg",
-        "Festivity"
-      ],
       "rule": {
         "type": "easter_offset",
         "days": 50
-      }
+      },
+      "location": {
+        "name": "Wiltz",
+        "geo": "49.9667,5.9333"
+      },
+      "categories": [
+        "Luxembourg",
+        "Festivity"
+      ]
     },
     {
       "uid_base": "lu-fest-winetasteenjoy-start",
@@ -439,22 +471,26 @@
     },
     {
       "uid_base": "lu-fest-whittue",
-      "summary": "🎉 Sprangpressessioun / Hopping Procession (Echternach)",
+      "summary": "🎉 Sprangpressessioun / Hopping Procession",
       "description": "On Whit Tuesday, pilgrims join the Sprangpressessioun in Echternach, a UNESCO-listed religious tradition.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html",
+      "rule": {
+        "type": "easter_offset",
+        "days": 51
+      },
+      "location": {
+        "name": "Echternach",
+        "geo": "49.8119,6.4187"
+      },
       "categories": [
         "Luxembourg",
         "Festivity",
         "Pilgrimage"
-      ],
-      "rule": {
-        "type": "easter_offset",
-        "days": 51
-      }
+      ]
     },
     {
       "uid_base": "lu-holiday-national",
-      "summary": "🏛️ Nationalfeierdag / National Day (Public Holiday)",
+      "summary": "🏛️ Nationalfeierdag / National Day",
       "description": "Legal public holiday on 23 June, celebrated nationwide in honour of Luxembourg's monarch and people.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fete-nationale.html",
       "categories": [
@@ -488,57 +524,69 @@
       "summary": "🎪 Al Dikkrich (starts)",
       "description": "Start marker of Diekirch's multi-day summer folk festival, traditionally beginning on the second Friday of July.",
       "reference_url": "https://www.visitluxembourg.com/event/al-dikkrich",
-      "categories": [
-        "Luxembourg",
-        "Festivity",
-        "Market"
-      ],
       "rule": {
         "type": "nth_weekday_of_month",
         "month": 7,
         "weekday": "FRIDAY",
         "occurrence": 2
-      }
+      },
+      "location": {
+        "name": "Diekirch",
+        "geo": "49.8674,6.1597"
+      },
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market"
+      ]
     },
     {
       "uid_base": "lu-fest-einerwenzerdag-start",
       "summary": "🍇 Éiner Wënzerdag (starts)",
       "description": "Start marker for Ehnen's winegrowers' festival, traditionally held on the third weekend of July.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html",
-      "categories": [
-        "Luxembourg",
-        "Festivity",
-        "Market",
-        "Wine"
-      ],
       "rule": {
         "type": "nth_weekday_of_month",
         "month": 7,
         "weekday": "FRIDAY",
         "occurrence": 3
-      }
+      },
+      "location": {
+        "name": "Ehnen",
+        "geo": "49.6167,6.3833"
+      },
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market",
+        "Wine"
+      ]
     },
     {
       "uid_base": "lu-fest-picadilly-start",
       "summary": "🍷 Picadilly Wine Festival (starts)",
       "description": "Start marker for Stadtbredimus' Picadilly festival, a major Moselle wine event held on the second weekend of August.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html",
-      "categories": [
-        "Luxembourg",
-        "Festivity",
-        "Market",
-        "Wine"
-      ],
       "rule": {
         "type": "nth_weekday_of_month",
         "month": 8,
         "weekday": "FRIDAY",
         "occurrence": 2
-      }
+      },
+      "location": {
+        "name": "Stadtbredimus",
+        "geo": "49.5833,6.3833"
+      },
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market",
+        "Wine"
+      ]
     },
     {
       "uid_base": "lu-holiday-assumption",
-      "summary": "🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)",
+      "summary": "🏛️ Léiffrawëschdag / Assumption Day",
       "description": "Legal public holiday on 15 August, traditionally linked to the blessing of herb bundles (Krautwësch).",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/leiffraweschdag.html",
       "categories": [
@@ -557,122 +605,150 @@
       "summary": "🎡 Schueberfouer / Schueber Funfair (opening)",
       "description": "Opening day of Luxembourg City's major fairground festival, historically linked to the Saint Bartholomew market tradition.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/schueberfouer.html",
-      "categories": [
-        "Luxembourg",
-        "Fair"
-      ],
       "rule": {
         "type": "last_weekday_of_month",
         "month": 8,
         "weekday": "FRIDAY"
-      }
-    },
-    {
-      "uid_base": "lu-fair-kiermesmon",
-      "summary": "🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)",
-      "description": "Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.",
-      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kermesse-haemmelsmarsch.html",
+      },
+      "location": {
+        "name": "Luxembourg City",
+        "geo": "49.6117,6.1319"
+      },
       "categories": [
         "Luxembourg",
         "Fair"
-      ],
+      ]
+    },
+    {
+      "uid_base": "lu-fair-kiermesmon",
+      "summary": "🎠 Kiermesméindeg / Kermesse Monday",
+      "description": "Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kermesse-haemmelsmarsch.html",
       "rule": {
         "type": "nth_weekday_of_month",
         "month": 9,
         "weekday": "MONDAY",
         "occurrence": 1
-      }
+      },
+      "location": {
+        "name": "Luxembourg City",
+        "geo": "49.6117,6.1319"
+      },
+      "categories": [
+        "Luxembourg",
+        "Fair"
+      ]
     },
     {
       "uid_base": "lu-fest-drauwenwaifest-start",
       "summary": "🍇 Drauwen- a Wäifest Gréiwemaacher (starts)",
       "description": "Start marker for Grevenmacher's grape and wine festival, traditionally held on the second weekend of September with the crowning of the Wine Queen.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html",
-      "categories": [
-        "Luxembourg",
-        "Festivity",
-        "Market",
-        "Wine"
-      ],
       "rule": {
         "type": "nth_weekday_of_month",
         "month": 9,
         "weekday": "FRIDAY",
         "occurrence": 2
-      }
+      },
+      "location": {
+        "name": "Grevenmacher",
+        "geo": "49.6811,6.4403"
+      },
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market",
+        "Wine"
+      ]
     },
     {
       "uid_base": "lu-fest-rieslingopen-start",
       "summary": "🍾 Riesling Open (starts)",
       "description": "Start marker for the Riesling Open festival in Wormeldange, traditionally held on the third weekend of September.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html",
-      "categories": [
-        "Luxembourg",
-        "Festivity",
-        "Market",
-        "Wine"
-      ],
       "rule": {
         "type": "nth_weekday_of_month",
         "month": 9,
         "weekday": "FRIDAY",
         "occurrence": 3
-      }
-    },
-    {
-      "uid_base": "lu-fest-kropemannsfest",
-      "summary": "🧌 Kropemannsfest (Redange)",
-      "description": "Traditional folk festival in Redange-sur-Attert, held on the last Sunday of September with family activities and market stalls.",
-      "reference_url": "https://www.visitluxembourg.com/event/kropemannsfest",
+      },
+      "location": {
+        "name": "Wormeldange",
+        "geo": "49.6097,6.3667"
+      },
       "categories": [
         "Luxembourg",
         "Festivity",
-        "Market"
-      ],
+        "Market",
+        "Wine"
+      ]
+    },
+    {
+      "uid_base": "lu-fest-kropemannsfest",
+      "summary": "🧌 Kropemannsfest",
+      "description": "Traditional folk festival in Redange-sur-Attert, held on the last Sunday of September with family activities and market stalls.",
+      "reference_url": "https://www.visitluxembourg.com/event/kropemannsfest",
       "rule": {
         "type": "last_weekday_of_month",
         "month": 9,
         "weekday": "SUNDAY"
-      }
+      },
+      "location": {
+        "name": "Redange-sur-Attert",
+        "geo": "49.7647,5.8897"
+      },
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market"
+      ]
     },
     {
       "uid_base": "lu-market-veiner-nessmoort",
       "summary": "🌰 Veiner Nëssmoort / Vianden Nut Market",
       "description": "Large annual nut market in Vianden, traditionally held on the second Sunday of October.",
       "reference_url": "https://www.visitluxembourg.com/event/veiner-nessmoort",
-      "categories": [
-        "Luxembourg",
-        "Festivity",
-        "Market"
-      ],
       "rule": {
         "type": "nth_weekday_of_month",
         "month": 10,
         "weekday": "SUNDAY",
         "occurrence": 2
-      }
-    },
-    {
-      "uid_base": "lu-fest-hunnefeier",
-      "summary": "🐓 Hunnefeier (Schengen)",
-      "description": "Harvest-end wine festival in Schengen, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.",
-      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html",
+      },
+      "location": {
+        "name": "Vianden",
+        "geo": "49.9319,6.2086"
+      },
       "categories": [
         "Luxembourg",
         "Festivity",
-        "Market",
-        "Wine"
-      ],
+        "Market"
+      ]
+    },
+    {
+      "uid_base": "lu-fest-hunnefeier",
+      "summary": "🐓 Hunnefeier",
+      "description": "Harvest-end wine festival in Schengen, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.",
+      "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html",
       "rule": {
         "type": "nth_weekday_of_month",
         "month": 10,
         "weekday": "SUNDAY",
         "occurrence": 3
-      }
+      },
+      "location": {
+        "name": "Schengen",
+        "geo": "49.4758,6.3594"
+      },
+      "categories": [
+        "Luxembourg",
+        "Festivity",
+        "Market",
+        "Wine"
+      ]
     },
     {
       "uid_base": "lu-holiday-allsaints",
-      "summary": "🏛️ Allerhellgen / All Saints' Day (Public Holiday)",
+      "summary": "🏛️ Allerhellgen / All Saints' Day",
       "description": "Legal public holiday on 1 November; graves are traditionally decorated and blessed, and d'Trauliicht customs are associated with this period.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html",
       "categories": [
@@ -778,7 +854,7 @@
     },
     {
       "uid_base": "lu-holiday-christmas",
-      "summary": "🏛️ Chrëschtdag / Christmas Day (Public Holiday)",
+      "summary": "🏛️ Chrëschtdag / Christmas Day",
       "description": "Legal public holiday on 25 December.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html",
       "categories": [
@@ -794,7 +870,7 @@
     },
     {
       "uid_base": "lu-holiday-ststephen",
-      "summary": "🏛️ Stiefesdag / St Stephen's Day (Public Holiday)",
+      "summary": "🏛️ Stiefesdag / St Stephen's Day",
       "description": "Legal public holiday on 26 December (Boxing Day).",
       "reference_url": "https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html",
       "categories": [

@@ -10,7 +10,7 @@ UID:lu-holiday-newyear-2026@local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260102
-SUMMARY:🏛️ Neijoerschdag / New Year (Public Holiday)
+SUMMARY:🏛️ Neijoerschdag / New Year
 DESCRIPTION:Legal public holiday in Luxembourg. On Neijoerschdag (1 January)\, families exchange wishes and children often receive a small 'neit Jäerchen' gift.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/nouvel-an-luxembourg.html
@@ -164,7 +164,7 @@ UID:lu-fest-jaudes-2026@local
 DTSTAMP:20260403T000000Z
 DTSTART;VALUE=DATE:20260403
 DTEND;VALUE=DATE:20260404
-SUMMARY:🌹 Jaudes / Dog Rose Custom (Vianden)
+SUMMARY:🌹 Jaudes / Dog Rose Custom
 DESCRIPTION:On Good Friday in Vianden\, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns\, paper flowers and ribbons.
 CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html
@@ -186,7 +186,7 @@ UID:lu-holiday-eastermon-2026@local
 DTSTAMP:20260406T000000Z
 DTSTART;VALUE=DATE:20260406
 DTEND;VALUE=DATE:20260407
-SUMMARY:🏛️ Ouschterméindeg / Easter Monday (Public Holiday)
+SUMMARY:🏛️ Ouschterméindeg / Easter Monday
 DESCRIPTION:Legal public holiday in Luxembourg\, observed the day after Easter Sunday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -230,7 +230,7 @@ UID:lu-holiday-mayday-2026@local
 DTSTAMP:20260501T000000Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
-SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)
+SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day
 DESCRIPTION:Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/meekranz-fete-travail.html
@@ -252,7 +252,7 @@ UID:lu-holiday-europeday-2026@local
 DTSTAMP:20260509T000000Z
 DTSTART;VALUE=DATE:20260509
 DTEND;VALUE=DATE:20260510
-SUMMARY:🏛️ Europadag / Europe Day (Public Holiday)
+SUMMARY:🏛️ Europadag / Europe Day
 DESCRIPTION:Legal public holiday in Luxembourg on 9 May.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -263,7 +263,7 @@ UID:lu-holiday-ascension-2026@local
 DTSTAMP:20260514T000000Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
-SUMMARY:🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)
+SUMMARY:🏛️ Christi Himmelfaart / Ascension Day
 DESCRIPTION:Legal public holiday observed 39 days after Easter Sunday\; in Luxembourg\, it is also associated with the Fatima procession in Wiltz.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -274,7 +274,7 @@ UID:lu-fest-fatima-wiltz-2026@local
 DTSTAMP:20260514T000000Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
-SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
+SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage
 DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
 CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
@@ -296,7 +296,7 @@ UID:lu-holiday-whitmon-2026@local
 DTSTAMP:20260525T000000Z
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
-SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
+SUMMARY:🏛️ Péngschtméindeg / Whit Monday
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -307,7 +307,7 @@ UID:lu-fest-geenzefest-2026@local
 DTSTAMP:20260525T000000Z
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
-SUMMARY:🌼 Geenzefest / Broom Festival (Wiltz)
+SUMMARY:🌼 Geenzefest / Broom Festival
 DESCRIPTION:On Whit Monday\, Wiltz hosts the Geenzefest parade with flower-decorated floats\, bands and the traditional Gorse Queen procession.
 CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html
@@ -329,7 +329,7 @@ UID:lu-fest-whittue-2026@local
 DTSTAMP:20260526T000000Z
 DTSTART;VALUE=DATE:20260526
 DTEND;VALUE=DATE:20260527
-SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
+SUMMARY:🎉 Sprangpressessioun / Hopping Procession
 DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
 CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html
@@ -351,7 +351,7 @@ UID:lu-holiday-national-2026@local
 DTSTAMP:20260623T000000Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
-SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
+SUMMARY:🏛️ Nationalfeierdag / National Day
 DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fete-nationale.html
@@ -395,7 +395,7 @@ UID:lu-holiday-assumption-2026@local
 DTSTAMP:20260815T000000Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
-SUMMARY:🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)
+SUMMARY:🏛️ Léiffrawëschdag / Assumption Day
 DESCRIPTION:Legal public holiday on 15 August\, traditionally linked to the blessing of herb bundles (Krautwësch).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/leiffraweschdag.html
@@ -417,7 +417,7 @@ UID:lu-fair-kiermesmon-2026@local
 DTSTAMP:20260907T000000Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
+SUMMARY:🎠 Kiermesméindeg / Kermesse Monday
 DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
 CATEGORIES:Luxembourg\;Fair
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kermesse-haemmelsmarsch.html
@@ -450,7 +450,7 @@ UID:lu-fest-kropemannsfest-2026@local
 DTSTAMP:20260927T000000Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
-SUMMARY:🧌 Kropemannsfest (Redange)
+SUMMARY:🧌 Kropemannsfest
 DESCRIPTION:Traditional folk festival in Redange-sur-Attert\, held on the last Sunday of September with family activities and market stalls.
 CATEGORIES:Luxembourg\;Festivity\;Market
 URL:https://www.visitluxembourg.com/event/kropemannsfest
@@ -472,7 +472,7 @@ UID:lu-fest-hunnefeier-2026@local
 DTSTAMP:20261018T000000Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-SUMMARY:🐓 Hunnefeier (Schengen)
+SUMMARY:🐓 Hunnefeier
 DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
 CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
@@ -483,7 +483,7 @@ UID:lu-holiday-allsaints-2026@local
 DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
+SUMMARY:🏛️ Allerhellgen / All Saints' Day
 DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
@@ -560,7 +560,7 @@ UID:lu-holiday-christmas-2026@local
 DTSTAMP:20261225T000000Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
-SUMMARY:🏛️ Chrëschtdag / Christmas Day (Public Holiday)
+SUMMARY:🏛️ Chrëschtdag / Christmas Day
 DESCRIPTION:Legal public holiday on 25 December.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html
@@ -571,7 +571,7 @@ UID:lu-holiday-ststephen-2026@local
 DTSTAMP:20261226T000000Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
-SUMMARY:🏛️ Stiefesdag / St Stephen's Day (Public Holiday)
+SUMMARY:🏛️ Stiefesdag / St Stephen's Day
 DESCRIPTION:Legal public holiday on 26 December (Boxing Day).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -593,7 +593,7 @@ UID:lu-holiday-newyear-2027@local
 DTSTAMP:20270101T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
-SUMMARY:🏛️ Neijoerschdag / New Year (Public Holiday)
+SUMMARY:🏛️ Neijoerschdag / New Year
 DESCRIPTION:Legal public holiday in Luxembourg. On Neijoerschdag (1 January)\, families exchange wishes and children often receive a small 'neit Jäerchen' gift.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/nouvel-an-luxembourg.html
@@ -736,7 +736,7 @@ UID:lu-fest-jaudes-2027@local
 DTSTAMP:20270326T000000Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
-SUMMARY:🌹 Jaudes / Dog Rose Custom (Vianden)
+SUMMARY:🌹 Jaudes / Dog Rose Custom
 DESCRIPTION:On Good Friday in Vianden\, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns\, paper flowers and ribbons.
 CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html
@@ -758,7 +758,7 @@ UID:lu-holiday-eastermon-2027@local
 DTSTAMP:20270329T000000Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
-SUMMARY:🏛️ Ouschterméindeg / Easter Monday (Public Holiday)
+SUMMARY:🏛️ Ouschterméindeg / Easter Monday
 DESCRIPTION:Legal public holiday in Luxembourg\, observed the day after Easter Sunday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -824,7 +824,7 @@ UID:lu-holiday-mayday-2027@local
 DTSTAMP:20270501T000000Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
-SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)
+SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day
 DESCRIPTION:Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/meekranz-fete-travail.html
@@ -835,7 +835,7 @@ UID:lu-holiday-ascension-2027@local
 DTSTAMP:20270506T000000Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
-SUMMARY:🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)
+SUMMARY:🏛️ Christi Himmelfaart / Ascension Day
 DESCRIPTION:Legal public holiday observed 39 days after Easter Sunday\; in Luxembourg\, it is also associated with the Fatima procession in Wiltz.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -846,7 +846,7 @@ UID:lu-fest-fatima-wiltz-2027@local
 DTSTAMP:20270506T000000Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
-SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
+SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage
 DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
 CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
@@ -857,7 +857,7 @@ UID:lu-holiday-europeday-2027@local
 DTSTAMP:20270509T000000Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
-SUMMARY:🏛️ Europadag / Europe Day (Public Holiday)
+SUMMARY:🏛️ Europadag / Europe Day
 DESCRIPTION:Legal public holiday in Luxembourg on 9 May.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -879,7 +879,7 @@ UID:lu-holiday-whitmon-2027@local
 DTSTAMP:20270517T000000Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
-SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
+SUMMARY:🏛️ Péngschtméindeg / Whit Monday
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -890,7 +890,7 @@ UID:lu-fest-geenzefest-2027@local
 DTSTAMP:20270517T000000Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
-SUMMARY:🌼 Geenzefest / Broom Festival (Wiltz)
+SUMMARY:🌼 Geenzefest / Broom Festival
 DESCRIPTION:On Whit Monday\, Wiltz hosts the Geenzefest parade with flower-decorated floats\, bands and the traditional Gorse Queen procession.
 CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html
@@ -912,7 +912,7 @@ UID:lu-fest-whittue-2027@local
 DTSTAMP:20270518T000000Z
 DTSTART;VALUE=DATE:20270518
 DTEND;VALUE=DATE:20270519
-SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
+SUMMARY:🎉 Sprangpressessioun / Hopping Procession
 DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
 CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html
@@ -934,7 +934,7 @@ UID:lu-holiday-national-2027@local
 DTSTAMP:20270623T000000Z
 DTSTART;VALUE=DATE:20270623
 DTEND;VALUE=DATE:20270624
-SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
+SUMMARY:🏛️ Nationalfeierdag / National Day
 DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fete-nationale.html
@@ -978,7 +978,7 @@ UID:lu-holiday-assumption-2027@local
 DTSTAMP:20270815T000000Z
 DTSTART;VALUE=DATE:20270815
 DTEND;VALUE=DATE:20270816
-SUMMARY:🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)
+SUMMARY:🏛️ Léiffrawëschdag / Assumption Day
 DESCRIPTION:Legal public holiday on 15 August\, traditionally linked to the blessing of herb bundles (Krautwësch).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/leiffraweschdag.html
@@ -1000,7 +1000,7 @@ UID:lu-fair-kiermesmon-2027@local
 DTSTAMP:20270906T000000Z
 DTSTART;VALUE=DATE:20270906
 DTEND;VALUE=DATE:20270907
-SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
+SUMMARY:🎠 Kiermesméindeg / Kermesse Monday
 DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
 CATEGORIES:Luxembourg\;Fair
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kermesse-haemmelsmarsch.html
@@ -1033,7 +1033,7 @@ UID:lu-fest-kropemannsfest-2027@local
 DTSTAMP:20270926T000000Z
 DTSTART;VALUE=DATE:20270926
 DTEND;VALUE=DATE:20270927
-SUMMARY:🧌 Kropemannsfest (Redange)
+SUMMARY:🧌 Kropemannsfest
 DESCRIPTION:Traditional folk festival in Redange-sur-Attert\, held on the last Sunday of September with family activities and market stalls.
 CATEGORIES:Luxembourg\;Festivity\;Market
 URL:https://www.visitluxembourg.com/event/kropemannsfest
@@ -1055,7 +1055,7 @@ UID:lu-fest-hunnefeier-2027@local
 DTSTAMP:20271017T000000Z
 DTSTART;VALUE=DATE:20271017
 DTEND;VALUE=DATE:20271018
-SUMMARY:🐓 Hunnefeier (Schengen)
+SUMMARY:🐓 Hunnefeier
 DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
 CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
@@ -1066,7 +1066,7 @@ UID:lu-holiday-allsaints-2027@local
 DTSTAMP:20271101T000000Z
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20271102
-SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
+SUMMARY:🏛️ Allerhellgen / All Saints' Day
 DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
@@ -1143,7 +1143,7 @@ UID:lu-holiday-christmas-2027@local
 DTSTAMP:20271225T000000Z
 DTSTART;VALUE=DATE:20271225
 DTEND;VALUE=DATE:20271226
-SUMMARY:🏛️ Chrëschtdag / Christmas Day (Public Holiday)
+SUMMARY:🏛️ Chrëschtdag / Christmas Day
 DESCRIPTION:Legal public holiday on 25 December.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html
@@ -1154,7 +1154,7 @@ UID:lu-holiday-ststephen-2027@local
 DTSTAMP:20271226T000000Z
 DTSTART;VALUE=DATE:20271226
 DTEND;VALUE=DATE:20271227
-SUMMARY:🏛️ Stiefesdag / St Stephen's Day (Public Holiday)
+SUMMARY:🏛️ Stiefesdag / St Stephen's Day
 DESCRIPTION:Legal public holiday on 26 December (Boxing Day).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -1176,7 +1176,7 @@ UID:lu-holiday-newyear-2028@local
 DTSTAMP:20280101T000000Z
 DTSTART;VALUE=DATE:20280101
 DTEND;VALUE=DATE:20280102
-SUMMARY:🏛️ Neijoerschdag / New Year (Public Holiday)
+SUMMARY:🏛️ Neijoerschdag / New Year
 DESCRIPTION:Legal public holiday in Luxembourg. On Neijoerschdag (1 January)\, families exchange wishes and children often receive a small 'neit Jäerchen' gift.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/nouvel-an-luxembourg.html
@@ -1330,7 +1330,7 @@ UID:lu-fest-jaudes-2028@local
 DTSTAMP:20280414T000000Z
 DTSTART;VALUE=DATE:20280414
 DTEND;VALUE=DATE:20280415
-SUMMARY:🌹 Jaudes / Dog Rose Custom (Vianden)
+SUMMARY:🌹 Jaudes / Dog Rose Custom
 DESCRIPTION:On Good Friday in Vianden\, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns\, paper flowers and ribbons.
 CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html
@@ -1352,7 +1352,7 @@ UID:lu-holiday-eastermon-2028@local
 DTSTAMP:20280417T000000Z
 DTSTART;VALUE=DATE:20280417
 DTEND;VALUE=DATE:20280418
-SUMMARY:🏛️ Ouschterméindeg / Easter Monday (Public Holiday)
+SUMMARY:🏛️ Ouschterméindeg / Easter Monday
 DESCRIPTION:Legal public holiday in Luxembourg\, observed the day after Easter Sunday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -1396,7 +1396,7 @@ UID:lu-holiday-mayday-2028@local
 DTSTAMP:20280501T000000Z
 DTSTART;VALUE=DATE:20280501
 DTEND;VALUE=DATE:20280502
-SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)
+SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day
 DESCRIPTION:Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/meekranz-fete-travail.html
@@ -1407,7 +1407,7 @@ UID:lu-holiday-europeday-2028@local
 DTSTAMP:20280509T000000Z
 DTSTART;VALUE=DATE:20280509
 DTEND;VALUE=DATE:20280510
-SUMMARY:🏛️ Europadag / Europe Day (Public Holiday)
+SUMMARY:🏛️ Europadag / Europe Day
 DESCRIPTION:Legal public holiday in Luxembourg on 9 May.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -1429,7 +1429,7 @@ UID:lu-holiday-ascension-2028@local
 DTSTAMP:20280525T000000Z
 DTSTART;VALUE=DATE:20280525
 DTEND;VALUE=DATE:20280526
-SUMMARY:🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)
+SUMMARY:🏛️ Christi Himmelfaart / Ascension Day
 DESCRIPTION:Legal public holiday observed 39 days after Easter Sunday\; in Luxembourg\, it is also associated with the Fatima procession in Wiltz.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -1440,7 +1440,7 @@ UID:lu-fest-fatima-wiltz-2028@local
 DTSTAMP:20280525T000000Z
 DTSTART;VALUE=DATE:20280525
 DTEND;VALUE=DATE:20280526
-SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
+SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage
 DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
 CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
@@ -1462,7 +1462,7 @@ UID:lu-holiday-whitmon-2028@local
 DTSTAMP:20280605T000000Z
 DTSTART;VALUE=DATE:20280605
 DTEND;VALUE=DATE:20280606
-SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
+SUMMARY:🏛️ Péngschtméindeg / Whit Monday
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -1473,7 +1473,7 @@ UID:lu-fest-geenzefest-2028@local
 DTSTAMP:20280605T000000Z
 DTSTART;VALUE=DATE:20280605
 DTEND;VALUE=DATE:20280606
-SUMMARY:🌼 Geenzefest / Broom Festival (Wiltz)
+SUMMARY:🌼 Geenzefest / Broom Festival
 DESCRIPTION:On Whit Monday\, Wiltz hosts the Geenzefest parade with flower-decorated floats\, bands and the traditional Gorse Queen procession.
 CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html
@@ -1495,7 +1495,7 @@ UID:lu-fest-whittue-2028@local
 DTSTAMP:20280606T000000Z
 DTSTART;VALUE=DATE:20280606
 DTEND;VALUE=DATE:20280607
-SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
+SUMMARY:🎉 Sprangpressessioun / Hopping Procession
 DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
 CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html
@@ -1517,7 +1517,7 @@ UID:lu-holiday-national-2028@local
 DTSTAMP:20280623T000000Z
 DTSTART;VALUE=DATE:20280623
 DTEND;VALUE=DATE:20280624
-SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
+SUMMARY:🏛️ Nationalfeierdag / National Day
 DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fete-nationale.html
@@ -1561,7 +1561,7 @@ UID:lu-holiday-assumption-2028@local
 DTSTAMP:20280815T000000Z
 DTSTART;VALUE=DATE:20280815
 DTEND;VALUE=DATE:20280816
-SUMMARY:🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)
+SUMMARY:🏛️ Léiffrawëschdag / Assumption Day
 DESCRIPTION:Legal public holiday on 15 August\, traditionally linked to the blessing of herb bundles (Krautwësch).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/leiffraweschdag.html
@@ -1583,7 +1583,7 @@ UID:lu-fair-kiermesmon-2028@local
 DTSTAMP:20280904T000000Z
 DTSTART;VALUE=DATE:20280904
 DTEND;VALUE=DATE:20280905
-SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
+SUMMARY:🎠 Kiermesméindeg / Kermesse Monday
 DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
 CATEGORIES:Luxembourg\;Fair
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kermesse-haemmelsmarsch.html
@@ -1616,7 +1616,7 @@ UID:lu-fest-kropemannsfest-2028@local
 DTSTAMP:20280924T000000Z
 DTSTART;VALUE=DATE:20280924
 DTEND;VALUE=DATE:20280925
-SUMMARY:🧌 Kropemannsfest (Redange)
+SUMMARY:🧌 Kropemannsfest
 DESCRIPTION:Traditional folk festival in Redange-sur-Attert\, held on the last Sunday of September with family activities and market stalls.
 CATEGORIES:Luxembourg\;Festivity\;Market
 URL:https://www.visitluxembourg.com/event/kropemannsfest
@@ -1638,7 +1638,7 @@ UID:lu-fest-hunnefeier-2028@local
 DTSTAMP:20281015T000000Z
 DTSTART;VALUE=DATE:20281015
 DTEND;VALUE=DATE:20281016
-SUMMARY:🐓 Hunnefeier (Schengen)
+SUMMARY:🐓 Hunnefeier
 DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
 CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
@@ -1649,7 +1649,7 @@ UID:lu-holiday-allsaints-2028@local
 DTSTAMP:20281101T000000Z
 DTSTART;VALUE=DATE:20281101
 DTEND;VALUE=DATE:20281102
-SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
+SUMMARY:🏛️ Allerhellgen / All Saints' Day
 DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
@@ -1726,7 +1726,7 @@ UID:lu-holiday-christmas-2028@local
 DTSTAMP:20281225T000000Z
 DTSTART;VALUE=DATE:20281225
 DTEND;VALUE=DATE:20281226
-SUMMARY:🏛️ Chrëschtdag / Christmas Day (Public Holiday)
+SUMMARY:🏛️ Chrëschtdag / Christmas Day
 DESCRIPTION:Legal public holiday on 25 December.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html
@@ -1737,7 +1737,7 @@ UID:lu-holiday-ststephen-2028@local
 DTSTAMP:20281226T000000Z
 DTSTART;VALUE=DATE:20281226
 DTEND;VALUE=DATE:20281227
-SUMMARY:🏛️ Stiefesdag / St Stephen's Day (Public Holiday)
+SUMMARY:🏛️ Stiefesdag / St Stephen's Day
 DESCRIPTION:Legal public holiday on 26 December (Boxing Day).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -1759,7 +1759,7 @@ UID:lu-holiday-newyear-2029@local
 DTSTAMP:20290101T000000Z
 DTSTART;VALUE=DATE:20290101
 DTEND;VALUE=DATE:20290102
-SUMMARY:🏛️ Neijoerschdag / New Year (Public Holiday)
+SUMMARY:🏛️ Neijoerschdag / New Year
 DESCRIPTION:Legal public holiday in Luxembourg. On Neijoerschdag (1 January)\, families exchange wishes and children often receive a small 'neit Jäerchen' gift.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/nouvel-an-luxembourg.html
@@ -1902,7 +1902,7 @@ UID:lu-fest-jaudes-2029@local
 DTSTAMP:20290330T000000Z
 DTSTART;VALUE=DATE:20290330
 DTEND;VALUE=DATE:20290331
-SUMMARY:🌹 Jaudes / Dog Rose Custom (Vianden)
+SUMMARY:🌹 Jaudes / Dog Rose Custom
 DESCRIPTION:On Good Friday in Vianden\, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns\, paper flowers and ribbons.
 CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html
@@ -1935,7 +1935,7 @@ UID:lu-holiday-eastermon-2029@local
 DTSTAMP:20290402T000000Z
 DTSTART;VALUE=DATE:20290402
 DTEND;VALUE=DATE:20290403
-SUMMARY:🏛️ Ouschterméindeg / Easter Monday (Public Holiday)
+SUMMARY:🏛️ Ouschterméindeg / Easter Monday
 DESCRIPTION:Legal public holiday in Luxembourg\, observed the day after Easter Sunday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -1990,7 +1990,7 @@ UID:lu-holiday-mayday-2029@local
 DTSTAMP:20290501T000000Z
 DTSTART;VALUE=DATE:20290501
 DTEND;VALUE=DATE:20290502
-SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)
+SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day
 DESCRIPTION:Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/meekranz-fete-travail.html
@@ -2001,7 +2001,7 @@ UID:lu-holiday-europeday-2029@local
 DTSTAMP:20290509T000000Z
 DTSTART;VALUE=DATE:20290509
 DTEND;VALUE=DATE:20290510
-SUMMARY:🏛️ Europadag / Europe Day (Public Holiday)
+SUMMARY:🏛️ Europadag / Europe Day
 DESCRIPTION:Legal public holiday in Luxembourg on 9 May.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -2012,7 +2012,7 @@ UID:lu-holiday-ascension-2029@local
 DTSTAMP:20290510T000000Z
 DTSTART;VALUE=DATE:20290510
 DTEND;VALUE=DATE:20290511
-SUMMARY:🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)
+SUMMARY:🏛️ Christi Himmelfaart / Ascension Day
 DESCRIPTION:Legal public holiday observed 39 days after Easter Sunday\; in Luxembourg\, it is also associated with the Fatima procession in Wiltz.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -2023,7 +2023,7 @@ UID:lu-fest-fatima-wiltz-2029@local
 DTSTAMP:20290510T000000Z
 DTSTART;VALUE=DATE:20290510
 DTEND;VALUE=DATE:20290511
-SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
+SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage
 DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
 CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
@@ -2045,7 +2045,7 @@ UID:lu-holiday-whitmon-2029@local
 DTSTAMP:20290521T000000Z
 DTSTART;VALUE=DATE:20290521
 DTEND;VALUE=DATE:20290522
-SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
+SUMMARY:🏛️ Péngschtméindeg / Whit Monday
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -2056,7 +2056,7 @@ UID:lu-fest-geenzefest-2029@local
 DTSTAMP:20290521T000000Z
 DTSTART;VALUE=DATE:20290521
 DTEND;VALUE=DATE:20290522
-SUMMARY:🌼 Geenzefest / Broom Festival (Wiltz)
+SUMMARY:🌼 Geenzefest / Broom Festival
 DESCRIPTION:On Whit Monday\, Wiltz hosts the Geenzefest parade with flower-decorated floats\, bands and the traditional Gorse Queen procession.
 CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html
@@ -2078,7 +2078,7 @@ UID:lu-fest-whittue-2029@local
 DTSTAMP:20290522T000000Z
 DTSTART;VALUE=DATE:20290522
 DTEND;VALUE=DATE:20290523
-SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
+SUMMARY:🎉 Sprangpressessioun / Hopping Procession
 DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
 CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html
@@ -2100,7 +2100,7 @@ UID:lu-holiday-national-2029@local
 DTSTAMP:20290623T000000Z
 DTSTART;VALUE=DATE:20290623
 DTEND;VALUE=DATE:20290624
-SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
+SUMMARY:🏛️ Nationalfeierdag / National Day
 DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fete-nationale.html
@@ -2144,7 +2144,7 @@ UID:lu-holiday-assumption-2029@local
 DTSTAMP:20290815T000000Z
 DTSTART;VALUE=DATE:20290815
 DTEND;VALUE=DATE:20290816
-SUMMARY:🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)
+SUMMARY:🏛️ Léiffrawëschdag / Assumption Day
 DESCRIPTION:Legal public holiday on 15 August\, traditionally linked to the blessing of herb bundles (Krautwësch).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/leiffraweschdag.html
@@ -2166,7 +2166,7 @@ UID:lu-fair-kiermesmon-2029@local
 DTSTAMP:20290903T000000Z
 DTSTART;VALUE=DATE:20290903
 DTEND;VALUE=DATE:20290904
-SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
+SUMMARY:🎠 Kiermesméindeg / Kermesse Monday
 DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
 CATEGORIES:Luxembourg\;Fair
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kermesse-haemmelsmarsch.html
@@ -2199,7 +2199,7 @@ UID:lu-fest-kropemannsfest-2029@local
 DTSTAMP:20290930T000000Z
 DTSTART;VALUE=DATE:20290930
 DTEND;VALUE=DATE:20291001
-SUMMARY:🧌 Kropemannsfest (Redange)
+SUMMARY:🧌 Kropemannsfest
 DESCRIPTION:Traditional folk festival in Redange-sur-Attert\, held on the last Sunday of September with family activities and market stalls.
 CATEGORIES:Luxembourg\;Festivity\;Market
 URL:https://www.visitluxembourg.com/event/kropemannsfest
@@ -2221,7 +2221,7 @@ UID:lu-fest-hunnefeier-2029@local
 DTSTAMP:20291021T000000Z
 DTSTART;VALUE=DATE:20291021
 DTEND;VALUE=DATE:20291022
-SUMMARY:🐓 Hunnefeier (Schengen)
+SUMMARY:🐓 Hunnefeier
 DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
 CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
@@ -2232,7 +2232,7 @@ UID:lu-holiday-allsaints-2029@local
 DTSTAMP:20291101T000000Z
 DTSTART;VALUE=DATE:20291101
 DTEND;VALUE=DATE:20291102
-SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
+SUMMARY:🏛️ Allerhellgen / All Saints' Day
 DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
@@ -2309,7 +2309,7 @@ UID:lu-holiday-christmas-2029@local
 DTSTAMP:20291225T000000Z
 DTSTART;VALUE=DATE:20291225
 DTEND;VALUE=DATE:20291226
-SUMMARY:🏛️ Chrëschtdag / Christmas Day (Public Holiday)
+SUMMARY:🏛️ Chrëschtdag / Christmas Day
 DESCRIPTION:Legal public holiday on 25 December.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html
@@ -2320,7 +2320,7 @@ UID:lu-holiday-ststephen-2029@local
 DTSTAMP:20291226T000000Z
 DTSTART;VALUE=DATE:20291226
 DTEND;VALUE=DATE:20291227
-SUMMARY:🏛️ Stiefesdag / St Stephen's Day (Public Holiday)
+SUMMARY:🏛️ Stiefesdag / St Stephen's Day
 DESCRIPTION:Legal public holiday on 26 December (Boxing Day).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -2342,7 +2342,7 @@ UID:lu-holiday-newyear-2030@local
 DTSTAMP:20300101T000000Z
 DTSTART;VALUE=DATE:20300101
 DTEND;VALUE=DATE:20300102
-SUMMARY:🏛️ Neijoerschdag / New Year (Public Holiday)
+SUMMARY:🏛️ Neijoerschdag / New Year
 DESCRIPTION:Legal public holiday in Luxembourg. On Neijoerschdag (1 January)\, families exchange wishes and children often receive a small 'neit Jäerchen' gift.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/nouvel-an-luxembourg.html
@@ -2496,7 +2496,7 @@ UID:lu-fest-jaudes-2030@local
 DTSTAMP:20300419T000000Z
 DTSTART;VALUE=DATE:20300419
 DTEND;VALUE=DATE:20300420
-SUMMARY:🌹 Jaudes / Dog Rose Custom (Vianden)
+SUMMARY:🌹 Jaudes / Dog Rose Custom
 DESCRIPTION:On Good Friday in Vianden\, youths traditionally prepare and burn Jaudes bouquets made of wild rose thorns\, paper flowers and ribbons.
 CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/paques.html
@@ -2518,7 +2518,7 @@ UID:lu-holiday-eastermon-2030@local
 DTSTAMP:20300422T000000Z
 DTSTART;VALUE=DATE:20300422
 DTEND;VALUE=DATE:20300423
-SUMMARY:🏛️ Ouschterméindeg / Easter Monday (Public Holiday)
+SUMMARY:🏛️ Ouschterméindeg / Easter Monday
 DESCRIPTION:Legal public holiday in Luxembourg\, observed the day after Easter Sunday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -2551,7 +2551,7 @@ UID:lu-holiday-mayday-2030@local
 DTSTAMP:20300501T000000Z
 DTSTART;VALUE=DATE:20300501
 DTEND;VALUE=DATE:20300502
-SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day (Public Holiday)
+SUMMARY:🏛️ Dag vun der Aarbecht / Labour Day
 DESCRIPTION:Legal public holiday on 1 May. The date also aligns with spring traditions such as Meekranz (May wreaths).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/meekranz-fete-travail.html
@@ -2573,7 +2573,7 @@ UID:lu-holiday-europeday-2030@local
 DTSTAMP:20300509T000000Z
 DTSTART;VALUE=DATE:20300509
 DTEND;VALUE=DATE:20300510
-SUMMARY:🏛️ Europadag / Europe Day (Public Holiday)
+SUMMARY:🏛️ Europadag / Europe Day
 DESCRIPTION:Legal public holiday in Luxembourg on 9 May.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -2595,7 +2595,7 @@ UID:lu-holiday-ascension-2030@local
 DTSTAMP:20300530T000000Z
 DTSTART;VALUE=DATE:20300530
 DTEND;VALUE=DATE:20300531
-SUMMARY:🏛️ Christi Himmelfaart / Ascension Day (Public Holiday)
+SUMMARY:🏛️ Christi Himmelfaart / Ascension Day
 DESCRIPTION:Legal public holiday observed 39 days after Easter Sunday\; in Luxembourg\, it is also associated with the Fatima procession in Wiltz.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -2606,7 +2606,7 @@ UID:lu-fest-fatima-wiltz-2030@local
 DTSTAMP:20300530T000000Z
 DTSTART;VALUE=DATE:20300530
 DTEND;VALUE=DATE:20300531
-SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage (Wiltz)
+SUMMARY:⛪ Notre-Dame de Fatima / Fatima Pilgrimage
 DESCRIPTION:On Ascension Thursday\, thousands of pilgrims gather at the Fatima sanctuary above Wiltz for one of Luxembourg's major pilgrimage traditions.
 CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/notre-dame-de-fatima.html
@@ -2628,7 +2628,7 @@ UID:lu-holiday-whitmon-2030@local
 DTSTAMP:20300610T000000Z
 DTSTART;VALUE=DATE:20300610
 DTEND;VALUE=DATE:20300611
-SUMMARY:🏛️ Péngschtméindeg / Whit Monday (Public Holiday)
+SUMMARY:🏛️ Péngschtméindeg / Whit Monday
 DESCRIPTION:Legal public holiday 50 days after Easter Sunday\; in Wiltz\, the Geenzefest parade traditionally culminates on Whit Monday.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
@@ -2639,7 +2639,7 @@ UID:lu-fest-geenzefest-2030@local
 DTSTAMP:20300610T000000Z
 DTSTART;VALUE=DATE:20300610
 DTEND;VALUE=DATE:20300611
-SUMMARY:🌼 Geenzefest / Broom Festival (Wiltz)
+SUMMARY:🌼 Geenzefest / Broom Festival
 DESCRIPTION:On Whit Monday\, Wiltz hosts the Geenzefest parade with flower-decorated floats\, bands and the traditional Gorse Queen procession.
 CATEGORIES:Luxembourg\;Festivity
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/geenzefest.html
@@ -2661,7 +2661,7 @@ UID:lu-fest-whittue-2030@local
 DTSTAMP:20300611T000000Z
 DTSTART;VALUE=DATE:20300611
 DTEND;VALUE=DATE:20300612
-SUMMARY:🎉 Sprangpressessioun / Hopping Procession (Echternach)
+SUMMARY:🎉 Sprangpressessioun / Hopping Procession
 DESCRIPTION:On Whit Tuesday\, pilgrims join the Sprangpressessioun in Echternach\, a UNESCO-listed religious tradition.
 CATEGORIES:Luxembourg\;Festivity\;Pilgrimage
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/procession-dansante.html
@@ -2683,7 +2683,7 @@ UID:lu-holiday-national-2030@local
 DTSTAMP:20300623T000000Z
 DTSTART;VALUE=DATE:20300623
 DTEND;VALUE=DATE:20300624
-SUMMARY:🏛️ Nationalfeierdag / National Day (Public Holiday)
+SUMMARY:🏛️ Nationalfeierdag / National Day
 DESCRIPTION:Legal public holiday on 23 June\, celebrated nationwide in honour of Luxembourg's monarch and people.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fete-nationale.html
@@ -2727,7 +2727,7 @@ UID:lu-holiday-assumption-2030@local
 DTSTAMP:20300815T000000Z
 DTSTART;VALUE=DATE:20300815
 DTEND;VALUE=DATE:20300816
-SUMMARY:🏛️ Léiffrawëschdag / Assumption Day (Public Holiday)
+SUMMARY:🏛️ Léiffrawëschdag / Assumption Day
 DESCRIPTION:Legal public holiday on 15 August\, traditionally linked to the blessing of herb bundles (Krautwësch).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/leiffraweschdag.html
@@ -2749,7 +2749,7 @@ UID:lu-fair-kiermesmon-2030@local
 DTSTAMP:20300902T000000Z
 DTSTART;VALUE=DATE:20300902
 DTEND;VALUE=DATE:20300903
-SUMMARY:🎠 Kiermesméindeg / Kermesse Monday (Luxembourg City)
+SUMMARY:🎠 Kiermesméindeg / Kermesse Monday
 DESCRIPTION:Local customary day in Luxembourg City. This calendar uses a practical rule: first Monday of September.
 CATEGORIES:Luxembourg\;Fair
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/kermesse-haemmelsmarsch.html
@@ -2782,7 +2782,7 @@ UID:lu-fest-kropemannsfest-2030@local
 DTSTAMP:20300929T000000Z
 DTSTART;VALUE=DATE:20300929
 DTEND;VALUE=DATE:20300930
-SUMMARY:🧌 Kropemannsfest (Redange)
+SUMMARY:🧌 Kropemannsfest
 DESCRIPTION:Traditional folk festival in Redange-sur-Attert\, held on the last Sunday of September with family activities and market stalls.
 CATEGORIES:Luxembourg\;Festivity\;Market
 URL:https://www.visitluxembourg.com/event/kropemannsfest
@@ -2804,7 +2804,7 @@ UID:lu-fest-hunnefeier-2030@local
 DTSTAMP:20301020T000000Z
 DTSTART;VALUE=DATE:20301020
 DTEND;VALUE=DATE:20301021
-SUMMARY:🐓 Hunnefeier (Schengen)
+SUMMARY:🐓 Hunnefeier
 DESCRIPTION:Harvest-end wine festival in Schengen\, traditionally held on the third Sunday of October and linked to the Schengener Hinnchen tradition.
 CATEGORIES:Luxembourg\;Festivity\;Market\;Wine
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fetes-du-vin-et-des-raisins.html
@@ -2815,7 +2815,7 @@ UID:lu-holiday-allsaints-2030@local
 DTSTAMP:20301101T000000Z
 DTSTART;VALUE=DATE:20301101
 DTEND;VALUE=DATE:20301102
-SUMMARY:🏛️ Allerhellgen / All Saints' Day (Public Holiday)
+SUMMARY:🏛️ Allerhellgen / All Saints' Day
 DESCRIPTION:Legal public holiday on 1 November\; graves are traditionally decorated and blessed\, and d'Trauliicht customs are associated with this period.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/allerhellegen-et-trauliicht.html
@@ -2892,7 +2892,7 @@ UID:lu-holiday-christmas-2030@local
 DTSTAMP:20301225T000000Z
 DTSTART;VALUE=DATE:20301225
 DTEND;VALUE=DATE:20301226
-SUMMARY:🏛️ Chrëschtdag / Christmas Day (Public Holiday)
+SUMMARY:🏛️ Chrëschtdag / Christmas Day
 DESCRIPTION:Legal public holiday on 25 December.
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/noel.html
@@ -2903,7 +2903,7 @@ UID:lu-holiday-ststephen-2030@local
 DTSTAMP:20301226T000000Z
 DTSTART;VALUE=DATE:20301226
 DTEND;VALUE=DATE:20301227
-SUMMARY:🏛️ Stiefesdag / St Stephen's Day (Public Holiday)
+SUMMARY:🏛️ Stiefesdag / St Stephen's Day
 DESCRIPTION:Legal public holiday on 26 December (Boxing Day).
 CATEGORIES:Luxembourg\;Holiday\;Public
 URL:https://luxembourg.public.lu/fr/vivre/qualite-de-vie/jours-feries-legaux.html
