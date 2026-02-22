@@ -37,6 +37,7 @@ WEEKDAY_INDEX = {
 _LEADING_EMOJI_RE = re.compile(
     r"^((?:[\u2300-\u23FF\u2600-\u27BF\U0001F000-\U0001FFFF][\uFE0F\u20E3]?)+)\s+"
 )
+_CAMEL_SPLIT_RE = re.compile(r"([a-z])([A-Z])")
 
 
 def parse_args() -> argparse.Namespace:
@@ -261,22 +262,6 @@ def describe_rule(rule: Any) -> str:
     return "Unknown rule"
 
 
-_HTML_SUPPRESSED_TAGS = {"Luxembourg", "Public"}
-
-
-def _entry_type(categories: list[Any]) -> str:
-    cats = {str(c) for c in categories}
-    if "Holiday" in cats:
-        return "holiday"
-    if "Fair" in cats:
-        return "fair"
-    if "Market" in cats:
-        return "market"
-    if "Festivity" in cats:
-        return "festivity"
-    return "other"
-
-
 def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int, int]:
     cards: list[str] = []
     enabled_count = 0
@@ -326,9 +311,7 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
             if isinstance(categories_raw, list) and categories_raw
             else ["Uncategorized"]
         )
-        visible_categories = [
-            str(cat) for cat in categories if str(cat) not in _HTML_SUPPRESSED_TAGS
-        ]
+        visible_categories = [str(cat) for cat in categories]
 
         reference_raw = event.get("reference_url")
         if isinstance(reference_raw, str) and reference_raw.strip():
@@ -341,17 +324,17 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
         if not enabled:
             status_markup = '<span class="entry-status">Disabled</span>'
 
-        entry_type = _entry_type(categories)
+        entry_type = categories[0].strip().lower() if categories else "other"
 
         location_value = (
             location_markup
             if location_markup
-            else '<span class="entry-meta-na">—</span>'
+            else '<span class="entry-meta-na">-</span>'
         )
         tags_text = (
-            html_escape(", ".join(visible_categories))
+            html_escape(", ".join(_CAMEL_SPLIT_RE.sub(r"\1 \2", cat) for cat in visible_categories))
             if visible_categories
-            else '<span class="entry-meta-na">—</span>'
+            else '<span class="entry-meta-na">-</span>'
         )
 
         footer_lines = [
@@ -636,10 +619,10 @@ def main() -> None:
     start_year = args.start_year
     end_year = args.end_year if args.end_year is not None else start_year
 
-    if start_year < 1583 or end_year < 1583:
-        raise ValueError("Years must be >= 1583 for Gregorian Easter calculations.")
     if end_year < start_year:
         raise ValueError("--end-year must be >= --start-year.")
+    if start_year < 1583:
+        raise ValueError("Years must be >= 1583 for Gregorian Easter calculations.")
 
     if args.publish_pages and args.output:
         raise ValueError(

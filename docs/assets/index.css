@@ -22,11 +22,14 @@
   --field-focus: rgba(185, 71, 44, 0.22);
   --shadow-xl: 0 8px 20px rgba(68, 43, 22, 0.13);
   --shadow-card: 0 5px 14px rgba(68, 43, 22, 0.10);
-  --border-festivity: #2f6556;
+  --border-publicholiday: #b9472c;
+  --border-culturaltradition: #2f6556;
+  --border-religiousobservance: #7a5491;
+  --border-parade: #2a7a7a;
   --border-market: #c07c20;
-  --border-fair: #8a5fc8;
-  --border-wine: #9c2b4a;
+  --border-winefestival: #9c2b4a;
   --border-pilgrimage: #476e8a;
+  --border-fairground: #8a5fc8;
   --grad-warm: rgba(185, 71, 44, 0.10);
   --grad-cool: rgba(47, 101, 86, 0.08);
   --scanline: rgba(80, 58, 36, 0.035);
@@ -56,11 +59,14 @@ html[data-theme="dark"] {
   --field-focus: rgba(217, 104, 64, 0.18);
   --shadow-xl: 0 10px 20px rgba(0, 0, 0, 0.28);
   --shadow-card: 0 7px 14px rgba(0, 0, 0, 0.22);
-  --border-festivity: #6bb8a2;
+  --border-publicholiday: #d96840;
+  --border-culturaltradition: #6bb8a2;
+  --border-religiousobservance: #b090d8;
+  --border-parade: #5ac0be;
   --border-market: #c48a1a;
-  --border-fair: #9a72d8;
-  --border-wine: #d46080;
+  --border-winefestival: #d46080;
   --border-pilgrimage: #7aaccc;
+  --border-fairground: #9a72d8;
   --grad-warm: rgba(210, 100, 55, 0.055);
   --grad-cool: rgba(107, 184, 162, 0.04);
   --scanline: rgba(200, 175, 130, 0.018);
@@ -474,9 +480,14 @@ h2 {
   height: 100%;
 }
 
-.entry-card[data-type="festivity"] { border-left-color: var(--border-festivity); }
+.entry-card[data-type="publicholiday"] { border-left-color: var(--border-publicholiday); }
+.entry-card[data-type="culturaltradition"] { border-left-color: var(--border-culturaltradition); }
+.entry-card[data-type="religiousobservance"] { border-left-color: var(--border-religiousobservance); }
+.entry-card[data-type="parade"] { border-left-color: var(--border-parade); }
 .entry-card[data-type="market"] { border-left-color: var(--border-market); }
-.entry-card[data-type="fair"] { border-left-color: var(--border-fair); }
+.entry-card[data-type="winefestival"] { border-left-color: var(--border-winefestival); }
+.entry-card[data-type="pilgrimage"] { border-left-color: var(--border-pilgrimage); }
+.entry-card[data-type="fairground"] { border-left-color: var(--border-fairground); }
 
 .entry-card:hover {
   transform: translateY(-3px);

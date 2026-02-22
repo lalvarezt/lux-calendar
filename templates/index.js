@@ -62,7 +62,7 @@
 
         categories.push(key);
         if (!categoryLabels[key]) {
-          categoryLabels[key] = label;
+          categoryLabels[key] = label.replace(/([a-z])([A-Z])/g, "$1 $2");
         }
         categoryCounts[key] = (categoryCounts[key] || 0) + 1;
       });
@@ -84,12 +84,14 @@
     var pendingAnimationReset = true;
 
     var CATEGORY_COLORS = {
-      "holiday": "var(--accent)",
-      "festivity": "var(--border-festivity)",
+      "publicholiday": "var(--border-publicholiday)",
+      "culturaltradition": "var(--border-culturaltradition)",
+      "religiousobservance": "var(--border-religiousobservance)",
+      "parade": "var(--border-parade)",
       "market": "var(--border-market)",
-      "fair": "var(--border-fair)",
-      "wine": "var(--border-wine)",
+      "winefestival": "var(--border-winefestival)",
       "pilgrimage": "var(--border-pilgrimage)",
+      "fairground": "var(--border-fairground)",
     };
 
     var emptyState = document.createElement("p");
