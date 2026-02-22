@@ -8,20 +8,20 @@
   --muted: #5f5343;
   --line: rgba(83, 58, 33, 0.34);
   --line-soft: rgba(83, 58, 33, 0.18);
-  --surface: rgba(255, 249, 238, 0.84);
-  --surface-strong: rgba(255, 252, 247, 0.95);
+  --surface: rgba(248, 242, 228, 0.80);
+  --surface-strong: rgba(252, 246, 235, 0.93);
   --accent: #b9472c;
   --accent-strong: #8a2f1b;
   --emerald: #2f6556;
   --chip-bg: rgba(47, 101, 86, 0.1);
   --chip-border: rgba(47, 101, 86, 0.34);
-  --status-bg: rgba(185, 71, 44, 0.14);
-  --status-border: rgba(185, 71, 44, 0.42);
-  --status-ink: #842b17;
+  --status-bg: rgba(185, 71, 44, 0.12);
+  --status-border: rgba(185, 71, 44, 0.38);
+  --status-ink: #7c2c14;
   --field-bg: rgba(255, 252, 246, 0.9);
-  --field-focus: rgba(185, 71, 44, 0.18);
-  --shadow-xl: 0 8px 18px rgba(68, 43, 22, 0.09);
-  --shadow-card: 0 5px 12px rgba(68, 43, 22, 0.07);
+  --field-focus: rgba(185, 71, 44, 0.22);
+  --shadow-xl: 0 8px 20px rgba(68, 43, 22, 0.13);
+  --shadow-card: 0 5px 14px rgba(68, 43, 22, 0.10);
   --border-festivity: #2f6556;
   --border-market: #c07c20;
   --border-fair: #8a5fc8;
@@ -107,7 +107,7 @@ a {
 }
 
 ::selection {
-  background: rgba(185, 95, 45, 0.25);
+  background: rgba(185, 95, 45, 0.30);
   color: inherit;
 }
 
@@ -294,7 +294,7 @@ h2 {
 
 .button:hover {
   transform: translateY(-1px);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 10px rgba(68, 43, 22, 0.18);
 }
 
 .button-primary {
@@ -504,7 +504,7 @@ h2 {
   border-top-color: var(--line);
   border-right-color: var(--line);
   border-bottom-color: var(--line);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 16px rgba(68, 43, 22, 0.14);
 }
 
 .entry-card[hidden] {
