@@ -324,7 +324,7 @@ h2 {
 }
 
 .tip-row {
-  margin: 0.72rem 0 0;
+  margin: 1.1rem 0 0;
   display: grid;
   grid-template-columns: max-content 1fr;
   gap: 0.16rem 0.48rem;
@@ -594,6 +594,10 @@ h2 {
 .entry-reference.unavailable {
   color: var(--muted);
   font-weight: 500;
+}
+
+.entry-source {
+  line-height: 1.2;
 }
 
 .empty-state {

@@ -304,7 +304,6 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
         description = html_escape(
             str(event.get("description", "No description provided."))
         )
-        uid_base = html_escape(str(event.get("uid_base", "unknown")))
         rule_description = html_escape(describe_rule(event.get("rule")))
 
         categories_raw = event.get("categories")
@@ -337,7 +336,6 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
         footer_lines = [
             '  <div class="entry-footer">',
             f'    <p class="entry-meta"><span>Rule</span>{rule_description}</p>',
-            f'    <p class="entry-meta"><span>UID</span><code>{uid_base}</code></p>',
         ]
         if visible_categories:
             tags_text = html_escape(", ".join(visible_categories))
