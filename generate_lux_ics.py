@@ -7,11 +7,11 @@ import calendar
 import json
 import os
 import re
-from html import escape as html_escape
 from datetime import date, timedelta
+from html import escape as html_escape
 from pathlib import Path
 from typing import Any
-
+from urllib.parse import quote_plus
 
 DEFAULT_TEMPLATE_PATH = Path("luxembourg_activity_templates.json")
 DEFAULT_PAGES_ICS_PATH = Path("docs/luxembourg.ics")
@@ -297,7 +297,8 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
             loc_geo = str(location_data.get("geo", "")).strip()
             if loc_name:
                 if loc_geo:
-                    maps_url = f"https://maps.google.com/?q={html_escape(loc_geo)}"
+                    raw_name = str(location_data.get("name", "")).strip()
+                    maps_url = f"https://www.google.com/maps/place/{quote_plus(raw_name)}/@{loc_geo},14z"
                     location_markup = (
                         f'<a href="{maps_url}" target="_blank" rel="noopener noreferrer">'
                         f"{loc_name}</a>"
@@ -332,7 +333,11 @@ def build_supported_entries_html(events: list[dict[str, Any]]) -> tuple[str, int
             else '<span class="entry-meta-na">-</span>'
         )
         tags_text = (
-            html_escape(", ".join(_CAMEL_SPLIT_RE.sub(r"\1 \2", cat) for cat in visible_categories))
+            html_escape(
+                ", ".join(
+                    _CAMEL_SPLIT_RE.sub(r"\1 \2", cat) for cat in visible_categories
+                )
+            )
             if visible_categories
             else '<span class="entry-meta-na">-</span>'
         )
