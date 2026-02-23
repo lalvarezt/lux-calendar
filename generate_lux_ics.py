@@ -490,6 +490,58 @@ def resolve_rule(rule: dict[str, Any], year: int, easter: date) -> date:
     raise ValueError(f"Unsupported rule type: '{rule_type}'.")
 
 
+def parse_date_overrides(
+    date_overrides: Any, context: str
+) -> dict[int, date]:
+    if date_overrides is None:
+        return {}
+    if not isinstance(date_overrides, list):
+        raise ValueError(f"Invalid 'date_overrides' in {context}: expected a list.")
+
+    overrides_by_year: dict[int, date] = {}
+    for override_index, override in enumerate(date_overrides):
+        override_context = f"{context}.date_overrides[{override_index}]"
+        if not isinstance(override, dict):
+            raise ValueError(f"Invalid entry in {override_context}: expected an object.")
+
+        year_value = override.get("year")
+        month_value = override.get("month")
+        day_value = override.get("day")
+
+        if isinstance(year_value, bool) or not isinstance(year_value, int):
+            raise ValueError(f"Missing or invalid 'year' in {override_context}.")
+        if isinstance(month_value, bool) or not isinstance(month_value, int):
+            raise ValueError(f"Missing or invalid 'month' in {override_context}.")
+        if isinstance(day_value, bool) or not isinstance(day_value, int):
+            raise ValueError(f"Missing or invalid 'day' in {override_context}.")
+
+        if year_value in overrides_by_year:
+            raise ValueError(
+                f"Duplicate date override for year {year_value} in {context}."
+            )
+
+        try:
+            overrides_by_year[year_value] = date(year_value, month_value, day_value)
+        except ValueError as exc:
+            raise ValueError(f"Invalid date in {override_context}: {exc}") from exc
+
+    return overrides_by_year
+
+
+def resolve_event_date(
+    rule: dict[str, Any],
+    date_overrides: Any,
+    year: int,
+    easter: date,
+    context: str,
+) -> date:
+    overrides_by_year = parse_date_overrides(date_overrides, context)
+    override_date = overrides_by_year.get(year)
+    if override_date is not None:
+        return override_date
+    return resolve_rule(rule, year, easter)
+
+
 def load_template(path: Path) -> dict[str, Any]:
     if not path.exists():
         raise FileNotFoundError(f"Template file not found: {path}")
@@ -569,11 +621,18 @@ def build_ics(
             rule = event.get("rule")
             if not isinstance(rule, dict):
                 raise ValueError(f"Missing or invalid 'rule' in events[{index}].")
+            date_overrides = event.get("date_overrides")
 
             summary = replace_range_tokens(summary, start_year, end_year)
             description = replace_range_tokens(description, start_year, end_year)
 
-            event_date = resolve_rule(rule, year, easter)
+            event_date = resolve_event_date(
+                rule,
+                date_overrides,
+                year,
+                easter,
+                f"events[{index}]",
+            )
             yearly_events.append(
                 (
                     event_date,

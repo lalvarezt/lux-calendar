@@ -342,6 +342,13 @@
         "month": 3,
         "day": 1
       },
+      "date_overrides": [
+        {
+          "year": 2026,
+          "month": 3,
+          "day": 1
+        }
+      ],
       "location": {
         "name": "Esch-sur-Alzette",
         "geo": "49.4960,5.9852"

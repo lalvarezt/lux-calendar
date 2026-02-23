@@ -62,6 +62,7 @@ Edit `luxembourg_activity_templates.json` and update any entry fields, for examp
 - `reference_url`
 - `categories`
 - `rule`
+- `date_overrides` (optional)
 
 Each event is an individual JSON object in `events`, so titles/descriptions can be changed independently.
 
@@ -75,6 +76,24 @@ Optional: set `"enabled": false` on an entry to exclude it from output.
 - `easter_offset`: days relative to Easter Sunday (`days`)
 - `nth_weekday_of_month`: e.g. first Monday of September (`month`, `weekday`, `occurrence`)
 - `last_weekday_of_month`: e.g. last Friday of August (`month`, `weekday`)
+
+## Year-specific date overrides (optional)
+
+Use `date_overrides` when an event does not follow the same date rule every year.
+
+```json
+"date_overrides": [
+  { "year": 2026, "month": 3, "day": 1 },
+  { "year": 2027, "month": 2, "day": 21 }
+]
+```
+
+Date precedence is:
+
+1. Matching `date_overrides` entry for the generated year
+2. Fallback to the event `rule`
+
+Keep previous years in the list and append new years as needed.
 
 ## Calendar text tokens
 
