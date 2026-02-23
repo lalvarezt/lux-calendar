@@ -124,7 +124,7 @@
     {
       "uid_base": "lu-fest-aeschermettwoch",
       "summary": "🔥 Äschermëttwoch / Ash Wednesday",
-      "description": "Marks the end of Carnival and the start of Lent; in Remich, winter is symbolically farewelled with a straw doll burning.",
+      "description": "Marks the end of Carnival and the start of Lent in Luxembourg, with local customs and processions accompanying the transition into the Lenten period.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html",
       "categories": [
         "ReligiousObservance"
@@ -133,6 +133,94 @@
         "type": "easter_offset",
         "days": -46
       }
+    },
+    {
+      "uid_base": "lu-fest-streimannchen-remich",
+      "summary": "🔥 De Stréimännchen / Burning of the Straw Man",
+      "description": "In Remich, De Stréimännchen (the straw man), or in leap years d'Stréifrächen (the straw woman), is ceremonially burned at the end of the core Carnival period.",
+      "reference_url": "https://petitweb.lu/agenda/mise-a-feu-du-streimannchen/",
+      "rule": {
+        "type": "easter_offset",
+        "days": -46
+      },
+      "location": {
+        "name": "Remich"
+      },
+      "categories": [
+        "CulturalTradition"
+      ]
+    },
+    {
+      "uid_base": "lu-fest-schefflenger-kavalkad",
+      "summary": "🎭 Schëfflenger Kavalkad / Schifflange Carnival Parade",
+      "description": "The Schëfflenger Kavalkad is a local carnival parade in Schifflange, typically held on the first Sunday of Lent.",
+      "reference_url": "https://schifflange.lu/evenements/schefflenger-kavalkad-by-folklorama/",
+      "rule": {
+        "type": "easter_offset",
+        "days": -42
+      },
+      "location": {
+        "name": "Schifflange",
+        "geo": "49.5060,6.0122"
+      },
+      "categories": [
+        "Parade",
+        "CulturalTradition"
+      ]
+    },
+    {
+      "uid_base": "lu-fest-nuetskavalkad-koerich",
+      "summary": "🎭 Nuetskavalkad Koerich / Night Carnival Parade",
+      "description": "Koerich hosts a Nuetskavalkad, a night carnival parade held during the late Fuesent season.",
+      "reference_url": "https://petitweb.lu/agenda/kaercher-nuetskavalkad/",
+      "date_note": "Recurrence currently follows the listed 2026 date and should be revisited once a stable pattern is confirmed.",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 7
+      },
+      "date_overrides": [
+        {
+          "year": 2026,
+          "month": 3,
+          "day": 7
+        }
+      ],
+      "location": {
+        "name": "Koerich",
+        "geo": "49.6706,5.9508"
+      },
+      "categories": [
+        "Parade",
+        "CulturalTradition"
+      ]
+    },
+    {
+      "uid_base": "lu-fest-naatskavalkad-clervaux",
+      "summary": "🎭 Cliärrwer Naatskavalkad / Clervaux Night Parade",
+      "description": "Cliärrwer Naatskavalkad is Clervaux's night carnival parade, part of the local Fuesent programme.",
+      "reference_url": "https://petitweb.lu/agenda/cliarrwer-naatskavalkad/",
+      "date_note": "Recurrence currently follows the listed 2026 date and should be revisited once a stable pattern is confirmed.",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 7
+      },
+      "date_overrides": [
+        {
+          "year": 2026,
+          "month": 3,
+          "day": 7
+        }
+      ],
+      "location": {
+        "name": "Clervaux",
+        "geo": "50.0547,6.0314"
+      },
+      "categories": [
+        "Parade",
+        "CulturalTradition"
+      ]
     },
     {
       "uid_base": "lu-fest-buergbrennen",
@@ -177,6 +265,59 @@
         "type": "easter_offset",
         "days": -21
       }
+    },
+    {
+      "uid_base": "lu-fest-cavalcade-remich",
+      "summary": "🎭 Cavalcade Remich / Carnival Parade",
+      "description": "Remich's carnival cavalcade is a major Moselle parade, commonly scheduled on the fourth Sunday of Lent.",
+      "reference_url": "https://cavalcade-remich.lu/",
+      "date_note": "Recurrence currently follows the listed 2026 date and should be revisited once a stable pattern is confirmed.",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 15
+      },
+      "date_overrides": [
+        {
+          "year": 2026,
+          "month": 3,
+          "day": 15
+        }
+      ],
+      "location": {
+        "name": "Remich",
+        "geo": "49.5450,6.3669"
+      },
+      "categories": [
+        "Parade"
+      ]
+    },
+    {
+      "uid_base": "lu-fest-cavalcade-petange",
+      "summary": "🎭 Cavalcade Pétange / Carnival Parade",
+      "description": "The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades, usually held on the fourth Sunday of Lent.",
+      "reference_url": "https://www.kagepe.lu/",
+      "date_note": "Recurrence currently follows the listed 2026 date and should be revisited once a stable pattern is confirmed.",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 15
+      },
+      "date_overrides": [
+        {
+          "year": 2026,
+          "month": 3,
+          "day": 15
+        }
+      ],
+      "location": {
+        "name": "Pétange",
+        "geo": "49.5583,5.8811"
+      },
+      "categories": [
+        "Parade",
+        "CulturalTradition"
+      ]
     },
     {
       "uid_base": "lu-fest-abrell",
@@ -352,6 +493,33 @@
       "location": {
         "name": "Esch-sur-Alzette",
         "geo": "49.4960,5.9852"
+      },
+      "categories": [
+        "Parade",
+        "CulturalTradition"
+      ]
+    },
+    {
+      "uid_base": "lu-fest-kannerkavalkad-kayl",
+      "summary": "🎭 KannerKavalkad Kayl / Children's Carnival Parade",
+      "description": "Kayl hosts the KannerKavalkad, a children's carnival parade held during the Fuesent season.",
+      "reference_url": "https://schungfabrik.lu/events/kannerkavalkad-2026/",
+      "date_note": "Recurrence currently follows the listed 2026 date and should be revisited once a stable pattern is confirmed.",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 2
+      },
+      "date_overrides": [
+        {
+          "year": 2026,
+          "month": 3,
+          "day": 2
+        }
+      ],
+      "location": {
+        "name": "Kayl",
+        "geo": "49.4890,5.9320"
       },
       "categories": [
         "Parade",

@@ -99,9 +99,31 @@ DTSTAMP:20260218T000000Z
 DTSTART;VALUE=DATE:20260218
 DTEND;VALUE=DATE:20260219
 SUMMARY:🔥 Äschermëttwoch / Ash Wednesday
-DESCRIPTION:Marks the end of Carnival and the start of Lent\; in Remich\, winter is symbolically farewelled with a straw doll burning.
+DESCRIPTION:Marks the end of Carnival and the start of Lent in Luxembourg\, with local customs and processions accompanying the transition into the Lenten period.
 CATEGORIES:ReligiousObservance
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-streimannchen-remich-2026@local
+DTSTAMP:20260218T000000Z
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+SUMMARY:🔥 De Stréimännchen / Burning of the Straw Man
+DESCRIPTION:In Remich\, De Stréimännchen (the straw man)\, or in leap years d'Stréifrächen (the straw woman)\, is ceremonially burned at the end of the core Carnival period.
+CATEGORIES:CulturalTradition
+URL:https://petitweb.lu/agenda/mise-a-feu-du-streimannchen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-schefflenger-kavalkad-2026@local
+DTSTAMP:20260222T000000Z
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+SUMMARY:🎭 Schëfflenger Kavalkad / Schifflange Carnival Parade
+DESCRIPTION:The Schëfflenger Kavalkad is a local carnival parade in Schifflange\, typically held on the first Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://schifflange.lu/evenements/schefflenger-kavalkad-by-folklorama/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -127,6 +149,39 @@ URL:https://www.visitluxembourg.com/event/escher-fuesent
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-kannerkavalkad-kayl-2026@local
+DTSTAMP:20260302T000000Z
+DTSTART;VALUE=DATE:20260302
+DTEND;VALUE=DATE:20260303
+SUMMARY:🎭 KannerKavalkad Kayl / Children's Carnival Parade
+DESCRIPTION:Kayl hosts the KannerKavalkad\, a children's carnival parade held during the Fuesent season.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://schungfabrik.lu/events/kannerkavalkad-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-nuetskavalkad-koerich-2026@local
+DTSTAMP:20260307T000000Z
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260308
+SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
+DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-naatskavalkad-clervaux-2026@local
+DTSTAMP:20260307T000000Z
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260308
+SUMMARY:🎭 Cliärrwer Naatskavalkad / Clervaux Night Parade
+DESCRIPTION:Cliärrwer Naatskavalkad is Clervaux's night carnival parade\, part of the local Fuesent programme.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/cliarrwer-naatskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-nuetscavalcade-2026@local
 DTSTAMP:20260314T000000Z
 DTSTART;VALUE=DATE:20260314
@@ -146,6 +201,28 @@ SUMMARY:🥨 Bretzelsonndeg / Pretzel Sunday
 DESCRIPTION:Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/bretzelsonndeg.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-remich-2026@local
+DTSTAMP:20260315T000000Z
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+SUMMARY:🎭 Cavalcade Remich / Carnival Parade
+DESCRIPTION:Remich's carnival cavalcade is a major Moselle parade\, commonly scheduled on the fourth Sunday of Lent.
+CATEGORIES:Parade
+URL:https://cavalcade-remich.lu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-petange-2026@local
+DTSTAMP:20260315T000000Z
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+SUMMARY:🎭 Cavalcade Pétange / Carnival Parade
+DESCRIPTION:The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades\, usually held on the fourth Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.kagepe.lu/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -704,9 +781,31 @@ DTSTAMP:20270210T000000Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:🔥 Äschermëttwoch / Ash Wednesday
-DESCRIPTION:Marks the end of Carnival and the start of Lent\; in Remich\, winter is symbolically farewelled with a straw doll burning.
+DESCRIPTION:Marks the end of Carnival and the start of Lent in Luxembourg\, with local customs and processions accompanying the transition into the Lenten period.
 CATEGORIES:ReligiousObservance
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-streimannchen-remich-2027@local
+DTSTAMP:20270210T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:🔥 De Stréimännchen / Burning of the Straw Man
+DESCRIPTION:In Remich\, De Stréimännchen (the straw man)\, or in leap years d'Stréifrächen (the straw woman)\, is ceremonially burned at the end of the core Carnival period.
+CATEGORIES:CulturalTradition
+URL:https://petitweb.lu/agenda/mise-a-feu-du-streimannchen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-schefflenger-kavalkad-2027@local
+DTSTAMP:20270214T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:🎭 Schëfflenger Kavalkad / Schifflange Carnival Parade
+DESCRIPTION:The Schëfflenger Kavalkad is a local carnival parade in Schifflange\, typically held on the first Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://schifflange.lu/evenements/schefflenger-kavalkad-by-folklorama/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -732,6 +831,17 @@ URL:https://www.visitluxembourg.com/event/escher-fuesent
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-kannerkavalkad-kayl-2027@local
+DTSTAMP:20270302T000000Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:🎭 KannerKavalkad Kayl / Children's Carnival Parade
+DESCRIPTION:Kayl hosts the KannerKavalkad\, a children's carnival parade held during the Fuesent season.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://schungfabrik.lu/events/kannerkavalkad-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-nuetscavalcade-2027@local
 DTSTAMP:20270306T000000Z
 DTSTART;VALUE=DATE:20270306
@@ -743,6 +853,28 @@ URL:https://www.visitluxembourg.com/event/night-carnival-parade
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-nuetskavalkad-koerich-2027@local
+DTSTAMP:20270307T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
+DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-naatskavalkad-clervaux-2027@local
+DTSTAMP:20270307T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:🎭 Cliärrwer Naatskavalkad / Clervaux Night Parade
+DESCRIPTION:Cliärrwer Naatskavalkad is Clervaux's night carnival parade\, part of the local Fuesent programme.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/cliarrwer-naatskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-bretzelsonndeg-2027@local
 DTSTAMP:20270307T000000Z
 DTSTART;VALUE=DATE:20270307
@@ -751,6 +883,28 @@ SUMMARY:🥨 Bretzelsonndeg / Pretzel Sunday
 DESCRIPTION:Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/bretzelsonndeg.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-remich-2027@local
+DTSTAMP:20270315T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:🎭 Cavalcade Remich / Carnival Parade
+DESCRIPTION:Remich's carnival cavalcade is a major Moselle parade\, commonly scheduled on the fourth Sunday of Lent.
+CATEGORIES:Parade
+URL:https://cavalcade-remich.lu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-petange-2027@local
+DTSTAMP:20270315T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:🎭 Cavalcade Pétange / Carnival Parade
+DESCRIPTION:The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades\, usually held on the fourth Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.kagepe.lu/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1309,9 +1463,20 @@ DTSTAMP:20280301T000000Z
 DTSTART;VALUE=DATE:20280301
 DTEND;VALUE=DATE:20280302
 SUMMARY:🔥 Äschermëttwoch / Ash Wednesday
-DESCRIPTION:Marks the end of Carnival and the start of Lent\; in Remich\, winter is symbolically farewelled with a straw doll burning.
+DESCRIPTION:Marks the end of Carnival and the start of Lent in Luxembourg\, with local customs and processions accompanying the transition into the Lenten period.
 CATEGORIES:ReligiousObservance
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-streimannchen-remich-2028@local
+DTSTAMP:20280301T000000Z
+DTSTART;VALUE=DATE:20280301
+DTEND;VALUE=DATE:20280302
+SUMMARY:🔥 De Stréimännchen / Burning of the Straw Man
+DESCRIPTION:In Remich\, De Stréimännchen (the straw man)\, or in leap years d'Stréifrächen (the straw woman)\, is ceremonially burned at the end of the core Carnival period.
+CATEGORIES:CulturalTradition
+URL:https://petitweb.lu/agenda/mise-a-feu-du-streimannchen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1326,6 +1491,28 @@ URL:https://www.visitluxembourg.com/event/escher-fuesent
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-kannerkavalkad-kayl-2028@local
+DTSTAMP:20280302T000000Z
+DTSTART;VALUE=DATE:20280302
+DTEND;VALUE=DATE:20280303
+SUMMARY:🎭 KannerKavalkad Kayl / Children's Carnival Parade
+DESCRIPTION:Kayl hosts the KannerKavalkad\, a children's carnival parade held during the Fuesent season.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://schungfabrik.lu/events/kannerkavalkad-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-schefflenger-kavalkad-2028@local
+DTSTAMP:20280305T000000Z
+DTSTART;VALUE=DATE:20280305
+DTEND;VALUE=DATE:20280306
+SUMMARY:🎭 Schëfflenger Kavalkad / Schifflange Carnival Parade
+DESCRIPTION:The Schëfflenger Kavalkad is a local carnival parade in Schifflange\, typically held on the first Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://schifflange.lu/evenements/schefflenger-kavalkad-by-folklorama/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-buergbrennen-2028@local
 DTSTAMP:20280305T000000Z
 DTSTART;VALUE=DATE:20280305
@@ -1334,6 +1521,50 @@ SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
 DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buergbrennen-brandons-carnaval.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-nuetskavalkad-koerich-2028@local
+DTSTAMP:20280307T000000Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280308
+SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
+DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-naatskavalkad-clervaux-2028@local
+DTSTAMP:20280307T000000Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280308
+SUMMARY:🎭 Cliärrwer Naatskavalkad / Clervaux Night Parade
+DESCRIPTION:Cliärrwer Naatskavalkad is Clervaux's night carnival parade\, part of the local Fuesent programme.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/cliarrwer-naatskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-remich-2028@local
+DTSTAMP:20280315T000000Z
+DTSTART;VALUE=DATE:20280315
+DTEND;VALUE=DATE:20280316
+SUMMARY:🎭 Cavalcade Remich / Carnival Parade
+DESCRIPTION:Remich's carnival cavalcade is a major Moselle parade\, commonly scheduled on the fourth Sunday of Lent.
+CATEGORIES:Parade
+URL:https://cavalcade-remich.lu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-petange-2028@local
+DTSTAMP:20280315T000000Z
+DTSTART;VALUE=DATE:20280315
+DTEND;VALUE=DATE:20280316
+SUMMARY:🎭 Cavalcade Pétange / Carnival Parade
+DESCRIPTION:The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades\, usually held on the fourth Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.kagepe.lu/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1914,9 +2145,31 @@ DTSTAMP:20290214T000000Z
 DTSTART;VALUE=DATE:20290214
 DTEND;VALUE=DATE:20290215
 SUMMARY:🔥 Äschermëttwoch / Ash Wednesday
-DESCRIPTION:Marks the end of Carnival and the start of Lent\; in Remich\, winter is symbolically farewelled with a straw doll burning.
+DESCRIPTION:Marks the end of Carnival and the start of Lent in Luxembourg\, with local customs and processions accompanying the transition into the Lenten period.
 CATEGORIES:ReligiousObservance
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-streimannchen-remich-2029@local
+DTSTAMP:20290214T000000Z
+DTSTART;VALUE=DATE:20290214
+DTEND;VALUE=DATE:20290215
+SUMMARY:🔥 De Stréimännchen / Burning of the Straw Man
+DESCRIPTION:In Remich\, De Stréimännchen (the straw man)\, or in leap years d'Stréifrächen (the straw woman)\, is ceremonially burned at the end of the core Carnival period.
+CATEGORIES:CulturalTradition
+URL:https://petitweb.lu/agenda/mise-a-feu-du-streimannchen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-schefflenger-kavalkad-2029@local
+DTSTAMP:20290218T000000Z
+DTSTART;VALUE=DATE:20290218
+DTEND;VALUE=DATE:20290219
+SUMMARY:🎭 Schëfflenger Kavalkad / Schifflange Carnival Parade
+DESCRIPTION:The Schëfflenger Kavalkad is a local carnival parade in Schifflange\, typically held on the first Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://schifflange.lu/evenements/schefflenger-kavalkad-by-folklorama/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1942,6 +2195,39 @@ URL:https://www.visitluxembourg.com/event/escher-fuesent
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-kannerkavalkad-kayl-2029@local
+DTSTAMP:20290302T000000Z
+DTSTART;VALUE=DATE:20290302
+DTEND;VALUE=DATE:20290303
+SUMMARY:🎭 KannerKavalkad Kayl / Children's Carnival Parade
+DESCRIPTION:Kayl hosts the KannerKavalkad\, a children's carnival parade held during the Fuesent season.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://schungfabrik.lu/events/kannerkavalkad-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-nuetskavalkad-koerich-2029@local
+DTSTAMP:20290307T000000Z
+DTSTART;VALUE=DATE:20290307
+DTEND;VALUE=DATE:20290308
+SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
+DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-naatskavalkad-clervaux-2029@local
+DTSTAMP:20290307T000000Z
+DTSTART;VALUE=DATE:20290307
+DTEND;VALUE=DATE:20290308
+SUMMARY:🎭 Cliärrwer Naatskavalkad / Clervaux Night Parade
+DESCRIPTION:Cliärrwer Naatskavalkad is Clervaux's night carnival parade\, part of the local Fuesent programme.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/cliarrwer-naatskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-nuetscavalcade-2029@local
 DTSTAMP:20290310T000000Z
 DTSTART;VALUE=DATE:20290310
@@ -1961,6 +2247,28 @@ SUMMARY:🥨 Bretzelsonndeg / Pretzel Sunday
 DESCRIPTION:Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/bretzelsonndeg.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-remich-2029@local
+DTSTAMP:20290315T000000Z
+DTSTART;VALUE=DATE:20290315
+DTEND;VALUE=DATE:20290316
+SUMMARY:🎭 Cavalcade Remich / Carnival Parade
+DESCRIPTION:Remich's carnival cavalcade is a major Moselle parade\, commonly scheduled on the fourth Sunday of Lent.
+CATEGORIES:Parade
+URL:https://cavalcade-remich.lu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-petange-2029@local
+DTSTAMP:20290315T000000Z
+DTSTART;VALUE=DATE:20290315
+DTEND;VALUE=DATE:20290316
+SUMMARY:🎭 Cavalcade Pétange / Carnival Parade
+DESCRIPTION:The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades\, usually held on the fourth Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.kagepe.lu/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2492,6 +2800,17 @@ URL:https://www.visitluxembourg.com/event/escher-fuesent
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-kannerkavalkad-kayl-2030@local
+DTSTAMP:20300302T000000Z
+DTSTART;VALUE=DATE:20300302
+DTEND;VALUE=DATE:20300303
+SUMMARY:🎭 KannerKavalkad Kayl / Children's Carnival Parade
+DESCRIPTION:Kayl hosts the KannerKavalkad\, a children's carnival parade held during the Fuesent season.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://schungfabrik.lu/events/kannerkavalkad-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-fuessonndeg-2030@local
 DTSTAMP:20300303T000000Z
 DTSTART;VALUE=DATE:20300303
@@ -2530,9 +2849,53 @@ DTSTAMP:20300306T000000Z
 DTSTART;VALUE=DATE:20300306
 DTEND;VALUE=DATE:20300307
 SUMMARY:🔥 Äschermëttwoch / Ash Wednesday
-DESCRIPTION:Marks the end of Carnival and the start of Lent\; in Remich\, winter is symbolically farewelled with a straw doll burning.
+DESCRIPTION:Marks the end of Carnival and the start of Lent in Luxembourg\, with local customs and processions accompanying the transition into the Lenten period.
 CATEGORIES:ReligiousObservance
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-streimannchen-remich-2030@local
+DTSTAMP:20300306T000000Z
+DTSTART;VALUE=DATE:20300306
+DTEND;VALUE=DATE:20300307
+SUMMARY:🔥 De Stréimännchen / Burning of the Straw Man
+DESCRIPTION:In Remich\, De Stréimännchen (the straw man)\, or in leap years d'Stréifrächen (the straw woman)\, is ceremonially burned at the end of the core Carnival period.
+CATEGORIES:CulturalTradition
+URL:https://petitweb.lu/agenda/mise-a-feu-du-streimannchen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-nuetskavalkad-koerich-2030@local
+DTSTAMP:20300307T000000Z
+DTSTART;VALUE=DATE:20300307
+DTEND;VALUE=DATE:20300308
+SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
+DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-naatskavalkad-clervaux-2030@local
+DTSTAMP:20300307T000000Z
+DTSTART;VALUE=DATE:20300307
+DTEND;VALUE=DATE:20300308
+SUMMARY:🎭 Cliärrwer Naatskavalkad / Clervaux Night Parade
+DESCRIPTION:Cliärrwer Naatskavalkad is Clervaux's night carnival parade\, part of the local Fuesent programme.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/cliarrwer-naatskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-schefflenger-kavalkad-2030@local
+DTSTAMP:20300310T000000Z
+DTSTART;VALUE=DATE:20300310
+DTEND;VALUE=DATE:20300311
+SUMMARY:🎭 Schëfflenger Kavalkad / Schifflange Carnival Parade
+DESCRIPTION:The Schëfflenger Kavalkad is a local carnival parade in Schifflange\, typically held on the first Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://schifflange.lu/evenements/schefflenger-kavalkad-by-folklorama/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2544,6 +2907,28 @@ SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
 DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buergbrennen-brandons-carnaval.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-remich-2030@local
+DTSTAMP:20300315T000000Z
+DTSTART;VALUE=DATE:20300315
+DTEND;VALUE=DATE:20300316
+SUMMARY:🎭 Cavalcade Remich / Carnival Parade
+DESCRIPTION:Remich's carnival cavalcade is a major Moselle parade\, commonly scheduled on the fourth Sunday of Lent.
+CATEGORIES:Parade
+URL:https://cavalcade-remich.lu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-petange-2030@local
+DTSTAMP:20300315T000000Z
+DTSTART;VALUE=DATE:20300315
+DTEND;VALUE=DATE:20300316
+SUMMARY:🎭 Cavalcade Pétange / Carnival Parade
+DESCRIPTION:The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades\, usually held on the fourth Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.kagepe.lu/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
