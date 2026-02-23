@@ -88,7 +88,7 @@ DTSTAMP:20260216T000000Z
 DTSTART;VALUE=DATE:20260216
 DTEND;VALUE=DATE:20260217
 SUMMARY:🎉 Fuesméindeg / Shrove Monday
-DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period\; this calendar marks Fuesméindeg (Monday before Ash Wednesday).
+DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg on Fuesméindeg (Monday before Ash Wednesday)\, before the fasting period begins.
 CATEGORIES:Parade\;CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html
 TRANSP:TRANSPARENT
@@ -113,6 +113,28 @@ SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
 DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buergbrennen-brandons-carnaval.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-escher-fuesent-2026@local
+DTSTAMP:20260301T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:🎭 Escher Fuesent / Esch Carnival Parade
+DESCRIPTION:Escher Fuesent in Esch-sur-Alzette brings a lively carnival atmosphere with entertainment and parade celebrations in the city centre.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.visitluxembourg.com/event/escher-fuesent
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-nuetscavalcade-2026@local
+DTSTAMP:20260314T000000Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:🎭 Nuetscavalcade / Night Carnival Parade
+DESCRIPTION:Wasserbillig's Nuetscavalcade is a mid-Lent night parade with music groups\, decorated floats and carnival processions through the town.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.visitluxembourg.com/event/night-carnival-parade
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -671,7 +693,7 @@ DTSTAMP:20270208T000000Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 SUMMARY:🎉 Fuesméindeg / Shrove Monday
-DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period\; this calendar marks Fuesméindeg (Monday before Ash Wednesday).
+DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg on Fuesméindeg (Monday before Ash Wednesday)\, before the fasting period begins.
 CATEGORIES:Parade\;CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html
 TRANSP:TRANSPARENT
@@ -696,6 +718,28 @@ SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
 DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buergbrennen-brandons-carnaval.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-escher-fuesent-2027@local
+DTSTAMP:20270301T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:🎭 Escher Fuesent / Esch Carnival Parade
+DESCRIPTION:Escher Fuesent in Esch-sur-Alzette brings a lively carnival atmosphere with entertainment and parade celebrations in the city centre.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.visitluxembourg.com/event/escher-fuesent
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-nuetscavalcade-2027@local
+DTSTAMP:20270306T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:🎭 Nuetscavalcade / Night Carnival Parade
+DESCRIPTION:Wasserbillig's Nuetscavalcade is a mid-Lent night parade with music groups\, decorated floats and carnival processions through the town.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.visitluxembourg.com/event/night-carnival-parade
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1254,7 +1298,7 @@ DTSTAMP:20280228T000000Z
 DTSTART;VALUE=DATE:20280228
 DTEND;VALUE=DATE:20280229
 SUMMARY:🎉 Fuesméindeg / Shrove Monday
-DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period\; this calendar marks Fuesméindeg (Monday before Ash Wednesday).
+DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg on Fuesméindeg (Monday before Ash Wednesday)\, before the fasting period begins.
 CATEGORIES:Parade\;CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html
 TRANSP:TRANSPARENT
@@ -1271,6 +1315,17 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuese
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-escher-fuesent-2028@local
+DTSTAMP:20280301T000000Z
+DTSTART;VALUE=DATE:20280301
+DTEND;VALUE=DATE:20280302
+SUMMARY:🎭 Escher Fuesent / Esch Carnival Parade
+DESCRIPTION:Escher Fuesent in Esch-sur-Alzette brings a lively carnival atmosphere with entertainment and parade celebrations in the city centre.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.visitluxembourg.com/event/escher-fuesent
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-buergbrennen-2028@local
 DTSTAMP:20280305T000000Z
 DTSTART;VALUE=DATE:20280305
@@ -1279,6 +1334,17 @@ SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
 DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buergbrennen-brandons-carnaval.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-nuetscavalcade-2028@local
+DTSTAMP:20280325T000000Z
+DTSTART;VALUE=DATE:20280325
+DTEND;VALUE=DATE:20280326
+SUMMARY:🎭 Nuetscavalcade / Night Carnival Parade
+DESCRIPTION:Wasserbillig's Nuetscavalcade is a mid-Lent night parade with music groups\, decorated floats and carnival processions through the town.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.visitluxembourg.com/event/night-carnival-parade
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1837,7 +1903,7 @@ DTSTAMP:20290212T000000Z
 DTSTART;VALUE=DATE:20290212
 DTEND;VALUE=DATE:20290213
 SUMMARY:🎉 Fuesméindeg / Shrove Monday
-DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period\; this calendar marks Fuesméindeg (Monday before Ash Wednesday).
+DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg on Fuesméindeg (Monday before Ash Wednesday)\, before the fasting period begins.
 CATEGORIES:Parade\;CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html
 TRANSP:TRANSPARENT
@@ -1862,6 +1928,28 @@ SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
 DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buergbrennen-brandons-carnaval.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-escher-fuesent-2029@local
+DTSTAMP:20290301T000000Z
+DTSTART;VALUE=DATE:20290301
+DTEND;VALUE=DATE:20290302
+SUMMARY:🎭 Escher Fuesent / Esch Carnival Parade
+DESCRIPTION:Escher Fuesent in Esch-sur-Alzette brings a lively carnival atmosphere with entertainment and parade celebrations in the city centre.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.visitluxembourg.com/event/escher-fuesent
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-nuetscavalcade-2029@local
+DTSTAMP:20290310T000000Z
+DTSTART;VALUE=DATE:20290310
+DTEND;VALUE=DATE:20290311
+SUMMARY:🎭 Nuetscavalcade / Night Carnival Parade
+DESCRIPTION:Wasserbillig's Nuetscavalcade is a mid-Lent night parade with music groups\, decorated floats and carnival processions through the town.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.visitluxembourg.com/event/night-carnival-parade
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2393,6 +2481,17 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuese
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-escher-fuesent-2030@local
+DTSTAMP:20300301T000000Z
+DTSTART;VALUE=DATE:20300301
+DTEND;VALUE=DATE:20300302
+SUMMARY:🎭 Escher Fuesent / Esch Carnival Parade
+DESCRIPTION:Escher Fuesent in Esch-sur-Alzette brings a lively carnival atmosphere with entertainment and parade celebrations in the city centre.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.visitluxembourg.com/event/escher-fuesent
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-fuessonndeg-2030@local
 DTSTAMP:20300303T000000Z
 DTSTART;VALUE=DATE:20300303
@@ -2420,7 +2519,7 @@ DTSTAMP:20300304T000000Z
 DTSTART;VALUE=DATE:20300304
 DTEND;VALUE=DATE:20300305
 SUMMARY:🎉 Fuesméindeg / Shrove Monday
-DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period\; this calendar marks Fuesméindeg (Monday before Ash Wednesday).
+DESCRIPTION:Carnival parades (Kavalkaden) are held across Luxembourg on Fuesméindeg (Monday before Ash Wednesday)\, before the fasting period begins.
 CATEGORIES:Parade\;CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html
 TRANSP:TRANSPARENT
@@ -2445,6 +2544,17 @@ SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
 DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buergbrennen-brandons-carnaval.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-nuetscavalcade-2030@local
+DTSTAMP:20300330T000000Z
+DTSTART;VALUE=DATE:20300330
+DTEND;VALUE=DATE:20300331
+SUMMARY:🎭 Nuetscavalcade / Night Carnival Parade
+DESCRIPTION:Wasserbillig's Nuetscavalcade is a mid-Lent night parade with music groups\, decorated floats and carnival processions through the town.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.visitluxembourg.com/event/night-carnival-parade
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

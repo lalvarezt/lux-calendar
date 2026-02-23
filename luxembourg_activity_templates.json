@@ -110,7 +110,7 @@
     {
       "uid_base": "lu-fest-carnivalmon",
       "summary": "🎉 Fuesméindeg / Shrove Monday",
-      "description": "Carnival parades (Kavalkaden) are held across Luxembourg before the fasting period; this calendar marks Fuesméindeg (Monday before Ash Wednesday).",
+      "description": "Carnival parades (Kavalkaden) are held across Luxembourg on Fuesméindeg (Monday before Ash Wednesday), before the fasting period begins.",
       "reference_url": "https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/fuesent.html",
       "categories": [
         "Parade",
@@ -146,6 +146,24 @@
         "type": "easter_offset",
         "days": -42
       }
+    },
+    {
+      "uid_base": "lu-fest-nuetscavalcade",
+      "summary": "🎭 Nuetscavalcade / Night Carnival Parade",
+      "description": "Wasserbillig's Nuetscavalcade is a mid-Lent night parade with music groups, decorated floats and carnival processions through the town.",
+      "reference_url": "https://www.visitluxembourg.com/event/night-carnival-parade",
+      "rule": {
+        "type": "easter_offset",
+        "days": -22
+      },
+      "location": {
+        "name": "Wasserbillig",
+        "geo": "49.7124,6.4966"
+      },
+      "categories": [
+        "Parade",
+        "CulturalTradition"
+      ]
     },
     {
       "uid_base": "lu-fest-bretzelsonndeg",
@@ -312,6 +330,25 @@
       },
       "categories": [
         "Pilgrimage"
+      ]
+    },
+    {
+      "uid_base": "lu-fest-escher-fuesent",
+      "summary": "🎭 Escher Fuesent / Esch Carnival Parade",
+      "description": "Escher Fuesent in Esch-sur-Alzette brings a lively carnival atmosphere with entertainment and parade celebrations in the city centre.",
+      "reference_url": "https://www.visitluxembourg.com/event/escher-fuesent",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 1
+      },
+      "location": {
+        "name": "Esch-sur-Alzette",
+        "geo": "49.4960,5.9852"
+      },
+      "categories": [
+        "Parade",
+        "CulturalTradition"
       ]
     },
     {
