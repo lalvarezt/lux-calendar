@@ -171,21 +171,13 @@
     {
       "uid_base": "lu-fest-nuetskavalkad-koerich",
       "summary": "🎭 Nuetskavalkad Koerich / Night Carnival Parade",
-      "description": "Koerich hosts a Nuetskavalkad, a night carnival parade held during the late Fuesent season.",
+      "description": "Koerich hosts a Nuetskavalkad, a night carnival parade held during the late Fuesent season, started in 2025.",
       "reference_url": "https://petitweb.lu/agenda/kaercher-nuetskavalkad/",
-      "date_note": "Recurrence currently follows the listed 2026 date and should be revisited once a stable pattern is confirmed.",
+      "date_note": "Observed in 2025 and 2026 at 29 days before Easter; revisit and confirm this pattern for future years.",
       "rule": {
-        "type": "fixed",
-        "month": 3,
-        "day": 7
+        "type": "easter_offset",
+        "days": -29
       },
-      "date_overrides": [
-        {
-          "year": 2026,
-          "month": 3,
-          "day": 7
-        }
-      ],
       "location": {
         "name": "Koerich",
         "geo": "49.6706,5.9508"

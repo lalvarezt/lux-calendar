@@ -165,7 +165,7 @@ DTSTAMP:20260307T000000Z
 DTSTART;VALUE=DATE:20260307
 DTEND;VALUE=DATE:20260308
 SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
-DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season.
+DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season\, started in 2025.
 CATEGORIES:Parade\;CulturalTradition
 URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
 TRANSP:TRANSPARENT
@@ -820,6 +820,17 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buerg
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:lu-fest-nuetskavalkad-koerich-2027@local
+DTSTAMP:20270227T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
+DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season\, started in 2025.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:lu-fest-escher-fuesent-2027@local
 DTSTAMP:20270301T000000Z
 DTSTART;VALUE=DATE:20270301
@@ -850,17 +861,6 @@ SUMMARY:🎭 Nuetscavalcade / Night Carnival Parade
 DESCRIPTION:Wasserbillig's Nuetscavalcade is a mid-Lent night parade with music groups\, decorated floats and carnival processions through the town.
 CATEGORIES:Parade\;CulturalTradition
 URL:https://www.visitluxembourg.com/event/night-carnival-parade
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:lu-fest-nuetskavalkad-koerich-2027@local
-DTSTAMP:20270307T000000Z
-DTSTART;VALUE=DATE:20270307
-DTEND;VALUE=DATE:20270308
-SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
-DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season.
-CATEGORIES:Parade\;CulturalTradition
-URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1524,17 +1524,6 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buerg
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lu-fest-nuetskavalkad-koerich-2028@local
-DTSTAMP:20280307T000000Z
-DTSTART;VALUE=DATE:20280307
-DTEND;VALUE=DATE:20280308
-SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
-DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season.
-CATEGORIES:Parade\;CulturalTradition
-URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:lu-fest-naatskavalkad-clervaux-2028@local
 DTSTAMP:20280307T000000Z
 DTSTART;VALUE=DATE:20280307
@@ -1543,6 +1532,17 @@ SUMMARY:🎭 Cliärrwer Naatskavalkad / Clervaux Night Parade
 DESCRIPTION:Cliärrwer Naatskavalkad is Clervaux's night carnival parade\, part of the local Fuesent programme.
 CATEGORIES:Parade\;CulturalTradition
 URL:https://petitweb.lu/agenda/cliarrwer-naatskavalkad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-nuetskavalkad-koerich-2028@local
+DTSTAMP:20280318T000000Z
+DTSTART;VALUE=DATE:20280318
+DTEND;VALUE=DATE:20280319
+SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
+DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season\, started in 2025.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2207,11 +2207,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lu-fest-nuetskavalkad-koerich-2029@local
-DTSTAMP:20290307T000000Z
-DTSTART;VALUE=DATE:20290307
-DTEND;VALUE=DATE:20290308
+DTSTAMP:20290303T000000Z
+DTSTART;VALUE=DATE:20290303
+DTEND;VALUE=DATE:20290304
 SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
-DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season.
+DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season\, started in 2025.
 CATEGORIES:Parade\;CulturalTradition
 URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
 TRANSP:TRANSPARENT
@@ -2866,17 +2866,6 @@ URL:https://petitweb.lu/agenda/mise-a-feu-du-streimannchen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lu-fest-nuetskavalkad-koerich-2030@local
-DTSTAMP:20300307T000000Z
-DTSTART;VALUE=DATE:20300307
-DTEND;VALUE=DATE:20300308
-SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
-DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season.
-CATEGORIES:Parade\;CulturalTradition
-URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:lu-fest-naatskavalkad-clervaux-2030@local
 DTSTAMP:20300307T000000Z
 DTSTART;VALUE=DATE:20300307
@@ -2907,6 +2896,17 @@ SUMMARY:🔥 Buergsonndeg / Buergbrennen (Burn the Cross)
 DESCRIPTION:First Sunday of Lent: symbolic bonfires and cross burnings to bid farewell to winter and welcome spring.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buergbrennen-brandons-carnaval.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-nuetskavalkad-koerich-2030@local
+DTSTAMP:20300323T000000Z
+DTSTART;VALUE=DATE:20300323
+DTEND;VALUE=DATE:20300324
+SUMMARY:🎭 Nuetskavalkad Koerich / Night Carnival Parade
+DESCRIPTION:Koerich hosts a Nuetskavalkad\, a night carnival parade held during the late Fuesent season\, started in 2025.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://petitweb.lu/agenda/kaercher-nuetskavalkad/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
