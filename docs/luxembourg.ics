@@ -887,9 +887,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lu-fest-cavalcade-remich-2027@local
-DTSTAMP:20270315T000000Z
-DTSTART;VALUE=DATE:20270315
-DTEND;VALUE=DATE:20270316
+DTSTAMP:20270307T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
 SUMMARY:🎭 Cavalcade Remich / Carnival Parade
 DESCRIPTION:Remich's carnival cavalcade is a major Moselle parade\, commonly scheduled on the fourth Sunday of Lent.
 CATEGORIES:Parade
@@ -898,9 +898,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lu-fest-cavalcade-petange-2027@local
-DTSTAMP:20270315T000000Z
-DTSTART;VALUE=DATE:20270315
-DTEND;VALUE=DATE:20270316
+DTSTAMP:20270307T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
 SUMMARY:🎭 Cavalcade Pétange / Carnival Parade
 DESCRIPTION:The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades\, usually held on the fourth Sunday of Lent.
 CATEGORIES:Parade\;CulturalTradition
@@ -1546,28 +1546,6 @@ URL:https://petitweb.lu/agenda/cliarrwer-naatskavalkad/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lu-fest-cavalcade-remich-2028@local
-DTSTAMP:20280315T000000Z
-DTSTART;VALUE=DATE:20280315
-DTEND;VALUE=DATE:20280316
-SUMMARY:🎭 Cavalcade Remich / Carnival Parade
-DESCRIPTION:Remich's carnival cavalcade is a major Moselle parade\, commonly scheduled on the fourth Sunday of Lent.
-CATEGORIES:Parade
-URL:https://cavalcade-remich.lu/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:lu-fest-cavalcade-petange-2028@local
-DTSTAMP:20280315T000000Z
-DTSTART;VALUE=DATE:20280315
-DTEND;VALUE=DATE:20280316
-SUMMARY:🎭 Cavalcade Pétange / Carnival Parade
-DESCRIPTION:The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades\, usually held on the fourth Sunday of Lent.
-CATEGORIES:Parade\;CulturalTradition
-URL:https://www.kagepe.lu/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:lu-fest-nuetscavalcade-2028@local
 DTSTAMP:20280325T000000Z
 DTSTART;VALUE=DATE:20280325
@@ -1587,6 +1565,28 @@ SUMMARY:🥨 Bretzelsonndeg / Pretzel Sunday
 DESCRIPTION:Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/bretzelsonndeg.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-remich-2028@local
+DTSTAMP:20280326T000000Z
+DTSTART;VALUE=DATE:20280326
+DTEND;VALUE=DATE:20280327
+SUMMARY:🎭 Cavalcade Remich / Carnival Parade
+DESCRIPTION:Remich's carnival cavalcade is a major Moselle parade\, commonly scheduled on the fourth Sunday of Lent.
+CATEGORIES:Parade
+URL:https://cavalcade-remich.lu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-petange-2028@local
+DTSTAMP:20280326T000000Z
+DTSTART;VALUE=DATE:20280326
+DTEND;VALUE=DATE:20280327
+SUMMARY:🎭 Cavalcade Pétange / Carnival Parade
+DESCRIPTION:The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades\, usually held on the fourth Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.kagepe.lu/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2251,9 +2251,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lu-fest-cavalcade-remich-2029@local
-DTSTAMP:20290315T000000Z
-DTSTART;VALUE=DATE:20290315
-DTEND;VALUE=DATE:20290316
+DTSTAMP:20290311T000000Z
+DTSTART;VALUE=DATE:20290311
+DTEND;VALUE=DATE:20290312
 SUMMARY:🎭 Cavalcade Remich / Carnival Parade
 DESCRIPTION:Remich's carnival cavalcade is a major Moselle parade\, commonly scheduled on the fourth Sunday of Lent.
 CATEGORIES:Parade
@@ -2262,9 +2262,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lu-fest-cavalcade-petange-2029@local
-DTSTAMP:20290315T000000Z
-DTSTART;VALUE=DATE:20290315
-DTEND;VALUE=DATE:20290316
+DTSTAMP:20290311T000000Z
+DTSTART;VALUE=DATE:20290311
+DTEND;VALUE=DATE:20290312
 SUMMARY:🎭 Cavalcade Pétange / Carnival Parade
 DESCRIPTION:The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades\, usually held on the fourth Sunday of Lent.
 CATEGORIES:Parade\;CulturalTradition
@@ -2910,28 +2910,6 @@ URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/buerg
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:lu-fest-cavalcade-remich-2030@local
-DTSTAMP:20300315T000000Z
-DTSTART;VALUE=DATE:20300315
-DTEND;VALUE=DATE:20300316
-SUMMARY:🎭 Cavalcade Remich / Carnival Parade
-DESCRIPTION:Remich's carnival cavalcade is a major Moselle parade\, commonly scheduled on the fourth Sunday of Lent.
-CATEGORIES:Parade
-URL:https://cavalcade-remich.lu/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:lu-fest-cavalcade-petange-2030@local
-DTSTAMP:20300315T000000Z
-DTSTART;VALUE=DATE:20300315
-DTEND;VALUE=DATE:20300316
-SUMMARY:🎭 Cavalcade Pétange / Carnival Parade
-DESCRIPTION:The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades\, usually held on the fourth Sunday of Lent.
-CATEGORIES:Parade\;CulturalTradition
-URL:https://www.kagepe.lu/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:lu-fest-nuetscavalcade-2030@local
 DTSTAMP:20300330T000000Z
 DTSTART;VALUE=DATE:20300330
@@ -2951,6 +2929,28 @@ SUMMARY:🥨 Bretzelsonndeg / Pretzel Sunday
 DESCRIPTION:Mid-Lent tradition (4th Sunday of Lent): pretzels are exchanged as a token of courtship.
 CATEGORIES:CulturalTradition
 URL:https://luxembourg.public.lu/fr/societe-et-culture/fetes-et-traditions/bretzelsonndeg.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-remich-2030@local
+DTSTAMP:20300331T000000Z
+DTSTART;VALUE=DATE:20300331
+DTEND;VALUE=DATE:20300401
+SUMMARY:🎭 Cavalcade Remich / Carnival Parade
+DESCRIPTION:Remich's carnival cavalcade is a major Moselle parade\, commonly scheduled on the fourth Sunday of Lent.
+CATEGORIES:Parade
+URL:https://cavalcade-remich.lu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lu-fest-cavalcade-petange-2030@local
+DTSTAMP:20300331T000000Z
+DTSTART;VALUE=DATE:20300331
+DTEND;VALUE=DATE:20300401
+SUMMARY:🎭 Cavalcade Pétange / Carnival Parade
+DESCRIPTION:The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades\, usually held on the fourth Sunday of Lent.
+CATEGORIES:Parade\;CulturalTradition
+URL:https://www.kagepe.lu/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

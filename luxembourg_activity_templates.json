@@ -271,19 +271,10 @@
       "summary": "🎭 Cavalcade Remich / Carnival Parade",
       "description": "Remich's carnival cavalcade is a major Moselle parade, commonly scheduled on the fourth Sunday of Lent.",
       "reference_url": "https://cavalcade-remich.lu/",
-      "date_note": "Recurrence currently follows the listed 2026 date and should be revisited once a stable pattern is confirmed.",
       "rule": {
-        "type": "fixed",
-        "month": 3,
-        "day": 15
+        "type": "easter_offset",
+        "days": -21
       },
-      "date_overrides": [
-        {
-          "year": 2026,
-          "month": 3,
-          "day": 15
-        }
-      ],
       "location": {
         "name": "Remich",
         "geo": "49.5450,6.3669"
@@ -297,19 +288,10 @@
       "summary": "🎭 Cavalcade Pétange / Carnival Parade",
       "description": "The Pétange carnival cavalcade is one of the country's oldest and most popular carnival parades, usually held on the fourth Sunday of Lent.",
       "reference_url": "https://www.kagepe.lu/",
-      "date_note": "Recurrence currently follows the listed 2026 date and should be revisited once a stable pattern is confirmed.",
       "rule": {
-        "type": "fixed",
-        "month": 3,
-        "day": 15
+        "type": "easter_offset",
+        "days": -21
       },
-      "date_overrides": [
-        {
-          "year": 2026,
-          "month": 3,
-          "day": 15
-        }
-      ],
       "location": {
         "name": "Pétange",
         "geo": "49.5583,5.8811"
